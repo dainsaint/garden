@@ -33,3 +33,10 @@ fields:
   type: boolean
   label: draft
   default: true
+- name: color
+  type: color
+  label: color
+  config:
+    required: false
+    color_format: Hex
+  default: "#F5A623"
