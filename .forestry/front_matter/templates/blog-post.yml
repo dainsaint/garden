@@ -37,3 +37,5 @@ fields:
   type: image_gallery
   config: {}
   label: gallery
+pages:
+- src/posts/archetypes.md
