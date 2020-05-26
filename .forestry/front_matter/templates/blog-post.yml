@@ -2,6 +2,9 @@
 label: Blog post
 hide_body: false
 fields:
+- type: text
+  name: title
+  label: title
 - name: layout
   type: select
   default: []
@@ -16,9 +19,6 @@ fields:
       file: 
       path: 
   label: layout
-- type: text
-  name: title
-  label: title
 - type: datetime
   name: date
   label: date
@@ -29,6 +29,7 @@ fields:
   type: tag_list
   default: []
   label: tags
-pages:
-- posts/abundance-and-friction.md
-- posts/archetypes.md
+- name: draft
+  type: boolean
+  label: draft
+  default: true
