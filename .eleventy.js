@@ -1,17 +1,20 @@
-module.exports = function(config)
-{
-  config.addPassthroughCopy("assets");
+module.exports = function (config) {
+  config.addPassthroughCopy("src/assets");
 
-  config.addFilter('where', function (array, key, value) {
-  return array.filter(item => {
-    const keys = key.split('.');
-    const reducedKey = keys.reduce((object, key) => {
-      return object[key];
-    }, item);
+  config.addFilter("where", function (array, key, value) {
+    return array.filter((item) => {
+      const keys = key.split(".");
+      const reducedKey = keys.reduce((object, key) => {
+        return object[key];
+      }, item);
 
-    return (reducedKey === value ? item : false);
+      return reducedKey === value ? item : false;
+    });
   });
 
-});
-
-}
+  return {
+    dir: {
+      input: "src"
+    }
+  };
+};
