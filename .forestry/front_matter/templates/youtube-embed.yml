@@ -1,4 +1,9 @@
 ---
 label: Youtube Embed
 hide_body: true
-fields: []
+fields:
+- name: video_id
+  type: text
+  config:
+    required: false
+  label: video_id
