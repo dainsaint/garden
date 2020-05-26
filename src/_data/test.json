@@ -1,7 +1,10 @@
 {
   "pages": [
-    "src/posts/kleptotecture.md",
-    "src/posts/abundance-and-friction.md",
-    "src/posts/nine-lives.md"
-  ]
+    "src/posts/stopwatch.md",
+    "src/posts/last-night-was-mlk.md",
+    "src/posts/soup.md",
+    "src/posts/the-wind.md",
+    "src/posts/the-forest.md"
+  ],
+  "summary": "src/posts/these-truths.md"
 }
