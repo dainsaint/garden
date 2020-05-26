@@ -13,6 +13,7 @@ module.exports = function (config) {
   });
 
   return {
+    pathPrefix: "/garden/",
     dir: {
       input: "src"
     }
