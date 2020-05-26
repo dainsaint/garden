@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
 - type: directory
@@ -9,8 +9,6 @@ sections:
   label: Posts
   create: all
   match: "**/*"
-- type: heading
-  label: Heading
 - type: directory
   path: src/_data
   label: Projects

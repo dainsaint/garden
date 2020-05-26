@@ -1,5 +1,5 @@
 
-{% assign posts = collections.all | map: "data" | where: "project", "these-truths" %}
+{% assign posts = collections.all | map: "data" | where: "project", page.fileSlug %}
 
 <article class="post full">
 
@@ -12,12 +12,17 @@
       {% endif %}
       {{ content | safe }}
 
+      {% assign postCount = posts | size  %}
+
+      {% if postCount > 0 %}
     <h2>contents</h2>
 
     {% for p in posts %}
     {% assign post = collections.all | where: "fileSlug", p.page.fileSlug | first %}
     <li>{{ post.data.title }}</li>
     {% endfor %}
+
+    {% endif %}
 
         </div>
   </div>
