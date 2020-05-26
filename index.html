@@ -1,0 +1,25 @@
+---
+layout: base
+eleventyExcludeFromCollections: true
+---
+
+<main>
+
+
+  
+
+  {% assign posts = collections.all | reverse %}
+  {% for post in posts %}
+
+  {% assign title = post.data.title %}
+  {% assign date = post.data.date %}
+  {% assign content = post.templateContent %}
+  {% assign project = post.data.project %}
+
+  {% include post-content %}
+
+  {% endfor %}
+
+
+
+</main>

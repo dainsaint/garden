@@ -1,0 +1,25 @@
+<article class="post full">
+
+  <div class="post-main">
+
+    <div class="post-meta">
+      {{ date | date: "%d %b" }}<br/>
+      {{ date | date: "%Y" }}
+      <div class="post-meta-deco">
+      </div>
+    </div>
+
+    {% assign query = collections.all | where: "fileSlug", project | first %}
+
+    <div class="post-content">
+      <h2>{{ title }}</h2>
+      {% if query %}
+      <div class="post-project">part of <a href="{{ query.url }}">{{ query.data.title }}</a></div>
+      {% endif %}
+      {{ content | safe }}
+
+    </div>
+
+  </div>
+
+</article>
