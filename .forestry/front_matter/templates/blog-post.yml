@@ -37,5 +37,13 @@ fields:
   type: image_gallery
   config: {}
   label: gallery
+- name: test
+  type: blocks
+  label: test
+  template_types:
+  - blog-post
+  config:
+    min: 
+    max: 
 pages:
 - src/posts/archetypes.md
