@@ -1,0 +1,22 @@
+{
+  "name": "garden",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dainsaint/garden.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dainsaint/garden/issues"
+  },
+  "homepage": "https://github.com/dainsaint/garden#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
