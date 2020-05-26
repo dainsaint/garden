@@ -6,11 +6,15 @@ fields:
   name: layout
   label: layout
 - type: text
-  name: project
-  label: project
-- type: text
   name: title
   label: title
 - type: datetime
   name: date
   label: date
+- type: text
+  name: project
+  label: project
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
