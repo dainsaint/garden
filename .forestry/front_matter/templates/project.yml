@@ -25,4 +25,4 @@ fields:
       section: posts
   label: pages
 pages:
-- src/_data/test.json
+- src/_data/these-truths.json
