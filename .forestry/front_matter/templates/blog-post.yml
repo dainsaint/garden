@@ -33,17 +33,14 @@ fields:
   type: boolean
   label: draft
   default: true
-- name: gallery
-  type: image_gallery
-  config: {}
-  label: gallery
-- name: test
+- name: featured
   type: blocks
-  label: test
   template_types:
-  - blog-post
+  - gallery
+  - youtube-embed
   config:
     min: 
     max: 
+  label: featured
 pages:
 - src/posts/archetypes.md
