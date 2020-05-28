@@ -17,6 +17,24 @@ fields:
 - type: textarea
   name: status
   label: status
-- type: text
-  name: featured
+- name: featured
+  type: blocks
   label: featured
+  template_types:
+  - gallery
+  - youtube-embed
+  config:
+    min: 
+    max: 
+- name: contents
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: data
+      file: 
+      path: 
+  label: contents
