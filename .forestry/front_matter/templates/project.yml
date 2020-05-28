@@ -1,19 +1,7 @@
 ---
-label: Project
+label: Project Contents
 hide_body: true
 fields:
-- name: summary
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: posts
-      file: 
-      path: 
-  label: summary
 - name: pages
   type: list
   config:
