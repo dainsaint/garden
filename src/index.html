@@ -11,6 +11,7 @@ eleventyExcludeFromCollections: true
     {% assign date = post.data.date %}
     {% assign content = post.templateContent %}
     {% assign project = post.data.project %}
+    {% assign featured = post.data.featured %}
     {% include post-content %}
   {% endfor %}
 

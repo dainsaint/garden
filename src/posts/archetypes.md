@@ -1,6 +1,6 @@
 ---
 title: archetypes
-layout: project
+layout: post
 date: 2017-06-18T04:00:00.000+00:00
 project: ''
 tags:

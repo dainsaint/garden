@@ -2,6 +2,12 @@
 
   <div class="post-main">
 
+
+    {% if featured %}
+    {% include featured %}
+    {% endif %}
+
+    <div class="post-body">
     <div class="post-meta">
       {{ date | date: "%d %b" }}<br/>
       {{ date | date: "%Y" }}
@@ -19,6 +25,7 @@
       {{ content | safe }}
 
     </div>
+  </div>
 
   </div>
 

@@ -1,0 +1,12 @@
+<div class="featured">
+{% for f in featured %}
+  {% if f.template == "gallery" %}
+  {% assign images = f.images %}
+  {% include gallery %}
+  {% endif %}
+
+  {% if f.template == "youtube-embed" %}
+  {% endif %}
+{% endfor %}
+
+</div>

@@ -11,15 +11,33 @@ hr
   border-bottom: 1px solid black;
 }
 
+html
+{
+  background: #333;
+}
+
 body
 {
+  background: #333;
   font-family: "Spectral", serif;
-  background: white;
   padding: 0px;
   margin: 0px;
 }
 
 
+.header-main
+{
+  background: #333;
+  color: #EEE;
+  padding: 12px;
+  position: fixed;
+  width: 100%;
+}
+
+.header-main .title
+{
+  font-size: 24px;
+}
 
 
 .post.full
@@ -27,6 +45,8 @@ body
   min-height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .post.full:nth-of-type(5n+1)
@@ -56,11 +76,39 @@ body
 
 .post-main
 {
+  margin: 200px auto;
   flex: 1 1 auto;
-  max-width: 800px;
-  margin: 400px auto;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  max-width: 100%;
+}
+
+.post-body
+{
+
   display: grid;
   grid-template-columns: 90px auto;
+}
+
+.featured
+{
+  margin-bottom: 45px;
+}
+
+.gallery
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 8px;
+  max-width: 100%;
+}
+
+.gallery img
+{
+  width: 100%;
 }
 
 .post-meta
@@ -72,7 +120,6 @@ body
   text-align: right;
   border-top: 6px solid black;
   padding-top: 8px;
-  flex: 1 1 auto;
 }
 
 .post-meta-deco
@@ -89,7 +136,7 @@ body
 .post-content
 {
   margin-left: 8px;
-  flex: 1 1 auto;
+
 
   font-size: 16px;
   line-height: 28px;
