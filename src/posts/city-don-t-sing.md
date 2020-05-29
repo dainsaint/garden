@@ -5,7 +5,9 @@ tags: []
 draft: true
 title: city don't sing
 project: ''
-featured: []
+featured:
+- template: audio
+  audio: "/assets/uploads/landr-city-don-t-sing-medium-balanced-2.mp3"
 
 ---
 see them walking, yeah  
