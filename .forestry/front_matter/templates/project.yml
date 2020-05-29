@@ -10,13 +10,20 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: description
-  label: description
 - type: datetime
   name: date
   label: date
   default: now
+- type: text
+  name: description
+  label: description
+- name: collaborators
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: collaborators
 - type: textarea
   name: status
   label: status
