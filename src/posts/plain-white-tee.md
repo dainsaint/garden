@@ -1,6 +1,6 @@
 ---
 layout: project
-date: 2017-10-04T22:15:28Z
+date: 2017-10-04T22:15:28.000+00:00
 title: plain white tee
 description: a song about self-acceptance
 status: Complete. [Buy the single](https://saintanytime.bandcamp.com/track/plain-white-tee)
@@ -9,10 +9,14 @@ featured:
   video_id: MfF-4QAFMBU
 contents:
 - src/posts/plain-white-tee-lyrics.md
+collaborators: []
 
 ---
 wanted to write something that made me feel the way india.arie’s [video](https://www.youtube.com/watch?v=Mq86e4Fhja0) did when I first heard it. first music video I ever filmed, and it was a silly, good time—even though looking back now, it feels more silly than good. one day I’ll stop being embarrassed by my past self.
 
 ### collaborators
-- videography by [spencer rollins](//instagram.com/spencerrollins)
-- song production by [jeff fry](//instagram.com/peterdragontail)
+
+* videography by [spencer rollins](//instagram.com/spencerrollins)
+* song production by [jeff fry](//instagram.com/peterdragontail)
+
+{% include youtube video_id: "MfF-4QAFMBU" %}
