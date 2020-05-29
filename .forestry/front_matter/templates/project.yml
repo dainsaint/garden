@@ -29,16 +29,14 @@ fields:
     min: 
     max: 
 - name: contents
-  type: select
-  default: []
+  type: list
   config:
-    required: false
-    options: []
+    use_select: true
+    min: 
+    max: 
     source:
       type: pages
-      section: data
-      file: 
-      path: 
+      section: posts
   label: contents
 pages:
 - src/posts/these-truths.md
