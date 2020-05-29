@@ -15,6 +15,7 @@ fields:
 - type: datetime
   name: date
   label: date
+  default: now
 - type: text
   name: project
   label: project
