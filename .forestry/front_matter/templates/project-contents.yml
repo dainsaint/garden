@@ -12,5 +12,3 @@ fields:
       type: pages
       section: posts
   label: pages
-pages:
-- src/_data/these-truths.json

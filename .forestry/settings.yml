@@ -9,12 +9,6 @@ sections:
   label: Posts
   create: all
   match: "**/*"
-- type: directory
-  path: src/_data
-  label: Data
-  create: all
-  match: "**/*"
-  new_doc_ext: json
 upload_dir: src/assets/uploads
 public_path: "/assets/uploads"
 front_matter_path: ''
