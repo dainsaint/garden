@@ -1,7 +1,7 @@
 <section class="gallery">
 
   {% for image in images %}
-  <img src="{{ image }}"/>
+  <img src="{{ image | url }}"/>
   {% endfor %}
 
 </section>

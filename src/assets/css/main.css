@@ -249,7 +249,7 @@ hr
   width: 40%;
 }
 
-.project-header
+.project-header, .project-body h3
 {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;

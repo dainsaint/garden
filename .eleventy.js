@@ -29,6 +29,12 @@ module.exports = function (config) {
     return string ? marked(string) : string;
   });
 
+
+
+  config.addShortcode("youtube", function(video_id) {
+    return `{% include youtube ${video_id} %}`
+  });
+
   return {
     pathPrefix: "/garden/",
     dir: {
