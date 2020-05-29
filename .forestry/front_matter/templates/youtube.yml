@@ -1,5 +1,5 @@
 ---
-label: Youtube Embed
+label: Youtube
 hide_body: true
 fields:
 - name: video_id

@@ -5,7 +5,9 @@
   {% include gallery %}
   {% endif %}
 
-  {% if f.template == "youtube-embed" %}
+  {% if f.template == "youtube" %}
+  {% assign video_id = f.video_id %}
+  {% include youtube %}
   {% endif %}
 {% endfor %}
 
