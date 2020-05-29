@@ -33,6 +33,7 @@ fields:
   template_types:
   - gallery
   - youtube
+  - audio
   config:
     min: 
     max: 
