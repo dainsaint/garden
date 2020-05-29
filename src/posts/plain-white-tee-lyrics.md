@@ -36,7 +36,6 @@ Bout to roll up on a PYT
 Ain't gotta be rich with a body like me   
 Cuz I’ma be fine in a plain white tee   
   
-  
 Billboards cover every inch of sky   
 Bored-to-death models for the camera eye   
 How you look sad when the threads so clean?   
@@ -45,8 +44,7 @@ You spent all your money, guess the smile ain’t free
 I could play ball in a three-piece suit   
 Head to the opera in some timberland boots   
 Shit, I look cute and thats the truth   
-So props to my momma for…   
-  
+So props to my momma for the fountain of youth  
   
 So go head and do your thing   
 I'ma look dope in a set of Hanes   
@@ -66,14 +64,12 @@ Ain’t nobody else looking fly like me
 Can’t never go wrong with a spirit so free   
 And it don’t get freer than a plain white tee   
   
-  
 Now I’m not trying to say   
 That you shouldn’t dress nice and look your best   
 But you can’t spend cents on confidence, oh no   
 So come on out and play   
 Be comfortable in your own skin   
 and you can rule the world all while lounging in a   
-  
   
 Plain white tee   
 Plain white tee   
