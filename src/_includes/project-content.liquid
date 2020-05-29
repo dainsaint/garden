@@ -5,29 +5,52 @@
 
   <div class="post-main">
 
+    {% include featured %}
+
+    <div class="project-body">
+
+      <div class="project-intro">
+
+      <div class="project-info">
+        <h1 class="project-title">{{ title }}</h1>
+        <div class="project-description">{{ description }}</div>
+        <div class="post-permalink"><a href="#">dainsaint.com{{ page.url }}</a></div>
+      </div>
+
+      <div class="project-status">
+        <h3 class="project-header">Project Status</h3>
+        <p>
+          {{ status | markdown }}
+        </p>
+      </div>
+
+    </div>
+
     <div class="post-content">
-      <h1>{{ title }}</h1>
-      {% if query %}
-      <div class="post-project">from <a href="{{ query.url }}">{{ query.data.title }}</a></div>
-      {% endif %}
+
       {{ content | safe }}
 
-      {% assign postCount = posts | size  %}
+    </div>
 
-      {% if postCount > 0 %}
-    <h2>contents</h2>
+    <div class="post-subscribe">
+      <h3 class="project-header">Subscribe for Updates</h3>
+      <p>
+        I send a bi-weekly newsletter with updates from my garden. No spam.
+      </p>
 
-    {% for p in posts %}
-    {% assign post = collections.all | where: "fileSlug", p.page.fileSlug | first %}
-    <li>{{ post.data.title }}</li>
-    {% endfor %}
+      <div class="post-subscribe-form">
+        <input/>
+        <button>subscribe</button>
+      </div>
 
-    {% endif %}
-
-        </div>
+    </div>
   </div>
 
+
+
 </article>
+
+{% include toc %}
 
 
 {% for p in posts %}
@@ -37,6 +60,7 @@
 {% assign title = post.data.title %}
 {% assign date = post.data.date %}
 {% assign content = post.templateContent %}
+{% assign featured = post.data.featured %}
 
 {% include post-content %}
 

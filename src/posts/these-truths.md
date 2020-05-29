@@ -8,7 +8,7 @@ featured:
 - template: gallery
   images:
   - "/assets/uploads/these-truths-banner.jpg"
-contents: src/_data/these-truths.json
+contents: src/contents/these-truths.json
 
 ---
 “it was part of my therapy,” he began, apologetically. but for my birthday, i wanted to get past viewing my body as a purely utilitarian thing and begin seeing it as something to enjoy, something to celebrate—something more than just what it could _do_.

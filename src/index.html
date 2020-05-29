@@ -7,6 +7,7 @@ eleventyExcludeFromCollections: true
 
   {% assign posts = collections.all | reverse %}
   {% for post in posts %}
+
     {% assign title = post.data.title %}
     {% assign date = post.data.date %}
     {% assign content = post.templateContent %}

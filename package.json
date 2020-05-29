@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dainsaint/garden#readme",
   "dependencies": {
-    "@11ty/eleventy": "^0.11.0"
+    "@11ty/eleventy": "^0.11.0",
+    "marked": "^1.1.0"
   }
 }

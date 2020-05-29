@@ -1,3 +1,5 @@
+const marked = require('marked');
+
 module.exports = function (config) {
   config.addPassthroughCopy("src/assets");
 
@@ -10,6 +12,10 @@ module.exports = function (config) {
 
       return reducedKey === value ? item : false;
     });
+  });
+
+  config.addFilter("markdown", function (string) {
+    return string ? marked(string) : string;
   });
 
   return {

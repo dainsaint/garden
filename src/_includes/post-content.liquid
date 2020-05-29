@@ -2,10 +2,7 @@
 
   <div class="post-main">
 
-
-    {% if featured %}
     {% include featured %}
-    {% endif %}
 
     <div class="post-body">
     <div class="post-meta">
@@ -18,11 +15,14 @@
     {% assign query = collections.all | where: "fileSlug", project | first %}
 
     <div class="post-content">
-      <h2>{{ title }}</h2>
+      <h2 class="post-header">{{ title }}</h2>
       {% if query %}
       <div class="post-project">part of <a href="{{ query.url }}">{{ query.data.title }}</a></div>
       {% endif %}
+
+      <div class="post-content-text">
       {{ content | safe }}
+    </div>
 
     </div>
   </div>

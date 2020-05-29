@@ -22,13 +22,22 @@ body
   font-family: "Spectral", serif;
   padding: 0px;
   margin: 0px;
+  font-size: 21px;
+  line-height: 28px;
+  color: #062535;
+}
+
+a
+{
+  color: #062535;
+  text-decoration: underline;
 }
 
 
 .header-main
 {
-  background: #333;
-  color: #EEE;
+  background: #152223;
+
   padding: 12px;
   position: fixed;
   width: 100%;
@@ -37,6 +46,14 @@ body
 .header-main .title
 {
   font-size: 24px;
+  color: #EEE;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header-main .title:hover
+{
+  text-decoration: underline;
 }
 
 
@@ -49,7 +66,7 @@ body
   flex-direction: column;
 }
 
-.post.full:nth-of-type(5n+1)
+.post.full:nth-of-type(5n+5)
 {
   background: #f6bd60;
 }
@@ -69,7 +86,7 @@ body
   background: #84a59d;
 }
 
-.post.full:nth-of-type(5n+5)
+.post.full:nth-of-type(5n+1)
 {
   background: #f28482;
 }
@@ -90,7 +107,7 @@ body
 {
 
   display: grid;
-  grid-template-columns: 90px auto;
+  grid-template-columns: 98px auto;
 }
 
 .featured
@@ -114,12 +131,14 @@ body
 .post-meta
 {
   margin-top:15px;
-  width: 90px;
   font-family: 'Questrial', sans-serif;
+  font-size: 16px;
+  line-height: 16px;
   text-transform: uppercase;
   text-align: right;
   border-top: 6px solid black;
   padding-top: 8px;
+  margin-right: 8px;
 }
 
 .post-meta-deco
@@ -132,14 +151,19 @@ body
   background: url('../img/deco-elevation.png') center center no-repeat;
 }
 
-
-.post-content
+.post-header
 {
-  margin-left: 8px;
+  font-size: 24px;
+}
 
+.post-content-text
+{
+  margin-top: 45px;
+}
 
-  font-size: 16px;
-  line-height: 28px;
+.post-content p
+{
+  margin-bottom: 16px;
 }
 
 .post-project
@@ -151,4 +175,119 @@ body
 .post-project a
 {
   font-style: italic;
+}
+
+hr
+{
+  margin: 32px 0px;
+}
+
+.post-permalink
+{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.post-subscribe
+{
+  margin-top: 45px;
+}
+
+.post-subscribe-form
+{
+  display: grid;
+  grid-template-columns: auto 200px;
+  grid-gap: 8px;
+  margin: 8px 0px;
+}
+
+
+
+
+/*
+*
+*
+* PROJECT
+*
+*/
+
+.project-intro
+{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-bottom: 45px;
+}
+
+
+.project-info
+{
+  max-width: 50%;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-gap: 8px;
+}
+
+.project-title
+{
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.project-description
+{
+  font-style: italic;
+  font-weight: 100;
+  font-size: 24px;
+}
+
+.project-status
+{
+  width: 40%;
+}
+
+.project-header
+{
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+
+/*
+*
+*
+* button
+*
+*/
+
+
+input
+{
+  background: none;
+  border: 1px solid #062535;
+  font-size: 14px;
+  height: 42px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0px 16px;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+button
+{
+  background: #062535;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  height: 42px;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
 }

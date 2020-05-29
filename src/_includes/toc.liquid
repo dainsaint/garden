@@ -1,0 +1,21 @@
+<article class="post full">
+
+  <div class="post-main">
+
+
+
+    {% assign query = collections.all | where: "fileSlug", project | first %}
+
+    <div class="post-content">
+      <h2 class="project-header">contents</h2>
+
+      <div class="post-content-text">
+{{ collections.contents }}
+      </div>
+
+    </div>
+
+
+  </div>
+
+</article>
