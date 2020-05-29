@@ -32,7 +32,8 @@ fields:
   label: featured
   template_types:
   - gallery
-  - youtube-embed
+  - youtube
+  - audio
   config:
     min: 
     max: 

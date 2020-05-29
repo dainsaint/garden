@@ -23,21 +23,19 @@ fields:
   type: tag_list
   default: []
   label: tags
-- name: draft
-  type: boolean
-  label: draft
-  default: true
 - name: featured
   type: blocks
   template_types:
   - gallery
-  - youtube-embed
+  - youtube
+  - audio
   config:
     min: 
     max: 
   label: featured
 pages:
 - src/posts/archetypes.md
+- src/posts/city-don-t-sing.md
 - src/posts/forty-percent-off.md
 - src/posts/plain-white-tee-lyrics.md
 - src/posts/whats-mine-is-mine.md

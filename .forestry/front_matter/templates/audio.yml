@@ -1,0 +1,9 @@
+---
+label: Audio
+hide_body: true
+fields:
+- name: audio
+  type: file
+  config:
+    maxSize: 64
+  label: audio
