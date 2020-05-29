@@ -37,3 +37,4 @@ fields:
   label: featured
 pages:
 - src/posts/archetypes.md
+- src/posts/forty-percent-off.md
