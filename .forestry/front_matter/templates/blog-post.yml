@@ -2,23 +2,16 @@
 label: Post
 hide_body: false
 fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: post
 - type: text
   name: title
   label: title
-- name: layout
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - post
-    - project
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: layout
 - type: datetime
   name: date
   label: date
