@@ -9,5 +9,8 @@ featured:
   video_id: MfF-4QAFMBU
 contents:
 - src/posts/plain-white-tee-lyrics.md
+collaborators:
+- videography by [spencer rollins](instagram.com/spencerrollins)
+- production by [jeff fry](instagram.com/peterdragontail)
 
 ---
