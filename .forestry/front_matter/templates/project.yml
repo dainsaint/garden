@@ -39,4 +39,5 @@ fields:
       section: posts
   label: contents
 pages:
+- src/pages/about.md
 - src/posts/these-truths.md
