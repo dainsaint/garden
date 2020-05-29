@@ -1,10 +1,11 @@
 ---
 layout: post
-date: 2020-05-29T22:14:17Z
-tags: []
+date: 2017-09-01T22:14:17Z
+tags:
+- lyrics
 draft: true
 title: plain white tee (lyrics)
-project: ''
+project: plain-white-tee
 featured: []
 
 ---
