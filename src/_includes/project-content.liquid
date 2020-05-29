@@ -62,6 +62,7 @@
 {% assign content = post.templateContent %}
 {% assign featured = post.data.featured %}
 
+<div id="{{ post.data.title | slugify }}"></div>
 {% include post-content %}
 
 

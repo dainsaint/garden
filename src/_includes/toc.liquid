@@ -9,8 +9,11 @@
     <div class="post-content">
       <h2 class="project-header">contents</h2>
 
+      {% assign contentsList = collections.all | fromFiles: contents %}
       <div class="post-content-text">
-{{ collections.contents }}
+        {% for post in contentsList %}
+        <a href="#{{ post.data.title | slugify }}">{{ post.data.title }}</a><br/>
+        {% endfor %}
       </div>
 
     </div>

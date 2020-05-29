@@ -14,6 +14,17 @@ module.exports = function (config) {
     });
   });
 
+  config.addFilter("fromFiles", function(collection, files)
+  {
+    if( !collection || !files ) return [];
+
+    return collection.filter(
+      post => files.filter(
+        file => post.template.inputPath.indexOf(file) > 0
+      ).length
+    )
+  });
+
   config.addFilter("markdown", function (string) {
     return string ? marked(string) : string;
   });
