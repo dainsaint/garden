@@ -69,13 +69,13 @@ That you shouldn’t dress nice and look your best
 But you can’t spend cents on confidence, oh no   
 So come on out and play   
 Be comfortable in your own skin   
-and you can rule the world all while lounging in a   
+and we can rule the world while lounging in a   
   
 Plain white tee   
 Plain white tee   
 Damn I look good in my plain white tee   
-Some of y’all cats be flossin Gucci   
-But I’ma do alright in my plain white tee   
+Some of these cats be flossin Gucci   
+But we gon' be fine in a plain white tee   
   
 Plain white tee   
 Plain white tee   
