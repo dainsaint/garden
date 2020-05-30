@@ -292,3 +292,24 @@ button
   width: 100%;
   box-sizing: border-box;
 }
+
+
+/*
+*
+*
+* audio
+*
+*/
+
+.audio
+{
+  display: grid;
+  grid-template-columns: 50px auto;
+  align-items: center;
+}
+
+
+.audio-content
+{
+  width: 100%;
+}

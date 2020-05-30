@@ -1,4 +1,4 @@
-<article id="{{ title | slugify }}" class="post full">
+<article id="{{ title | slug }}" class="post full">
 
   <div class="post-main">
 
@@ -17,7 +17,7 @@
     <div class="post-content">
       <h2 class="post-header">{{ title }}</h2>
       {% if query %}
-      <div class="post-project">part of <a href="{{ query.url }}">{{ query.data.title }}</a></div>
+      <div class="post-project">part of <a href="{{ query.url | url}}">{{ query.data.title }}</a></div>
       {% endif %}
 
       <div class="post-content-text">

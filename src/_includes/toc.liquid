@@ -12,7 +12,7 @@
       {% assign contentsList = collections.all | fromFiles: contents %}
       <div class="post-content-text">
         {% for post in contentsList %}
-        <a href="#{{ post.data.title | slugify }}">{{ post.data.title }}</a><br/>
+        <a href="#{{ post.data.title | slug }}">{{ post.data.title }}</a><br/>
         {% endfor %}
       </div>
 

@@ -18,5 +18,3 @@ wanted to write something that made me feel the way india.arie’s [video](https
 
 * videography by [spencer rollins](//instagram.com/spencerrollins)
 * song production by [jeff fry](//instagram.com/peterdragontail)
-
-{% include youtube video_id: "MfF-4QAFMBU" %}

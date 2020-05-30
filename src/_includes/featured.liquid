@@ -9,6 +9,12 @@
   {% assign video_id = f.video_id %}
   {% include youtube %}
   {% endif %}
+
+  {% if f.template == "audio" %}
+  {% assign audio = f.audio %}
+  {% include audio %}
+  {% endif %}
+
 {% endfor %}
 
 </div>

@@ -1,0 +1,44 @@
+<section class="audio">
+
+<div class="audio-controls">
+  <a id="{{ page.fileSlug }}-audio-button">
+    <i class="fa fa-play"></i>
+  </a>
+</div>
+
+<div class="audio-content">
+  <div id="{{ page.fileSlug }}-audio">
+  </div>
+</div>
+
+
+<script type="text/javascript">
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  var wavesurfer = WaveSurfer.create({
+      container: '#{{ page.fileSlug | slug }}-audio',
+      barWidth: 3,
+      barHeight: 1,
+      waveColor: "rgba(6, 37, 53, .2)",
+      progressColor: "#062535"
+  });
+
+  wavesurfer.load( "{{ audio | url }}");
+
+  let button = document.getElementById("{{ page.fileSlug }}-audio-button");
+
+  button
+    .onclick = () => {
+      wavesurfer.playPause();
+      if( wavesurfer.isPlaying() )
+        button.innerHTML = '<i class="fa fa-pause"></i>'
+      else
+        button.innerHTML = '<i class="fa fa-play"></i>'
+    }
+});
+
+
+</script>
+
+</section>
