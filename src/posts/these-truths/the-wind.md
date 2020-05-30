@@ -1,6 +1,5 @@
 ---
 layout: post
-project: these-truths
 title:  "the wind"
 date:   2019-04-16
 ---

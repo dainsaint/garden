@@ -1,6 +1,5 @@
 ---
 layout: post
-project: these-truths
 title:  "soup"
 date:   2019-04-09
 ---

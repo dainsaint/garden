@@ -1,7 +1,5 @@
 
-{% assign posts = collections.all | map: "data" | where: "project", page.fileSlug %}
-{% assign folder = collections.all | inFolder: page.inputPath %}
-
+{% assign contents = collections.all | inFolder: page.inputPath %}
 
 
 <article class="post full">
@@ -37,25 +35,46 @@
 
     </div>
 
+
+    <div class="post-content">
+    <h3 class="project-header">contents</h3>
+
+    <p>
+      {% for post in contents %}
+      <a href="#{{ post.data.title | slug }}">{{ post.data.title }}</a><br/>
+      {% endfor %}
+    </p>
   </div>
 
 
-  {% for x in folder %}
-  {% unless x.url == page.url %}
-    {{ x.data.title }}<br/>
-  {% endunless %}
-  {% endfor %}
+
+  </div>
 
 
 
 </article>
 
-{% include toc %}
+<article class="post">
+  <div class="post-main">
+    <div class="post-subscribe">
+      <h3 class="project-header">Subscribe for Updates</h3>
+      <p>
+        I send a bi-weekly newsletter with updates from my garden. No spam.
+      </p>
+
+      <div class="post-subscribe-form">
+        <input/>
+        <button>subscribe</button>
+      </div>
+
+    </div>
+  </div>
+</article>
+
+{% include toc-folders %}
 
 
-{% for p in posts %}
-{% assign post = collections.all | where: "fileSlug", p.page.fileSlug | first %}
-
+{% for post in contents %}
 
 {% assign title = post.data.title %}
 {% assign date = post.data.date %}

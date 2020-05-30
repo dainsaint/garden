@@ -1,6 +1,5 @@
 ---
 layout: post
-project: these-truths
 title:  "stopwatch"
 date: 2019-11-08
 ---

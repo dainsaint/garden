@@ -1,0 +1,19 @@
+<article class="post full">
+
+  <div class="post-main">
+
+    <div class="post-content">
+      <h2 class="project-header">contents</h2>
+
+      <div class="post-content-text">
+        {% for post in contents %}
+        <a href="#{{ post.data.title | slug }}">{{ post.data.title }}</a><br/>
+        {% endfor %}
+      </div>
+
+    </div>
+
+
+  </div>
+
+</article>

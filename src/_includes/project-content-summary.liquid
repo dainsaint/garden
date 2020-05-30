@@ -1,0 +1,41 @@
+
+<article class="post full">
+
+  <div class="post-main">
+
+    {% include featured %}
+
+    <div class="project-body">
+
+      <div class="project-intro">
+
+      <div class="project-info">
+        <h1 class="project-title">{{ title }}</h1>
+        <div class="project-description">{{ description }}</div>
+
+      </div>
+
+      {% if status %}
+      <div class="project-status">
+        <h3 class="project-header">Project Status</h3>
+        <p>
+          {{ status | markdown }}
+        </p>
+      </div>
+      {% endif %}
+
+    </div>
+
+    <div class="post-content">
+
+      {{ content | safe }}
+
+    </div>
+
+
+
+
+  </div>
+
+
+</article>

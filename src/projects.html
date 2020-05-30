@@ -1,0 +1,22 @@
+---
+layout: base
+eleventyExcludeFromCollections: true
+---
+
+<main>
+
+  {% assign posts = collections.projects  %}
+  {% for post in posts %}
+
+    {% assign title = post.data.title %}
+    {% assign date = post.data.date %}
+    {% assign content = post.templateContent %}
+    {% assign project = post.data.project %}
+    {% assign featured = post.data.featured %}
+    {% assign status = post.data.status %}
+    {% assign description = post.data.description %}
+    {% include project-content-summary %}
+
+  {% endfor %}
+
+</main>

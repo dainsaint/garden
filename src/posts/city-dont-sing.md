@@ -31,7 +31,7 @@ on the strength of will
 
 and my heart waits for the people  
 that help other people  
-to get through life alone
+get through this life alone
 
 and my heart waits  
 but the city don’t sing no more
@@ -50,4 +50,5 @@ that help other people
 to get through life alone
 
 and my heart breaks  
+
 but the city don’t sing no more

@@ -18,7 +18,9 @@ module.exports = function (config) {
     let path = inputPath.split('/');
     let search = path.splice(0, path.length-1).join('/');
     return array.filter( (item) => {
-      return item.template.parsed.dir.indexOf( search ) >= 0
+      return ( item.template.parsed.dir.indexOf( search ) >= 0 )
+      &&
+      ( item.template.inputPath != inputPath )
     })
   });
 
@@ -38,6 +40,10 @@ module.exports = function (config) {
     return string ? marked(string) : string;
   });
 
+  config.addCollection("projects", function(collectionApi) {
+    // get unsorted items
+    return collectionApi.getAll().filter( item => "layout" in item.data && item.data.layout == "project-folder" );
+  });
 
 
   config.addShortcode("youtube", function(video_id) {

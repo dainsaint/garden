@@ -1,6 +1,5 @@
 ---
 layout: post
-project: these-truths
 title:  "last night was mlk"
 date:   2019-01-22
 ---
