@@ -1,0 +1,68 @@
+
+{% assign posts = collections.all | map: "data" | where: "project", page.fileSlug %}
+{% assign folder = collections.all | inFolder: page.inputPath %}
+
+
+
+<article class="post full">
+
+  <div class="post-main">
+
+    {% include featured %}
+
+    <div class="project-body">
+
+      <div class="project-intro">
+
+      <div class="project-info">
+        <h1 class="project-title">{{ title }}</h1>
+        <div class="project-description">{{ description }}</div>
+
+      </div>
+
+      {% if status %}
+      <div class="project-status">
+        <h3 class="project-header">Project Status</h3>
+        <p>
+          {{ status | markdown }}
+        </p>
+      </div>
+      {% endif %}
+
+    </div>
+
+    <div class="post-content">
+
+      {{ content | safe }}
+
+    </div>
+
+  </div>
+
+
+  {% for x in folder %}
+  {% unless x.url == page.url %}
+    {{ x.data.title }}<br/>
+  {% endunless %}
+  {% endfor %}
+
+
+
+</article>
+
+{% include toc %}
+
+
+{% for p in posts %}
+{% assign post = collections.all | where: "fileSlug", p.page.fileSlug | first %}
+
+
+{% assign title = post.data.title %}
+{% assign date = post.data.date %}
+{% assign content = post.templateContent %}
+{% assign featured = post.data.featured %}
+
+{% include post-content %}
+
+
+{% endfor %}

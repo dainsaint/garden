@@ -14,13 +14,22 @@ module.exports = function (config) {
     });
   });
 
+  config.addFilter("inFolder", function( array, inputPath ) {
+    let path = inputPath.split('/');
+    let search = path.splice(0, path.length-1).join('/');
+    return array.filter( (item) => {
+      return item.template.parsed.dir.indexOf( search ) >= 0
+    })
+  });
+
+
   config.addFilter("fromFiles", function(collection, files)
   {
     if( !collection || !files ) return [];
 
     return collection.filter(
       post => files.filter(
-        file => post.template.inputPath.indexOf(file) > 0
+        file => post.template.inputPath.indexOf(file) >= 0
       ).length
     )
   });
