@@ -60,10 +60,10 @@ trade it all for twenty days on mescaline if dr king acknowledge it
 
 last night was mlk  
 last night i had a dream  
-this morning wokeup got a pen  
+this morning woke up got a pen  
 to find out what it mean  
-open up your mind too far no telling what will take its place  
-do whatever you want son just be a credit to your race  
+"open up your mind too far no telling what will take its place"  
+"do whatever you want son, just be a credit to your race"  
 man i cried myself to sleep  
 and i woke up with a scream  
 cause wants to stay woke when i can dream  

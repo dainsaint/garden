@@ -33,6 +33,12 @@ a
   text-decoration: underline;
 }
 
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
 
 .header-main
 {

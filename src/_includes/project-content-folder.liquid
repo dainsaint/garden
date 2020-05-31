@@ -6,6 +6,9 @@
 
   <div class="post-main">
 
+    {{ collections.all | map: "template" | map: "inputPath"}}
+{{ site.static_files }}
+
     {% include featured %}
 
     <div class="project-body">

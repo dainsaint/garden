@@ -1,7 +1,29 @@
 const marked = require('marked');
+const embedEverything = require('eleventy-plugin-embed-everything');
+const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
+const ErrorOverlay = require("eleventy-plugin-error-overlay")
 
 module.exports = function (config) {
   config.addPassthroughCopy("src/assets");
+
+  config.setTemplateFormats([
+    "md",
+    "liquid",
+    "njk",
+    "jpg",
+    "jpeg",
+    "png"
+  ]);
+
+  config.addPlugin(embedEverything);
+  config.addPlugin(lazyImagesPlugin, {
+    transformImgPath: (src) => src.replace('/garden/','./src/')
+  });
+
+
+  config.addPlugin(ErrorOverlay)
+
+
 
   config.addFilter("where", function (array, key, value) {
     return array.filter((item) => {
@@ -45,10 +67,6 @@ module.exports = function (config) {
     return collectionApi.getAll().filter( item => "layout" in item.data && item.data.layout == "project-folder" );
   });
 
-
-  config.addShortcode("youtube", function(video_id) {
-    return `{% include youtube ${video_id} %}`
-  });
 
   return {
     pathPrefix: "/garden/",

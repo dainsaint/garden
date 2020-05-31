@@ -12,7 +12,7 @@ contents:
 collaborators: []
 
 ---
-wanted to write something that made me feel the way india.arie’s [video](https://www.youtube.com/watch?v=Mq86e4Fhja0) did when I first heard it. first music video I ever filmed, and it was a silly, good time—even though looking back now, it feels more silly than good. one day I’ll stop being embarrassed by my past self.
+wanted to write something that made me feel the way india.arie’s [video](https://www.youtube.com/watch?v=Mq86e4Fhja0) did when I first heard it. first music video I ever filmed, and it was a silly, good time—even though looking back now, it feels more silly than good. one day I’ll stop being embarrassed by my past self. 
 
 ### collaborators
 

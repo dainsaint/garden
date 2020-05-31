@@ -3,16 +3,18 @@
   {% if f.template == "gallery" %}
   {% assign images = f.images %}
   {% include gallery %}
-  {% endif %}
 
-  {% if f.template == "youtube" %}
+  {% elsif f.template == "youtube" %}
   {% assign video_id = f.video_id %}
   {% include youtube %}
-  {% endif %}
 
-  {% if f.template == "audio" %}
+
+  {% elsif f.template == "audio" %}
   {% assign audio = f.audio %}
   {% include audio %}
+
+  {% else %}
+  {{ f.content }}
   {% endif %}
 
 {% endfor %}
