@@ -45,9 +45,10 @@ img {
   background: #152223;
 
   padding: 12px;
-  position: fixed;
+  box-sizing: border-box;
+  /* position: fixed; */
   width: 100%;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .header-main .title
@@ -63,14 +64,18 @@ img {
   text-decoration: underline;
 }
 
-
-.post.full
+.post
 {
-  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.post.full
+{
+  min-height: 100vh;
+
 }
 
 .post:nth-of-type(5n+5)
@@ -100,15 +105,16 @@ img {
 
 .post-main
 {
-  padding: 200px 12px;
+  padding: 200px 8px;
   flex: 1 1 auto;
   align-content: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
   width: 800px;
-  max-width: 100%;
+  max-width: 90%;
   /* padding: 12px; */
+  /* border: 1px solid blue; */
 }
 
 .post-body
@@ -144,7 +150,7 @@ img {
   line-height: 16px;
   text-transform: uppercase;
   text-align: right;
-  border-top: 6px solid black;
+  border-top: 6px solid #062535;
   padding-top: 8px;
   margin-right: 8px;
 }

@@ -8,6 +8,7 @@ module.exports = function (config) {
 
   config.setTemplateFormats([
     "md",
+    "html",
     "liquid",
     "njk",
     "jpg",
