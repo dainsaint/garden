@@ -1,6 +1,6 @@
 ---
-layout: post
 title:  "the forest"
+project: "these-truths"
 date:   2018-10-31
 ---
 

@@ -1,0 +1,11 @@
+<header class="header-main {{ text }}">
+  <div class="header-content">
+  {% assign home = '/' %}
+  <a class="title" href="{{ home | url }}">dain saint</a>
+  <nav class="header-nav">
+    {% for page in collections.pages %}
+    <a href="{{ page.url | url }}">{{ page.data.title }}</a>
+    {% endfor %}
+  </nav>
+</div>
+</header>

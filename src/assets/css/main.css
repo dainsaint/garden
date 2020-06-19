@@ -1,9 +1,16 @@
+
+
 h1, h2, h3, h4
 {
   padding: 0px;
   margin: 0px;
 }
 
+h2
+{
+  font-size: 1.3em;
+  margin-bottom: .3em;
+}
 
 hr
 {
@@ -40,28 +47,64 @@ img {
   height: auto;
 }
 
+.hero-image
+{
+  height: 40vh;
+  background: center center no-repeat;
+  background-size: cover;
+}
 .header-main
 {
-  background: #152223;
 
-  padding: 12px;
+  padding: 24px 0px;
   box-sizing: border-box;
   /* position: fixed; */
   width: 100%;
   /* z-index: 1; */
+  position: absolute;
+}
+
+.header-main a
+{
+
+}
+
+.header-content
+{
+  width: 800px;
+  max-width: 90%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-nav
+{
+  text-align: right;
+}
+
+.header-nav a
+{
+
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0px 10px;
 }
 
 .header-main .title
 {
   font-size: 24px;
-  color: #EEE;
   font-weight: bold;
   text-decoration: none;
 }
 
-.header-main .title:hover
+.header-main a:hover
 {
-  text-decoration: underline;
+  border-bottom: 4px solid #062535;
 }
 
 .post
@@ -101,6 +144,7 @@ img {
 .post:nth-of-type(5n+1)
 {
   background: #f28482;
+  /* background: #f7ede2; */
 }
 
 .post-main
@@ -152,7 +196,7 @@ img {
   text-align: right;
   border-top: 6px solid #062535;
   padding-top: 8px;
-  margin-right: 8px;
+  margin-right: 16px;
 }
 
 .post-meta-deco
@@ -162,17 +206,30 @@ img {
   min-height: 120px;
   max-height: 500px;
   height: 100%;
-  background: url('../img/deco-elevation.png') center center no-repeat;
+  background: url('../img/deco-elevation.png') top center no-repeat;
+}
+
+
+.deco-flower
+{
+  background-image: url('../img/deco/flower.png');
+  background-size: auto 500px;
 }
 
 .post-header
 {
   font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.post-header a
+{
+  text-decoration: none;
 }
 
 .post-content-text
 {
-  margin-top: 45px;
+  margin-top: 1em;
 }
 
 .post-content p
@@ -205,7 +262,7 @@ hr
 
 .post-subscribe
 {
-
+  margin-top: 72px;
 }
 
 .post-subscribe-form
@@ -283,7 +340,7 @@ input
   border: 1px solid #062535;
   font-size: 14px;
   height: 42px;
-  border-radius: 8px;
+
   box-sizing: border-box;
   width: 100%;
   padding: 0px 16px;
@@ -301,7 +358,6 @@ button
   font-weight: 700;
   font-size: 14px;
   height: 42px;
-  border-radius: 8px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -325,4 +381,33 @@ button
 .audio-content
 {
   width: 100%;
+}
+
+
+.light
+{
+  color: #EEE;
+}
+
+.light a
+{
+  color: #EEE;
+  border-color: #EEE;
+}
+
+.light a:hover
+{
+  border-color: #EEE;
+}
+
+.light button
+{
+  background: #EEE;
+  color: #000;
+}
+
+.light input
+{
+  border-color: #EEE;
+  color: #EEE;
 }

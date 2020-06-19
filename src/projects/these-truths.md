@@ -1,5 +1,4 @@
 ---
-layout: project-folder
 title: these truths i have been afraid to speak
 description: A collection of poems and stories on race, relationships, and toxic masculinity
 date: 2018-04-01

@@ -1,3 +1,6 @@
 {
-  permalink: "{{ page.fileSlug }}/"
+  "permalink": "{{ page.fileSlug }}/",
+  "tags": [
+    "posts"
+  ]
 }

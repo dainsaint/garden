@@ -1,14 +1,9 @@
 ---
-layout: post
 date: 2017-05-01T22:14:17Z
-tags:
-- lyrics
-draft: true
 title: plain white tee (lyrics)
 project: plain-white-tee
-featured: []
-
 ---
+
 bust in the room like im in a saloon   
 look fresh to death wearing fruit of the loom   
 people break necks just to look and see   

@@ -1,7 +1,6 @@
 ---
-layout: post
-tags: post
 title:  "time travel"
+project: 'excerpts'
 date:   2010-07-09
 ---
 "I'm not sure I understand."

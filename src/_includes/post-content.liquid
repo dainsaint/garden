@@ -8,14 +8,15 @@
     <div class="post-meta">
       {{ date | date: "%d %b" }}<br/>
       {{ date | date: "%Y" }}
-      <div class="post-meta-deco">
+      <div class="post-meta-deco deco-flower">
       </div>
     </div>
 
     {% assign query = collections.all | where: "fileSlug", project | first %}
 
     <div class="post-content">
-      <h2 class="post-header">{{ title }}</h2>
+      <h2 class="post-header"><a href="{{ url | url }}">{{ title }}</a></h2>
+
       {% if query %}
       <div class="post-project">part of <a href="{{ query.url | url}}">{{ query.data.title }}</a></div>
       {% endif %}

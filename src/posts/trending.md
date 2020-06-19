@@ -1,6 +1,4 @@
 ---
-layout: post
-tags: post
 title:  "trending"
 date:   2017-07-12
 ---

@@ -1,7 +1,6 @@
 ---
-layout: post
-tags: post
 title:  "bildungsroman"
+project: 'excerpts'
 date: 2009-11-08
 ---
 I was fifteen when I died.

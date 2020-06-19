@@ -1,10 +1,12 @@
 const marked = require('marked');
 const embedEverything = require('eleventy-plugin-embed-everything');
-const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
-const ErrorOverlay = require("eleventy-plugin-error-overlay")
+const lazyImages = require('eleventy-plugin-lazyimages');
+const rss = require("@11ty/eleventy-plugin-rss");
+
 
 module.exports = function (config) {
   config.addPassthroughCopy("src/assets");
+  config.setDataDeepMerge(true);
 
   config.setTemplateFormats([
     "md",
@@ -17,13 +19,11 @@ module.exports = function (config) {
   ]);
 
   config.addPlugin(embedEverything);
-  config.addPlugin(lazyImagesPlugin, {
+  config.addPlugin(lazyImages, {
     transformImgPath: (src) => src.replace('/garden/','./src/')
   });
 
-
-  config.addPlugin(ErrorOverlay)
-
+  // config.addPlugin( rss );
 
 
   config.addFilter("where", function (array, key, value) {

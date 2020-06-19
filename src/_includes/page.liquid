@@ -4,4 +4,33 @@ title: Dain Saint
 permalink: "{{ page.fileSlug }}/index.html"
 ---
 
-{% include project-content %}
+<article class="post full {{ text }}" style="background-color: {{ color }}">
+
+  <div class="post-main">
+
+    {% include featured %}
+
+    <div class="project-body">
+
+      <div class="project-intro">
+
+      <div class="project-info">
+        <h1 class="project-title">{{ title }}</h1>
+        <div class="project-description">{{ description }}</div>
+
+      </div>
+
+
+    </div>
+
+    <div class="post-content">
+
+      {{ content | safe }}
+
+    </div>
+
+  </div>
+
+
+
+</article>

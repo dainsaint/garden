@@ -1,0 +1,7 @@
+{
+  "layout" : "project",
+  "permalink": "{{ page.fileSlug }}/",
+  "tags": [
+    "projects"
+  ]
+}

@@ -1,11 +1,7 @@
 ---
-layout: post
-date: 2020-05-31T14:57:11Z
-tags: []
 title: stereotypography
-project: ''
-featured: []
-
+project: 'freedom-is-non-negotiable'
+date: 2020-05-31T14:57:11Z
 ---
 we stand with our hands up  
 and they hollow out our bellies  

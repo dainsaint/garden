@@ -3,11 +3,6 @@ label: Project
 hide_body: false
 fields:
 - type: text
-  name: layout
-  label: layout
-  hidden: true
-  default: project
-- type: text
   name: title
   label: title
 - type: datetime
@@ -17,13 +12,6 @@ fields:
 - type: text
   name: description
   label: description
-- name: collaborators
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  label: collaborators
 - type: textarea
   name: status
   label: status
@@ -35,18 +23,10 @@ fields:
   - youtube
   - audio
   config:
-    min: 
-    max: 
-- name: contents
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: pages
-      section: posts
-  label: contents
+    min:
+    max:
 pages:
-- src/pages/about.md
-- src/posts/plain-white-tee.md
+- src/projects/archetypes.md
+- src/projects/excerpts.md
+- src/projects/freedom-is-non-negotiable.md
+- src/projects/these-truths.md

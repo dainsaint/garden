@@ -1,6 +1,4 @@
 ---
-layout: post
-tags: post
 title:  "for nipsey"
 date:   2019-04-01
 ---

@@ -1,6 +1,4 @@
 ---
-layout: post
-tags: post
 title:  "nine lives"
 date:   2019-04-03
 ---

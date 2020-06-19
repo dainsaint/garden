@@ -16,12 +16,15 @@ title: Dain Saint
   </head>
 
   <body>
-    <header class="header-main">
-      <a class="title" href="/">dain saint</a>
-      <nav>
-        {{ baseUrl }}
-      </nav>
-    </header>
+
+    {% include header %}
+
+    {% if hero %}
+    <div class="hero-image" style="background-image: url('{{ hero | url }}')">
+    </div>
+
+    {% endif %}
+
     {{ content | safe }}
 
     <script src="https://unpkg.com/wavesurfer.js"></script>

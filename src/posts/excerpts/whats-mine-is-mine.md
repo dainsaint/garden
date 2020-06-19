@@ -1,13 +1,7 @@
 ---
-layout: post
-tags:
-- post
 title: what's mine is mine
+project: 'excerpts'
 date: 2010-03-24
-draft: true
-project: ''
-featured: []
-
 ---
 A star explodes in my brain and I'm awake. In my nostrils, the smell of steel; in my mouth, the taste of copper. White-hot light sears my eyes; my ears scream as blood rushes through. My joints snap like splintered wood, fingers crackling towards the sky, as wet coughs escape my dry throat.
 

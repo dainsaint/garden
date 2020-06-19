@@ -1,7 +1,6 @@
 ---
-layout: post
-tags: post
 title:  "concentrate"
+project: 'excerpts'
 date:   2009-12-03
 ---
 My mother says, "Close your eyes." She waits a moment, then adds, "Push it to the top of your mouth, and exhale slowly."

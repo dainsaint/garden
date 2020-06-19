@@ -1,24 +1,14 @@
-<article class="post full">
+{% if posts.size > 0 %}
+<p>&nbsp;</p>
+<div class="post-content">
+  <h3 class="project-header">contents</h3>
 
-  <div class="post-main">
+  <div class="">
+    {% for post in posts %}
 
-
-
-    {% assign query = collections.all | where: "fileSlug", project | first %}
-
-    <div class="post-content">
-      <h2 class="project-header">contents</h2>
-
-      {% assign contentsList = collections.all | fromFiles: contents %}
-      <div class="post-content-text">
-        {% for post in contentsList %}
-        <a href="#{{ post.data.title | slug }}">{{ post.data.title }}</a><br/>
-        {% endfor %}
-      </div>
-
-    </div>
-
-
+    <a href="#{{ post.title | slug }}">{{ post.title }}</a><br/>
+    {% endfor %}
   </div>
 
-</article>
+</div>
+{% endif %}

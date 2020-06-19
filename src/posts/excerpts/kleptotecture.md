@@ -1,7 +1,6 @@
 ---
-layout: post
-tags: post
 title:  "kleptotecture"
+project: 'excerpts'
 date:   2010-08-08
 ---
 It started out small.

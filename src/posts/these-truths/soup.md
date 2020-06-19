@@ -1,6 +1,6 @@
 ---
-layout: post
 title:  "soup"
+project: "these-truths"
 date:   2019-04-09
 ---
 

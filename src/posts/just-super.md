@@ -1,6 +1,4 @@
 ---
-layout: post
-tags: post
 title:  "just super"
 date:   2017-07-25
 ---
