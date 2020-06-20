@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>My Blog about Boats</title>
+  <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+  <link href="https://example.com/feed.xml" rel="self"/>
+  <link href="https://example.com/"/>
+  <updated>2017-07-11T20:00:00-04:00</updated>
+  <id>https://example.com/</id>
+  <author>
+    <name>Boaty McBoatFace</name>
+    <email>me@example.com</email>
+  </author>
+  
+  <entry>
+    <title>trending</title>
+    <link href="https://example.com/garden/trending/"/>
+    <updated>2017-07-11T20:00:00-04:00</updated>
+    <id>https://example.com/garden/trending/</id>
+    <content type="html">&lt;p&gt;Heartwarming: You wont believe this&lt;br&gt;
+Embarrassing: Faith in humanity lost&lt;br&gt;
+Inspiring: Restored&lt;br&gt;
+Tragic: Lost again&lt;/p&gt;
+&lt;p&gt;5 things you need to know&lt;br&gt;
+Number 3 will shock you&lt;br&gt;
+5 things you&#39;ll love&lt;br&gt;
+Number 4 will blow your mind&lt;br&gt;
+5 things you&#39;ll hate Number&lt;br&gt;
+5 is literally everything 😍&lt;/p&gt;
+&lt;p&gt;Youll never believe how&lt;br&gt;
+Youll never guess what&lt;br&gt;
+They dont want you to know while&lt;br&gt;
+You were distracted by&lt;/p&gt;
+&lt;p&gt;Millenials are killing real estate&lt;br&gt;
+Millenials are killing restaurants&lt;br&gt;
+Millenials are killing paper napkins&lt;br&gt;
+Millenials are killed by police&lt;/p&gt;
+&lt;p&gt;These hacks are useful AF&lt;br&gt;
+This tweet was savage AF&lt;br&gt;
+his text was painful AF&lt;br&gt;
+This girl was lonely AF&lt;/p&gt;
+&lt;p&gt;Destroyed, eviscerated, utterly schooled&lt;br&gt;
+These tweets will literally have you in tears&lt;br&gt;
+A boy was displaced by civil war&lt;br&gt;
+His response was PERF&lt;/p&gt;
+&lt;p&gt;Heres the best way to work your core&lt;br&gt;
+Heres the celebrity we think you want to be&lt;br&gt;
+Heres what kind of blender you ar&lt;br&gt;
+Heres a troubling prediction about climate ch—&lt;/p&gt;
+&lt;p&gt;Did you see what she wore?&lt;br&gt;
+Did you see that episode?&lt;br&gt;
+Did you see her naked?&lt;br&gt;
+Did you see that dashcam footage?&lt;br&gt;
+OOPS&lt;/p&gt;
+&lt;p&gt;People are dying laughing about&lt;br&gt;
+People are dying laughing&lt;br&gt;
+People are dying&lt;br&gt;
+People are&lt;br&gt;
+People&lt;/p&gt;
+&lt;p&gt;lol please share&lt;/p&gt;
+</content>
+  </entry>
+</feed>
