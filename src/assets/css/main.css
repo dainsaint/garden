@@ -411,3 +411,9 @@ button
   border-color: #EEE;
   color: #EEE;
 }
+
+
+.light hr
+{
+  border-color: #EEE;
+}
