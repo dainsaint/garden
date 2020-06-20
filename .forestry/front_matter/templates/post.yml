@@ -27,4 +27,5 @@ fields:
     max: 
   label: featured
 pages:
+- src/posts/freedom-is-non-negotiable/the-oleaster-in-bloom.md
 - src/posts/plain-white-tee-lyrics.md
