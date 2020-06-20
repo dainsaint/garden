@@ -23,10 +23,8 @@ fields:
   - youtube
   - audio
   config:
-    min:
-    max:
+    min: 
+    max: 
   label: featured
 pages:
-- src/posts/forty-percent-off.md
 - src/posts/plain-white-tee-lyrics.md
-- src/posts/stereotypography.md
