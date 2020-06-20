@@ -9,8 +9,17 @@ fields:
   name: date
   label: date
   default: now
-- type: text
-  name: project
+- name: project
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: projects
+      file: 
+      path: 
   label: project
 - name: tags
   type: tag_list
