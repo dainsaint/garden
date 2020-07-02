@@ -5,6 +5,7 @@ date: 2017-06-18T04:00:00.000+00:00
 status: Complete. [Interested in using these photos?](mailto:thismotherfucker@dainsaint.com)
 tags:
 - photography
+- see
 color: "#161616"
 text: light
 featured:
@@ -28,5 +29,4 @@ featured:
 * ![the child](/garden/assets/uploads/Dain%20Saint%207.jpg)
 * ![candid 1](/garden/assets/uploads/Dain%20Saint%204.jpg)
 * ![candid 2](/garden/assets/uploads/Dain%20Saint%208.jpg)
-* ![candid 3](/garden/assets/uploads/Dain%20Saint%2010.jpg)
-{: .gallery}
+* ![candid 3](/garden/assets/uploads/Dain%20Saint%2010.jpg){: .gallery}

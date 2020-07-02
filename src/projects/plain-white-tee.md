@@ -5,6 +5,8 @@ description: a song about self-acceptance
 status: Complete. [Buy the single](https://saintanytime.bandcamp.com/track/plain-white-tee)
 color: "#9E0D2C"
 text: light
+tags:
+- listen
 featured:
 - template: youtube
   video_id: MfF-4QAFMBU

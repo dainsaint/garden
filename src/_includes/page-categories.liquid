@@ -1,0 +1,48 @@
+---
+layout: base
+title: Dain Saint
+---
+
+<article class="post full {{ text }}" style="background-color: {{ color }}">
+
+  <div class="post-main">
+
+    {% include featured %}
+
+    <div class="project-body">
+
+      <div class="project-intro">
+
+      <div class="project-info">
+        <h1 class="project-title">{{ title }}</h1>
+        <div class="project-description">{{ description }}</div>
+
+      </div>
+
+
+    </div>
+
+    <div class="post-content">
+
+      {{ content | safe }}
+
+    </div>
+
+    <div>
+      {% for t in types %}
+        <h3>{{ t }}</h3>
+        {% for p in collections[t] %}
+        <div>
+          <h4><a href="{{ p.url | url}}">{{ p.data.title }}</a></h4>
+          <p>{{ p.data.description }}</p>
+        </div>
+        {% endfor %}
+        <br/>
+      {% endfor %}
+    </div>
+
+  </div>
+
+
+
+</article>

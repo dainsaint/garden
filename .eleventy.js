@@ -63,11 +63,6 @@ module.exports = function (config) {
     return string ? marked(string) : string;
   });
 
-  config.addCollection("projects", function(collectionApi) {
-    // get unsorted items
-    return collectionApi.getAll().filter( item => "layout" in item.data && item.data.layout == "project-folder" );
-  });
-
 
   return {
     pathPrefix: "/garden/",

@@ -1,10 +1,13 @@
 <header class="header-main {{ text }}">
   <div class="header-content">
   {% assign home = '/' %}
-  <a class="title" href="{{ home | url }}">dain saint</a>
+  <div>
+    <a class="title" href="{{ home | url }}">dain saint</a>
+    <span class="tagline">art and activism for an abundant society</span>
+  </div>
   <nav class="header-nav">
-    {% for page in collections.pages %}
-    <a href="{{ page.url | url }}">{{ page.data.title }}</a>
+    {% for item in collections.pages %}
+    <a class="{% if item.url == page.url %}active{% endif %}" href="{{ item.url | url }}">{{ item.data.title }}</a>
     {% endfor %}
   </nav>
 </div>

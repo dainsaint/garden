@@ -1,9 +1,11 @@
 ---
 title: excerpts
-description: Dispatches from stories that never were.
+description: dispatches from stories that never were.
 date: 2009-04-01
-status: Inactive.
+status: Dormant.
 featured: []
+tags:
+- read
 ---
 
 Some of my earlier writing exercises. I may revive this at some point.

@@ -3,6 +3,8 @@ title: these truths i have been afraid to speak
 description: A collection of poems and stories on race, relationships, and toxic masculinity
 date: 2018-04-01
 status: Complete, seeking publication. [Interested in publishing this collection?](mailto:thismotherfucker@dainsaint.com)
+tags:
+- read
 featured:
 - template: gallery
   images:

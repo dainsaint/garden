@@ -4,7 +4,7 @@ tags:
 - juneteenth
 - poetry
 title: the oleaster in bloom
-project: src/projects/freedom-is-non-negotiable.md
+project: freedom-is-non-negotiable
 featured: []
 
 ---
