@@ -75,13 +75,12 @@ img {
   max-width: 90%;
   margin: 0px auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .header-nav
 {
-  text-align: right;
+
 }
 
 .header-nav a
@@ -92,14 +91,26 @@ img {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
-  margin: 0px 10px;
+  margin-right: 20px;
 }
+
+.header-nav a.active
+{
+  border-bottom: 2px solid #062535;
+}
+
 
 .header-main .title
 {
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
+}
+
+.header-main .tagline
+{
+  font-size: 16px;
+  font-style: italic;
 }
 
 .header-main a:hover
@@ -163,9 +174,10 @@ img {
 
 .post-body
 {
+  display: flex;
 
-  display: grid;
-  grid-template-columns: 98px auto;
+  /* display: grid; */
+  /* grid-template-columns: 98px auto; */
 }
 
 .featured
@@ -188,6 +200,8 @@ img {
 
 .post-meta
 {
+    flex: 0 0 auto;
+  width: 98px;
   margin-top:15px;
   font-family: 'Questrial', sans-serif;
   font-size: 16px;
@@ -324,6 +338,15 @@ hr
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 21px;
+}
+
+@media (min-width: 800px)
+{
+  .project-posts.grid
+  {
+    columns: 2 200px;
+    column-gap: 0px;
+  }
 }
 
 /*
