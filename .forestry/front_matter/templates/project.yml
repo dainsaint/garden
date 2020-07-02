@@ -19,6 +19,12 @@ fields:
 - type: textarea
   name: status
   label: status
+- name: color
+  type: color
+  label: color
+  config:
+    required: false
+    color_format: Hex
 - name: featured
   type: blocks
   label: featured
