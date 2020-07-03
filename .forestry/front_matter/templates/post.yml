@@ -37,6 +37,7 @@ fields:
   label: featured
 pages:
 - src/posts/freedom-is-non-negotiable/cotton-loophole.md
+- src/posts/freedom-is-non-negotiable/said-toni-to-daedalus.md
 - src/posts/freedom-is-non-negotiable/the-algorithm-doesnt-care-about-you.md
 - src/posts/freedom-is-non-negotiable/the-oleaster-in-bloom.md
 - src/posts/freedom-is-non-negotiable/why-must-they-be-so-loud.md
