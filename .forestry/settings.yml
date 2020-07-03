@@ -9,6 +9,8 @@ sections:
   label: Posts
   create: all
   match: "**/*"
+  templates:
+  - post
 - type: directory
   path: src/projects
   label: Projects
