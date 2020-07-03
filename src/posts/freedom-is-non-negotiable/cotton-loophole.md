@@ -1,7 +1,8 @@
 ---
 date: 2020-06-22T13:37:37Z
 project: src/projects/freedom-is-non-negotiable.md
-tags: []
+tags:
+- "#endprisonslavery"
 title: cotton loophole
 featured: []
 
