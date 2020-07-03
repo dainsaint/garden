@@ -12,9 +12,33 @@ fields:
 - type: text
   name: description
   label: description
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
 - type: textarea
   name: status
   label: status
+- name: color
+  type: color
+  label: color
+  config:
+    required: false
+    color_format: Hex
+- name: text
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - dark
+    - light
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: text
 - name: featured
   type: blocks
   label: featured
