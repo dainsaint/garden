@@ -8,10 +8,10 @@ featured: []
 
 ---
 inmate #7215 finished  
-        his work for the day
+         his work for the day
 
 deft fingers sewing on  
-        tags that say
+         tags that say
 
 _made with pride  
-        in the usa_
+         in the usa_
