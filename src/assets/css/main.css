@@ -409,34 +409,39 @@ button
 
 .light
 {
-  color: #EEE;
+  color: #f7ede2;
 }
 
 .light a
 {
-  color: #EEE;
-  border-color: #EEE;
+  color: #f7ede2;
+  border-color: #f7ede2;
+}
+
+.light a.active
+{
+  border-color: #f7ede2;
 }
 
 .light a:hover
 {
-  border-color: #EEE;
+  border-color: #f7ede2;
 }
 
 .light button
 {
-  background: #EEE;
+  background: #f7ede2;
   color: #000;
 }
 
 .light input
 {
-  border-color: #EEE;
-  color: #EEE;
+  border-color: #f7ede2;
+  color: #f7ede2;
 }
 
 
 .light hr
 {
-  border-color: #EEE;
+  border-color: #f7ede2;
 }

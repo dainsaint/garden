@@ -20,13 +20,13 @@ featured:
 
 ---
 
-* ![the lover](/garden/assets/uploads/Dain%20Saint%201.jpg)
-* ![the architect](/garden/assets/uploads/Dain%20Saint%202.jpg)
-* ![the artist](/garden/assets/uploads/Dain%20Saint%203.jpg)
-* ![the prophet](/garden/assets/uploads/Dain%20Saint%209.jpg)
-* ![the teacher](/garden/assets/uploads/Dain%20Saint%205.jpg)
-* ![the warrior](/garden/assets/uploads/Dain%20Saint%206.jpg)
-* ![the child](/garden/assets/uploads/Dain%20Saint%207.jpg)
-* ![candid 1](/garden/assets/uploads/Dain%20Saint%204.jpg)
-* ![candid 2](/garden/assets/uploads/Dain%20Saint%208.jpg)
-* ![candid 3](/garden/assets/uploads/Dain%20Saint%2010.jpg){: .gallery}
+* ![the lover](/assets/uploads/Dain%20Saint%201.jpg)
+* ![the architect](/assets/uploads/Dain%20Saint%202.jpg)
+* ![the artist](/assets/uploads/Dain%20Saint%203.jpg)
+* ![the prophet](/assets/uploads/Dain%20Saint%209.jpg)
+* ![the teacher](/assets/uploads/Dain%20Saint%205.jpg)
+* ![the warrior](/assets/uploads/Dain%20Saint%206.jpg)
+* ![the child](/assets/uploads/Dain%20Saint%207.jpg)
+* ![candid 1](/assets/uploads/Dain%20Saint%204.jpg)
+* ![candid 2](/assets/uploads/Dain%20Saint%208.jpg)
+* ![candid 3](/assets/uploads/Dain%20Saint%2010.jpg)

@@ -19,9 +19,9 @@ module.exports = function (config) {
   ]);
 
   config.addPlugin(embedEverything);
-  config.addPlugin(lazyImages, {
-    transformImgPath: (src) => src.replace('/garden/','./src/')
-  });
+  // config.addPlugin(lazyImages, {
+  //   // transformImgPath: (src) => src.replace('/assets/','./src/assets')
+  // });
 
   // config.addPlugin( rss );
 
@@ -65,7 +65,7 @@ module.exports = function (config) {
 
 
   return {
-    pathPrefix: "/garden/",
+    // pathPrefix: "/garden/",
     dir: {
       input: "src"
     }

@@ -1,5 +1,7 @@
 ---
 title: about
+color: "#111"
+text: light
 featured:
 - template: gallery
   images:
