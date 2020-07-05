@@ -1,4 +1,3 @@
-
 {% assign posts = collections.posts | inProject: page.inputPath | map: 'data' %}
 
 <article class="post full {{ color | contrast }}" style="background-color: {{ color }}">
@@ -40,21 +39,8 @@
 
 </article>
 <section class="project-posts {{ arrange }}">
-
-
 {% for p in posts %}
 {% assign post = collections.all | where: "fileSlug", p.page.fileSlug | first %}
-
-
-{% assign title = post.data.title %}
-{% assign date = post.data.date %}
-{% assign content = post.templateContent %}
-{% assign featured = post.data.featured %}
-{% assign color = post.data.color %}
-
-
-{% include post-content %}
-
-
+{% include post-content post=post%}
 {% endfor %}
 </section>

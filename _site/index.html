@@ -18,7 +18,7 @@
 
   <div class="header-content">
   
-  <div>
+  <div class="header-lede">
     <a class="title" href="/">dain saint</a>
     <span class="tagline">art and activism for an abundant society</span>
   </div>
@@ -30,7 +30,7 @@
     
     <a class="" href="/support/">support</a>
     
-    <a class="" href="/events/">events</a>
+    <a class="" href="/follow/">follow</a>
     
   </nav>
 </div>
@@ -44,11 +44,10 @@
 
   
   
-    
-    <article id="without-representation"  class="post full light" style="background-color: #433742">
+    <article id="without-representation" class="post full light" style="background-color: #433742">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -77,8 +76,8 @@
 American history is<br>
 <em>if you're breaking the law,<br>
 blame a minority</em></p>
-<p>or did i misunderstand
-the point of the
+<p>or did i misunderstand<br>
+the point of the<br>
 boston tea party</p>
 
     </div>
@@ -91,11 +90,10 @@ boston tea party</p>
 </article>
 
   
-    
-    <article id="said-toni-to-daedalus"  class="post full dark" style="background-color: #CFEBF9">
+    <article id="said-toni-to-daedalus" class="post full dark" style="background-color: #CFEBF9">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -137,11 +135,10 @@ enough to carry the cage</p>
 </article>
 
   
-    
-    <article id="the-algorithm-doesnt-care-about-you"  class="post full dark" style="background-color: #F7EDE3">
+    <article id="the-algorithm-doesnt-care-about-you" class="post full dark" style="background-color: #F7EDE3">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -189,11 +186,10 @@ her rent</p>
 </article>
 
   
-    
-    <article id="you-need-to-stop-discovering-shit"  class="post full dark" style="background-color: #85A59D">
+    <article id="you-need-to-stop-discovering-shit" class="post full dark" style="background-color: #85A59D">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -237,11 +233,10 @@ still shines forever true</p>
 </article>
 
   
-    
-    <article id="why-must-they-be-so-loud"  class="post full dark" style="background-color: F5BC67">
+    <article id="why-must-they-be-so-loud" class="post full dark" style="background-color: F5BC67">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -284,11 +279,10 @@ of this sentence</p>
 </article>
 
   
-    
-    <article id="cotton-loophole"  class="post full dark" style="background-color: #F1CBC6">
+    <article id="cotton-loophole" class="post full dark" style="background-color: #F1CBC6">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -330,11 +324,10 @@ in the usa</em></p>
 </article>
 
   
-    
-    <article id="the-oleander-in-bloom"  class="post full dark" style="background-color: #ED8786">
+    <article id="the-oleander-in-bloom" class="post full dark" style="background-color: #ED8786">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -375,11 +368,10 @@ dreamed of us</p>
 </article>
 
   
-    
-    <article id="onyx-on-the-workshop-floor"  class="post full dark" style="background-color: #F7EDE3">
+    <article id="onyx-on-the-workshop-floor" class="post full dark" style="background-color: #F7EDE3">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -423,11 +415,10 @@ free</p>
 </article>
 
   
-    
-    <article id="chemotherapy"  class="post full dark" style="background-color: #F0CBC7">
+    <article id="chemotherapy" class="post full dark" style="background-color: #F0CBC7">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -510,11 +501,10 @@ by our aggressive course of treatment...</p>
 </article>
 
   
-    
-    <article id="stereotypography"  class="post full dark" style="background-color: #ED8786">
+    <article id="stereotypography" class="post full dark" style="background-color: #ED8786">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -554,11 +544,10 @@ leaving only a hashtag behind</p>
 </article>
 
   
-    
-    <article id="forty-percent-off"  class="post full dark" style="background-color: #F5BC67">
+    <article id="forty-percent-off" class="post full dark" style="background-color: #F5BC67">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -599,12 +588,62 @@ to you</p>
 </article>
 
   
-    
-    <article id="city-don't-sing"  class="post full dark" style="background-color: ">
+    <article id="city-don't-sing" class="post full dark" style="background-color: ">
 
   <div class="post-main">
-
+    
     <div class="featured">
+
+  
+  
+  <section class="audio">
+
+<div class="audio-controls">
+  <a id="-audio-button">
+    <i class="fa fa-play"></i>
+  </a>
+</div>
+
+<div class="audio-content">
+  <div id="-audio">
+  </div>
+</div>
+
+
+<script type="text/javascript">
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  var wavesurfer = WaveSurfer.create({
+      container: '#-audio',
+      barWidth: 3,
+      barHeight: 1,
+      waveColor: "rgba(6, 37, 53, .2)",
+      progressColor: "#062535"
+  });
+
+  wavesurfer.load( "/assets/uploads/landr-city-don-t-sing-medium-balanced-2.mp3");
+
+  let button = document.getElementById("-audio-button");
+
+  button
+    .onclick = () => {
+      wavesurfer.playPause();
+      if( wavesurfer.isPlaying() )
+        button.innerHTML = '<i class="fa fa-pause"></i>'
+      else
+        button.innerHTML = '<i class="fa fa-play"></i>'
+    }
+});
+
+
+</script>
+
+</section>
+
+
+  
+
 
 
 </div>
@@ -669,11 +708,10 @@ to get through life alone</p>
 </article>
 
   
-    
-    <article id="stopwatch"  class="post full dark" style="background-color: ">
+    <article id="stopwatch" class="post full dark" style="background-color: ">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -712,11 +750,10 @@ the life you still got</p>
 </article>
 
   
-    
-    <article id="the-wind"  class="post full dark" style="background-color: ">
+    <article id="the-wind" class="post full dark" style="background-color: ">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -923,11 +960,10 @@ it was never about control<br>
 </article>
 
   
-    
-    <article id="soup"  class="post full dark" style="background-color: ">
+    <article id="soup" class="post full dark" style="background-color: ">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -1007,11 +1043,10 @@ out a mi bowl</em></p>
 </article>
 
   
-    
-    <article id="nine-lives"  class="post full dark" style="background-color: ">
+    <article id="nine-lives" class="post full dark" style="background-color: ">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -1101,11 +1136,10 @@ we have <strong>dawn</strong></p>
 </article>
 
   
-    
-    <article id="for-nipsey"  class="post full dark" style="background-color: ">
+    <article id="for-nipsey" class="post full dark" style="background-color: ">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -1148,11 +1182,10 @@ red cover</p>
 </article>
 
   
-    
-    <article id="last-night-was-mlk"  class="post full dark" style="background-color: ">
+    <article id="last-night-was-mlk" class="post full dark" style="background-color: ">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -1245,11 +1278,10 @@ cause wants to stay woke when i can dream</p>
 </article>
 
   
-    
-    <article id="the-forest"  class="post full dark" style="background-color: ">
+    <article id="the-forest" class="post full dark" style="background-color: ">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -1383,11 +1415,10 @@ Half the tree was black, leaves missing; the air smelled like an old grill. The 
 </article>
 
   
-    
-    <article id="just-super"  class="post full dark" style="background-color: ">
+    <article id="just-super" class="post full dark" style="background-color: ">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -1441,11 +1472,10 @@ But at night, the bats still haunt his dreams</p>
 </article>
 
   
-    
-    <article id="trending"  class="post full dark" style="background-color: ">
+    <article id="trending" class="post full dark" style="background-color: ">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -1520,11 +1550,10 @@ People</p>
 </article>
 
   
-    
-    <article id="plain-white-tee-(lyrics)"  class="post full dark" style="background-color: ">
+    <article id="plain-white-tee-(lyrics)" class="post full dark" style="background-color: ">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -1622,11 +1651,175 @@ cuz ain’t no better deal than a…</p>
 </article>
 
   
-    
-    <article id="kleptotecture"  class="post full dark" style="background-color: ">
+    <article id="xd:-life-in-the-second-age-of-magic" class="post full dark" style="background-color: #E6FFFF">
 
   <div class="post-main">
+    
+    <div class="featured">
 
+  
+  
+  <section class="youtube">
+
+  <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+
+  <div class='embed-container'>
+    <iframe src='https://www.youtube.com/embed/zNcbzCnP7T0?modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&color=white' frameborder='0' allowfullscreen></iframe>
+  </div>
+
+</section>
+
+
+
+  
+
+
+
+</div>
+
+
+    <div class="post-body">
+    <div class="post-meta">
+      13 Nov<br/>
+      2016
+      <div class="post-meta-deco" style="background-image: url('/assets/img/deco/elevation.png')">
+      </div>
+    </div>
+
+    
+
+    <div class="post-content">
+      <h2 class="post-header"><a href="/xd/">xd: life in the second age of magic</a></h2>
+
+      
+
+      <div class="post-content-text">
+      <p>content</p>
+
+    </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+
+  
+    <article id="i-am-not-a-fetish" class="post full light" style="background-color: #333">
+
+  <div class="post-main">
+    
+    <div class="featured">
+
+  
+  
+  <section class="youtube">
+
+  <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+
+  <div class='embed-container'>
+    <iframe src='https://www.youtube.com/embed/2O6b8INGNTw?modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&color=white' frameborder='0' allowfullscreen></iframe>
+  </div>
+
+</section>
+
+
+
+  
+
+
+
+</div>
+
+
+    <div class="post-body">
+    <div class="post-meta">
+      13 May<br/>
+      2016
+      <div class="post-meta-deco" style="background-image: url('/assets/img/deco/elevation.png')">
+      </div>
+    </div>
+
+    
+
+    <div class="post-content">
+      <h2 class="post-header"><a href="/i-am-not-a-fetish/">i am not a fetish</a></h2>
+
+      
+
+      <div class="post-content-text">
+      <p>content</p>
+
+    </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+
+  
+    <article id="the-universe:-how-to-break-the-game" class="post full light" style="background-color: #1A1712">
+
+  <div class="post-main">
+    
+    <div class="featured">
+
+  
+  
+  <section class="youtube">
+
+  <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+
+  <div class='embed-container'>
+    <iframe src='https://www.youtube.com/embed/25lDS1tqKzs?modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&color=white' frameborder='0' allowfullscreen></iframe>
+  </div>
+
+</section>
+
+
+
+  
+
+
+
+</div>
+
+
+    <div class="post-body">
+    <div class="post-meta">
+      30 Apr<br/>
+      2015
+      <div class="post-meta-deco" style="background-image: url('/assets/img/deco/elevation.png')">
+      </div>
+    </div>
+
+    
+
+    <div class="post-content">
+      <h2 class="post-header"><a href="/the-universe/">the universe: how to break the game</a></h2>
+
+      
+
+      <div class="post-content-text">
+      <p>content</p>
+
+    </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+
+  
+    <article id="kleptotecture" class="post full dark" style="background-color: ">
+
+  <div class="post-main">
+    
     <div class="featured">
 
 
@@ -1677,11 +1870,10 @@ cuz ain’t no better deal than a…</p>
 </article>
 
   
-    
-    <article id="time-travel"  class="post full dark" style="background-color: ">
+    <article id="time-travel" class="post full dark" style="background-color: ">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -1733,11 +1925,10 @@ Perry shakes his head. &quot;You're still using the wrong adverbs, chap. You are
 </article>
 
   
-    
-    <article id="what's-mine-is-mine"  class="post full dark" style="background-color: ">
+    <article id="what's-mine-is-mine" class="post full dark" style="background-color: ">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -1788,11 +1979,10 @@ Perry shakes his head. &quot;You're still using the wrong adverbs, chap. You are
 </article>
 
   
-    
-    <article id="concentrate"  class="post full dark" style="background-color: ">
+    <article id="concentrate" class="post full dark" style="background-color: ">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 
@@ -1846,11 +2036,10 @@ Perry shakes his head. &quot;You're still using the wrong adverbs, chap. You are
 </article>
 
   
-    
-    <article id="bildungsroman"  class="post full dark" style="background-color: ">
+    <article id="bildungsroman" class="post full dark" style="background-color: ">
 
   <div class="post-main">
-
+    
     <div class="featured">
 
 

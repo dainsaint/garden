@@ -1,6 +1,6 @@
 ---
 title: events
-
+eleventyExcludeFromCollections: true
 featured:
 - template: gallery
   images:

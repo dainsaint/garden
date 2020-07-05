@@ -1,7 +1,7 @@
-<article id="{{ post.data.title | slug }}"  class="post full {{ post.data.color | contrast }}" style="background-color: {{ post.data.color }}">
+<article id="{{ post.data.title | slug }}" class="post full {{ post.data.color | contrast }}" style="background-color: {{ post.data.color }}">
 
   <div class="post-main">
-
+    {% assign featured = post.data.featured %}
     {% include featured %}
 
     <div class="post-body">
@@ -22,7 +22,7 @@
       {% endif %}
 
       <div class="post-content-text">
-      {{ content | safe }}
+      {{ post.templateContent | safe }}
     </div>
 
     </div>

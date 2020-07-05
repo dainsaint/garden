@@ -69,6 +69,7 @@ img {
 
 }
 
+
 .header-content
 {
   width: 800px;
@@ -111,6 +112,7 @@ img {
 {
   font-size: 16px;
   font-style: italic;
+  white-space: nowrap;
 }
 
 .header-main a:hover
@@ -279,13 +281,11 @@ hr
   margin-top: 72px;
 }
 
-.post-subscribe-form
+.post-subscribe-form input
 {
-  display: grid;
-  grid-template-columns: auto 200px;
-  grid-gap: 8px;
-  margin: 8px 0px;
+  margin-bottom: 12px;
 }
+
 
 
 
@@ -328,30 +328,83 @@ hr
   font-size: 24px;
 }
 
+
 .project-status
 {
   width: 40%;
 }
 
+.project-status a
+{
+  display: block;
+  font-style: italic;
+  font-size: 16px;
+}
+
+
 .project-header, .project-body h3
 {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  font-size: 21px;
+  font-size: 14px;
+  letter-spacing: 2px;
 }
+
+.category-list .project-title
+{
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.category-list > *
+{
+  flex: 1 1 40%;
+  margin-right: 40px;
+  margin-bottom: 80px;
+}
+
 
 @media (min-width: 800px)
 {
   .project-posts.grid
   {
-   display: flex;
+    display: flex;
     flex-wrap: wrap;
   }
 
   .project-posts.grid > *
   {
-    flex: 1 1 160px;
+    flex: 1 1 10px;
   }
+
+  .category-list
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .post-subscribe-form
+  {
+    display: grid;
+    grid-template-columns: auto 200px;
+    grid-gap: 8px;
+    margin: 8px 0px;
+  }
+
+
+}
+
+@media (max-width: 450px)
+{
+  .post-meta
+  {
+    width: 45px;
+  }
+}
+
+@media (max-width: 320px)
+{
+
 }
 
 /*
@@ -375,9 +428,17 @@ input
   font-size: 14px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
+  border-radius: 4px;
 }
 
-button
+::placeholder
+{
+  font-weight: 300;
+  color: #062535;
+  opacity: 1;
+}
+
+button, input[type=submit]
 {
   background: #062535;
   color: white;
@@ -388,7 +449,15 @@ button
   height: 42px;
   width: 100%;
   box-sizing: border-box;
+  cursor: pointer;
+  letter-spacing: 2px;
 }
+
+button:hover, input[type=submit]:hover
+{
+  background: #000;
+}
+
 
 
 /*
@@ -433,10 +502,15 @@ button
   border-color: #f7ede2;
 }
 
-.light button
+.light button, .light input[type=submit]
 {
   background: #f7ede2;
   color: #000;
+}
+
+.light ::placeholder
+{
+  color: #f7ede2;
 }
 
 .light input

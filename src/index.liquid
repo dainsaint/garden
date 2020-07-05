@@ -1,0 +1,13 @@
+---
+layout: base
+eleventyExcludeFromCollections: true
+---
+
+<main>
+
+  {% assign posts = collections.posts | reverse %}
+  {% for post in posts %}
+    {% include post-content %}
+  {% endfor %}
+
+</main>

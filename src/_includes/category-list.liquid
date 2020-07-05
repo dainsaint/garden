@@ -1,0 +1,14 @@
+<div class="category-list">
+{% for t in types %}
+<div>
+  <h3>{{ t }}</h3>
+  {% assign collection = collections[t] %}
+  {% for p in collection %}
+  <div>
+    <h4 class="project-title"><a href="{{ p.url | url}}">{{ p.data.title }}</a></h4>
+    <p class="project-description">{{ p.data.description }}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endfor %}
+</div>

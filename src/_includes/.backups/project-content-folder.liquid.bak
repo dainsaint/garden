@@ -6,7 +6,7 @@
 
   <div class="post-main">
 
-    
+
     {{ site.static_files }}
 
     {% include featured %}
@@ -75,16 +75,6 @@
 </article>
 
 {% include toc-folders %}
-
-
-{% for post in contents %}
-
-{% assign title = post.data.title %}
-{% assign date = post.data.date %}
-{% assign content = post.templateContent %}
-{% assign featured = post.data.featured %}
-
-{% include post-content %}
 
 
 {% endfor %}

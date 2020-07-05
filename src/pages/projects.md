@@ -1,6 +1,6 @@
 ---
 title: projects
-layout: page-categories
+layout: page
 eleventyNavigation:
   key: projects
 list: projects
@@ -10,7 +10,8 @@ types:
 - listen
 - watch
 - see
-- play
 ---
 
-guess i gotta write something
+poetry, thoughts, songs, videos, and the rest.
+
+{% include category-list %}

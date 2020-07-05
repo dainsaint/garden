@@ -24,7 +24,7 @@ the way we're taught to market runs against the way i create. i often have no id
 
 so instead, this website is my garden. as i create new pieces, they'll be published here immediately. once i figure out where it's going, i create a [project](/projects) to start harvesting the work. once it's ready to release, it's released — no muss, no fuss.
 
-feel free to [join the newsletter](/join).
+feel free to [join the newsletter](/follow).
 
 
 ---

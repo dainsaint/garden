@@ -2,4 +2,17 @@
 layout: base
 title: Dain Saint
 ---
-{% include post-content %}
+{% assign post = collections.posts | where: "fileSlug", page.fileSlug | first %}
+
+{% include post-content post=post%}
+
+
+<article class="post {{ post.data.color | contrast }}" style="background-color: {{ post.data.color }}">
+
+  <div class="post-main">
+
+  {% include subscribe %}
+
+  </div>
+
+</article>
