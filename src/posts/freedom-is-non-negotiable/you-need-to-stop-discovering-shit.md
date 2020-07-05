@@ -1,9 +1,9 @@
 ---
 date: 2020-06-26T13:45:19Z
 project: src/projects/freedom-is-non-negotiable.md
-tags: []
+color: "#85A59D"
+deco: tree-of-life
 title: you need to stop discovering shit
-featured: []
 
 ---
 the seed was buried in the earth  

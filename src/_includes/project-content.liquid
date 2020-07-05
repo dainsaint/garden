@@ -1,7 +1,7 @@
 
-{% assign posts = collections.posts | map: "data" | where: "project", page.fileSlug %}
+{% assign posts = collections.posts | inProject: page.inputPath | map: 'data' %}
 
-<article class="post full {{ text }}" style="background-color: {{ color }}">
+<article class="post full {{ color | contrast }}" style="background-color: {{ color }}">
 
   <div class="post-main">
 
@@ -50,6 +50,7 @@
 {% assign date = post.data.date %}
 {% assign content = post.templateContent %}
 {% assign featured = post.data.featured %}
+{% assign color = post.data.color %}
 
 
 {% include post-content %}

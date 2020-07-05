@@ -3,6 +3,8 @@ date: 2020-06-22T13:37:37Z
 project: src/projects/freedom-is-non-negotiable.md
 tags:
 - "#endprisonslavery"
+color: "#F1CBC6"
+deco: cotton
 title: cotton loophole
 featured: []
 

@@ -4,9 +4,10 @@ layout: page-categories
 eleventyNavigation:
   key: projects
 list: projects
+color: "#DFE0DF"
 types:
-- listen
 - read
+- listen
 - watch
 - see
 - play

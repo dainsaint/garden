@@ -3,8 +3,7 @@ title: freedom is non-negotiable
 description: uplifting blackness under police jurisdiction.
 date: 2020-04-01
 status: Active. [Interested in contributing words or art?](mailto:thismotherfucker@dainsaint.com)
-color: "#111"
-text: "light"
+color: "#111111"
 tags:
 - read
 featured:

@@ -1,9 +1,9 @@
 ---
 date: 2020-07-01T13:49:50Z
 project: src/projects/freedom-is-non-negotiable.md
-tags: []
+color: "#CFEBF9"
+deco: "birds"
 title: said toni to daedalus
-featured: []
 
 ---
 i am the bird  

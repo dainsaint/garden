@@ -2,6 +2,7 @@
 date: 2020-06-24T13:42:14Z
 project: src/projects/freedom-is-non-negotiable.md
 tags: []
+color: "F5BC67"
 title: why must they be so loud
 featured: []
 

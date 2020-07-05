@@ -1,5 +1,6 @@
 {
   "permalink": "{{ page.fileSlug }}/",
+  "deco": "elevation",
   "tags": [
     "posts"
   ]

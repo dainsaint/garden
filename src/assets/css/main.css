@@ -15,7 +15,7 @@ h2
 hr
 {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #062535;
 }
 
 html
@@ -220,13 +220,13 @@ img {
   min-height: 120px;
   max-height: 500px;
   height: 100%;
-  background: url('../img/deco-elevation.png') top center no-repeat;
+  background: url('../img/deco/elevation.png') top center no-repeat;
 }
 
 
 .deco-flower
 {
-  background-image: url('../img/deco/flower.png');
+  /* background-image: url('../img/deco/flower.png'); */
   background-size: auto 500px;
 }
 
@@ -344,8 +344,13 @@ hr
 {
   .project-posts.grid
   {
-    columns: 2 200px;
-    column-gap: 0px;
+   display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-posts.grid > *
+  {
+    flex: 1 1 160px;
   }
 }
 
@@ -444,4 +449,14 @@ button
 .light hr
 {
   border-color: #f7ede2;
+}
+
+.light .post-meta
+{
+  border-color: #f7ede2;
+}
+
+.light .post-meta-deco
+{
+  filter: invert(100%) brightness(120%);
 }

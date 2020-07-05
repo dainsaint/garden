@@ -2,6 +2,8 @@
 date: 2020-06-29T13:48:26Z
 project: src/projects/freedom-is-non-negotiable.md
 tags: []
+color: "#F7EDE3"
+deco: prunus-sinensis
 title: the algorithm doesnt care about you
 featured: []
 

@@ -1,7 +1,7 @@
 ---
 
 title: support
-
+color: "#87A64C"
 featured:
 - template: gallery
   images:

@@ -1,7 +1,8 @@
 ---
 title: forty percent off
 date: 2020-05-29T04:00:00Z
-project: 'freedom-is-non-negotiable'
+color: "#F5BC67"
+project: src/projects/freedom-is-non-negotiable.md
 ---
 you once said we were worth  
 three-fifths  

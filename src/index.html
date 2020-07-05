@@ -1,18 +1,15 @@
 ---
 layout: base
+eleventyComputed:
+  color: "{% if color %}{{color}}{% else %}{{ collections.posts | reverse | map: 'data' | map: 'color' | first }}{% endif %}"
 eleventyExcludeFromCollections: true
 ---
 
 <main>
 
-  {% assign posts = collections.posts | reverse %}
+  {% assign posts = collections.posts %}
   {% for post in posts %}
-
-    {% assign title = post.data.title %}
-    {% assign date = post.data.date %}
     {% assign content = post.templateContent %}
-    {% assign project = post.data.project %}
-    {% assign featured = post.data.featured %}
     {% include post-content %}
   {% endfor %}
 

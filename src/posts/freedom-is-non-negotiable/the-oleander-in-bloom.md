@@ -3,7 +3,9 @@ date: 2020-06-19T13:37:38Z
 tags:
 - juneteenth
 - poetry
-title: the oleaster in bloom
+title: the oleander in bloom
+color: "#ED8786"
+deco: oleander
 project: freedom-is-non-negotiable
 featured: []
 
