@@ -4,6 +4,7 @@ description: a book designed to help you change your relationship with time.
 date: 2020-02-12T04:00:00.000+00:00
 status: Complete. [Read for free online](https://readjuststop.com)
 tags:
+- featured
 - read
 color: "#354148"
 featured:

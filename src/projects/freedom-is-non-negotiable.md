@@ -5,7 +5,9 @@ date: 2020-04-01
 status: Active. [Interested in contributing words or art?](mailto:thismotherfucker@dainsaint.com)
 color: "#111111"
 tags:
+- featured
 - read
+
 featured:
 - template: gallery
   images:
