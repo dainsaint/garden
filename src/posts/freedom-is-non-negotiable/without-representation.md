@@ -12,6 +12,6 @@ American history is
 _if you're breaking the law,  
 blame a minority_
 
-or did i misunderstand
-the point of the
-boston tea party
+or did i misunderstand  
+the point of the  
+boston tea party  
