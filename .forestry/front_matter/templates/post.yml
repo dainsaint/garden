@@ -27,6 +27,18 @@ fields:
   config:
     required: false
     color_format: Hex
+- name: deco
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: deco-ae3db184-fa92-4c69-acf4-3206f11a7885
+      file: src/data/deco.json
+      path: deco
+  label: deco
 - name: tags
   type: tag_list
   default: []
