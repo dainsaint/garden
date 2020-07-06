@@ -21,6 +21,12 @@ fields:
       file: 
       path: 
   label: project
+- name: color
+  type: color
+  label: color
+  config:
+    required: false
+    color_format: Hex
 - name: tags
   type: tag_list
   default: []
