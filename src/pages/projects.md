@@ -5,9 +5,10 @@ eleventyNavigation:
   key: projects
 list: projects
 color: "#DFE0DF"
+eleventyExcludeFromCollections: false
+featured: []
 
 ---
-
 poetry, thoughts, songs, videos, and the rest.
 
 {% assign types = 'featured' %}

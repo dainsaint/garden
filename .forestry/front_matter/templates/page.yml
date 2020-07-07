@@ -26,4 +26,5 @@ fields:
     max: 
 pages:
 - src/pages/events.md
+- src/pages/projects.md
 - src/pages/support.md
