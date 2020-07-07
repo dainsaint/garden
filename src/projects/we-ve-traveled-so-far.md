@@ -13,3 +13,4 @@ featured:
   - https://dainsaint.netlify.app/.netlify/large-media/assets/uploads/synaesthetic_symphony.jpg
 
 ---
+this exhibit showcases the light-bending mechanics of _Duet_’s signature controls, vibrantly rendered colours, rich graphic design, and lush orchestration. This living world, captured with virtual photography and painstakingly hand-embellished, is now yours to witness.
