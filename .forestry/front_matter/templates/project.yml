@@ -40,4 +40,5 @@ fields:
     max: 
 pages:
 - src/pages/about.md
+- src/projects/knots.md
 - src/projects/we-ve-traveled-so-far.md
