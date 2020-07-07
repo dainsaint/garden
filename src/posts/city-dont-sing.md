@@ -8,7 +8,7 @@ tags:
 featured:
 - template: audio
   audio: "/assets/uploads/landr-city-don-t-sing-medium-balanced-2.mp3"
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 
 ---
 see them walking, yeah  
