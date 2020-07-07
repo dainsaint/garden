@@ -7,9 +7,9 @@ tags:
 - beats
 - listen
 color: "#161616"
+eleventyExcludeFromCollections: true
 
 ---
-
 all my dang journaling posts go here
 
 

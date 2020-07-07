@@ -1,5 +1,5 @@
 ---
-label: Project
+label: Page
 hide_body: false
 fields:
 - name: eleventyExcludeFromCollections
@@ -8,20 +8,6 @@ fields:
 - type: text
   name: title
   label: title
-- type: datetime
-  name: date
-  label: date
-  default: now
-- type: text
-  name: description
-  label: description
-- name: tags
-  type: tag_list
-  default: []
-  label: tags
-- type: textarea
-  name: status
-  label: status
 - name: color
   type: color
   label: color
@@ -33,11 +19,14 @@ fields:
   label: featured
   template_types:
   - gallery
-  - youtube
   - audio
+  - youtube
   config:
     min: 
     max: 
 pages:
-- src/projects/knots.md
-- src/projects/we-ve-traveled-so-far.md
+- src/pages/about.md
+- src/pages/events.md
+- src/pages/follow.md
+- src/pages/projects.md
+- src/pages/support.md
