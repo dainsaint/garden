@@ -26,8 +26,8 @@ sections:
 - type: document
   path: src/data/deco.json
   label: Deco
-upload_dir: src/assets/uploads
-public_path: https://dainsaint.netlify.app/.netlify/large-media/assets/uploads
+upload_dir: src/img/uploads
+public_path: "/src/img/uploads"
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
