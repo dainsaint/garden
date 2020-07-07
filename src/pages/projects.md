@@ -1,9 +1,5 @@
 ---
 title: projects
-layout: page
-eleventyNavigation:
-  key: projects
-list: projects
 color: "#DFE0DF"
 
 ---
