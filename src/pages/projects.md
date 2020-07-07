@@ -14,3 +14,5 @@ poetry, thoughts, songs, videos, and the rest.
 {% assign use-featured = false %}
 {% assign types = 'read,listen,watch,see' | split: ',' %}
 {% include category-list %}
+
+{% include footer %}
