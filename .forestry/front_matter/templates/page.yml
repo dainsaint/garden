@@ -25,4 +25,5 @@ fields:
     min: 
     max: 
 pages:
+- src/pages/events.md
 - src/pages/support.md
