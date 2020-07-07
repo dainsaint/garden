@@ -7,6 +7,9 @@ description: an interactive exhibition that chronicles the effort of two men wor
   to keep a promise.
 status: Complete. [View the full collection](https://wevetraveledsofar.com)
 color: "#333333"
-featured: []
+featured:
+- template: gallery
+  images:
+  - https://dainsaint.netlify.app/.netlify/large-media/assets/uploads/synaesthetic_symphony.jpg
 
 ---
