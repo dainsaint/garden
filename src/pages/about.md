@@ -1,6 +1,6 @@
 ---
 title: about
-color: "#111"
+color: "#161616"
 text: light
 featured:
 - template: gallery

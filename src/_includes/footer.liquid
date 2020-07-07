@@ -1,0 +1,26 @@
+{% assign color = "#161616" %}
+<footer class="post {{ color | contrast }}" style="background-color: {{ color }}">
+
+<div class="post-main">
+
+{%- if pagination -%}
+<div class="pagination-block">
+<h3 class="project-header">explore more, or take a break</h3>
+<nav>
+  {% if pagination.href.previous %}
+    <a href="{{ pagination.href.previous }}">previous page</a>
+  {% endif %}
+
+  {% if pagination.href.next %}
+    <a href="{{ pagination.href.next }}">next page</a>
+  {% endif %}
+
+</nav>
+</div>
+{%- endif -%}
+
+{% include subscribe %}
+</div>
+
+
+</footer>

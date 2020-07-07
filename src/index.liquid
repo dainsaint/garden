@@ -1,13 +1,20 @@
 ---
 layout: base
 eleventyExcludeFromCollections: true
+pagination:
+  data: collections.posts
+  size: 10
+  reverse: true
+  alias: posts
 ---
 
 <main>
 
-  {% assign posts = collections.posts | reverse %}
+
   {% for post in posts %}
     {% include post-content %}
   {% endfor %}
+
+  {% include footer %}
 
 </main>

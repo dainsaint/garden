@@ -130,7 +130,7 @@ img {
 
 .post.full
 {
-  min-height: 100vh;
+  min-height: 105vh;
 
 }
 
@@ -363,6 +363,33 @@ hr
 {
 
   margin-bottom: 100px;
+}
+
+.pagination-block
+{
+  /* max-width: 609px; */
+  /* width: 800px; */
+}
+
+.pagination-block nav
+{
+  display: flex;
+  justify-content: space-between;
+  font-family: "Questrial", sans-serif;
+
+}
+
+.pagination-block a
+{
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.footer
+{
+  padding: 200px 0px;
+
 }
 
 

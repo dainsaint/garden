@@ -7,7 +7,7 @@ if you're here, it means you're considering supporting what i do online, and i c
 
 i love creating my art, and i loathe the process of turning it into something consumable. my entire adult life has been a fight against packaging myself, and i want to extend the same grace to the things i create — the ability for things to simply be _art_, without also needing to be a _product_*.
 
-plus, it's easier to share free things. i truly believe we live in a post-scarcity society — that our problems aren't a lack of products, but a problem of _distribution_. and i believe that if we can each model what living post-scarcity every single day, we move our world to embrace the truth of it's reality.
+plus, it's easier to share free things. i truly believe we live in a post-scarcity society — that our problems aren't a lack of products, but a problem of _distribution_. and i believe that if we can each model what living post-scarcity looks like every single day, we move our world to embrace the truth of it's reality.
 
 the other side of this, of course, is that we still live in a world where it costs money to live.
 
