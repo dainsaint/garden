@@ -2,12 +2,13 @@
 title: city don't sing
 date: 2020-05-10T23:16:21.000+00:00
 project: ''
+color: "#000"
 tags:
 - music
 featured:
 - template: audio
   audio: "/assets/uploads/landr-city-don-t-sing-medium-balanced-2.mp3"
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 
 ---
 see them walking, yeah  
@@ -36,14 +37,14 @@ get through this life alone
 and my heart waits  
 but the city don’t sing no more
 
-lord the trouble just a pile up on we  
-lord the struggle just a style up on we  
-lord the trouble just a pile up on we  
-lord the struggle just a style up on we
+_laad di trouble jussa pile up pon wi_  
+_laad di struggle jussa style up pon wi_  
+_laad di trouble jussa pile up pon wi_  
+_laad di struggle jussa style up pon wi_  
 
-but still we a wait  
-still we a wait  
-still we a wait for salvation
+_but still wi a wait_  
+_still wi a wait_  
+_still wi a wait for salvation_  
 
 and my heart waits for the people  
 that help other people  

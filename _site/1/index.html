@@ -26,11 +26,11 @@
     
     <a class="" href="/about/">about</a>
     
-    <a class="" href="/projects/">projects</a>
+    <a class="" href="/follow/">follow</a>
     
     <a class="" href="/support/">support</a>
     
-    <a class="" href="/follow/">follow</a>
+    <a class="" href="/projects/">projects</a>
     
   </nav>
 </div>
@@ -131,7 +131,7 @@ to you</p>
 </article>
 
   
-    <article id="city-don't-sing" class="post full dark" style="background-color: ">
+    <article id="city-don't-sing" class="post full light" style="background-color: #000">
 
   <div class="post-main">
     
@@ -152,17 +152,19 @@ to you</p>
   </div>
 </div>
 
-
 <script type="text/javascript">
 
 
 document.addEventListener("DOMContentLoaded", function() {
+  let style = ("dark" == "light") ? "#F7EDE3" : "#082534";
+  let alpha = ("dark" == "light") ? "rgba(247,237,227,.3)" : "rgba(8,37,52,.3)";
+
   var wavesurfer = WaveSurfer.create({
       container: '#-audio',
       barWidth: 3,
       barHeight: 1,
-      waveColor: "rgba(6, 37, 53, .2)",
-      progressColor: "#062535"
+      waveColor: alpha,
+      progressColor: style
   });
 
   wavesurfer.load( "/assets/uploads/landr-city-don-t-sing-medium-balanced-2.mp3");
@@ -228,13 +230,13 @@ that help other people<br>
 get through this life alone</p>
 <p>and my heart waits<br>
 but the city don’t sing no more</p>
-<p>lord the trouble just a pile up on we<br>
-lord the struggle just a style up on we<br>
-lord the trouble just a pile up on we<br>
-lord the struggle just a style up on we</p>
-<p>but still we a wait<br>
-still we a wait<br>
-still we a wait for salvation</p>
+<p><em>laad di trouble jussa pile up pon wi</em><br>
+<em>laad di struggle jussa style up pon wi</em><br>
+<em>laad di trouble jussa pile up pon wi</em><br>
+<em>laad di struggle jussa style up pon wi</em></p>
+<p><em>but still wi a wait</em><br>
+<em>still wi a wait</em><br>
+<em>still wi a wait for salvation</em></p>
 <p>and my heart waits for the people<br>
 that help other people<br>
 to get through life alone</p>

@@ -11,17 +11,19 @@
   </div>
 </div>
 
-
 <script type="text/javascript">
 
 
 document.addEventListener("DOMContentLoaded", function() {
+  let style = ("{{ color | contrast }}" == "light") ? "#F7EDE3" : "#082534";
+  let alpha = ("{{ color | contrast }}" == "light") ? "rgba(247,237,227,.3)" : "rgba(8,37,52,.3)";
+
   var wavesurfer = WaveSurfer.create({
       container: '#{{ page.fileSlug | slug }}-audio',
       barWidth: 3,
       barHeight: 1,
-      waveColor: "rgba(6, 37, 53, .2)",
-      progressColor: "#062535"
+      waveColor: alpha,
+      progressColor: style
   });
 
   wavesurfer.load( "{{ audio | url }}");
