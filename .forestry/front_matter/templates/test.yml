@@ -1,4 +1,36 @@
 ---
 label: Test
 hide_body: false
-fields: []
+fields:
+- name: info
+  type: field_group
+  config: {}
+  fields:
+  - name: blocks
+    type: blocks
+    label: blocks
+    template_types:
+    - project
+    - gallery
+    - audio
+    - youtube
+    config:
+      min: 
+      max: 
+  label: info
+- name: appearance
+  type: field_group
+  config: {}
+  fields:
+  - name: color
+    type: color
+    label: color
+    config:
+      required: false
+      color_format: Hex
+  - name: post
+    type: include
+    config: {}
+    template: post
+    label: post
+  label: appearance
