@@ -25,20 +25,6 @@ fields:
   config:
     required: false
     color_format: Hex
-- name: text
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - dark
-    - light
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: text
 - name: featured
   type: blocks
   label: featured
