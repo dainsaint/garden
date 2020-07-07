@@ -2,6 +2,9 @@
 label: Test
 hide_body: false
 fields:
+- name: eleventyExcludeFromCollections
+  type: boolean
+  label: hidden
 - name: info
   type: field_group
   config: {}
