@@ -1,12 +1,13 @@
 ---
 title: city don't sing
-date: 2020-05-10T23:16:21Z
+date: 2020-05-10T23:16:21.000+00:00
 project: ''
 tags:
 - music
 featured:
 - template: audio
   audio: "/assets/uploads/landr-city-don-t-sing-medium-balanced-2.mp3"
+eleventyExcludeFromCollections: true
 
 ---
 see them walking, yeah  
