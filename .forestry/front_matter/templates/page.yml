@@ -5,6 +5,19 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: color
+- name: color
+  type: color
   label: color
+  config:
+    required: false
+    color_format: Hex
+- name: featured
+  type: blocks
+  label: featured
+  template_types:
+  - gallery
+  - audio
+  - youtube
+  config:
+    min: 
+    max: 
