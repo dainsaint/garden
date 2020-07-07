@@ -1,8 +1,9 @@
 ---
 title: support
 color: "#FCEBDB"
----
+featured: []
 
+---
 if you're here, it means you're considering supporting what i do online, and i cannot begin to express my gratitude. so thanks for visiting.
 
 i love creating my art, and i loathe the process of turning it into something consumable. my entire adult life has been a fight against packaging myself, and i want to extend the same grace to the things i create — the ability for things to simply be _art_, without also needing to be a _product_*.
