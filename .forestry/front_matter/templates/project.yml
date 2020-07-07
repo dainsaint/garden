@@ -51,3 +51,4 @@ fields:
     max: 
 pages:
 - src/pages/about.md
+- src/projects/we-ve-traveled-so-far.md
