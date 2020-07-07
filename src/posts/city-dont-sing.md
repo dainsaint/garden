@@ -2,7 +2,7 @@
 title: city don't sing
 date: 2020-05-10T23:16:21.000+00:00
 project: ''
-color: "#241750"
+color: 
 tags:
 - music
 featured:
