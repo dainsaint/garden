@@ -1,5 +1,5 @@
 ---
-date: 2020-07-10T11:27:47Z
+date: 2020-07-10T11:27:47.000+00:00
 project: []
 deco: elevation
 tags:
@@ -16,7 +16,7 @@ featured:
 ---
 [read the full story](inquirer.com/blackandblue)
 
-i had one too many conversations with well-meaning white friends asking, "but why are they protesting in _philly_ when this happened in _minneapolis_?"
+i had one too many conversations with well-meaning white friends asking, "but why are they protesting in philly when this happened in minneapolis?"
 
 so many hadn't even heard of the move bombing.
 
@@ -24,9 +24,8 @@ so we set out to create a comprehensive timeline of the history of police brutal
 
 take some time. learn our history.
 
-![](https://dainsaint.netlify.app/.netlify/large-media/assets/uploads/screen-shot-2020-07-11-at-12-36-26-pm.png)![](https://dainsaint.netlify.app/.netlify/large-media/assets/uploads/screen-shot-2020-07-11-at-12-37-03-pm.png)
+![](https://dainsaint.netlify.app/assets/uploads/screen-shot-2020-07-11-at-12-36-26-pm.png)![](https://dainsaint.netlify.app/assets/uploads/screen-shot-2020-07-11-at-12-37-03-pm.png)
 
 ### team
 
-**research**: [tommy rowan](twitter.com/tommyrowan), [craig mccoy](twitter.com/craigrmccoy), [valerie russ](twitter.com/valerierussdn)  
-**editing:** [megan griffith-greene](twitter.com/griffithgreene)
+research: tommy rowan, craig mccoy, valerie russediting: megan griffith-greene
