@@ -7,7 +7,7 @@ tags:
 - journalism
 eleventyExcludeFromCollections: false
 title: black and blue
-color: ''
+color: "#0A0A0A"
 featured:
 - template: gallery
   images:
