@@ -11,7 +11,7 @@ color: "#0A0A0A"
 featured:
 - template: gallery
   images:
-  - https://dainsaint.netlify.app/.netlify/large-media/assets/uploads/image-2.png
+  - https://dainsaint.netlify.app/assets/uploads/image-2.png
 
 ---
 [read the full story](inquirer.com/blackandblue)
