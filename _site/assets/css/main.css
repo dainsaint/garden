@@ -208,11 +208,11 @@ img {
   flex: 0 0 auto;
   width: 98px;
   margin-top:15px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Questrial', sans-serif;
   -webkit-font-feature-settings: 'lnum';
   -moz-font-feature-settings: 'lnum';
   font-feature-settings: 'lnum';
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 16px;
   line-height: 16px;
   text-transform: uppercase;
@@ -379,7 +379,7 @@ h3
 {
   display: flex;
   justify-content: space-between;
-  font-family: "Questrial", sans-serif;
+  font-family: "Raleway", sans-serif;
 
 }
 
