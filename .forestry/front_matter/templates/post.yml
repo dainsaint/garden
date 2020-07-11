@@ -57,6 +57,7 @@ fields:
     max: 
   label: featured
 pages:
+- src/posts/black-and-blue.md
 - src/posts/freedom-is-non-negotiable/cotton-loophole.md
 - src/posts/freedom-is-non-negotiable/reefer-madness.md
 - src/posts/freedom-is-non-negotiable/said-toni-to-daedalus.md
