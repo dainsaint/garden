@@ -205,10 +205,14 @@ img {
 
 .post-meta
 {
-    flex: 0 0 auto;
+  flex: 0 0 auto;
   width: 98px;
   margin-top:15px;
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-feature-settings: 'lnum';
+  -moz-font-feature-settings: 'lnum';
+  font-feature-settings: 'lnum';
+  font-weight: bold;
   font-size: 16px;
   line-height: 16px;
   text-transform: uppercase;
@@ -345,7 +349,7 @@ hr
 }
 
 
-.project-header, .project-body h3
+h3
 {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
