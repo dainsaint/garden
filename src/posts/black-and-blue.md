@@ -24,6 +24,8 @@ so we set out to create a comprehensive timeline of the history of police brutal
 
 take some time. learn our history.
 
+![](https://dainsaint.netlify.app/.netlify/large-media/assets/uploads/screen-shot-2020-07-11-at-12-36-26-pm.png)![](https://dainsaint.netlify.app/.netlify/large-media/assets/uploads/screen-shot-2020-07-11-at-12-37-03-pm.png)
+
 ### team
 
 **research**: [tommy rowan](twitter.com/tommyrowan), [craig mccoy](twitter.com/craigrmccoy), [valerie russ](twitter.com/valerierussdn)  
