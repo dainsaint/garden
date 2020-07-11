@@ -18,7 +18,7 @@ featured:
 
 i had one too many conversations with well-meaning white friends asking, "but why are they protesting in philly when this happened in minneapolis?"
 
-so many hadn't even heard of the move bombing.
+so many hadn't even heard of the [move bombing](https://en.wikipedia.org/wiki/1985_MOVE_bombing).
 
 so we set out to create a comprehensive timeline of the history of police brutality against black philadelphians, from the founding of the department to today.
 
