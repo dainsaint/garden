@@ -7,16 +7,16 @@ tags:
 - journalism
 eleventyExcludeFromCollections: false
 title: black and blue
-color: "#0A0A0A"
+color: "#020D2D"
 featured:
 - template: gallery
   images:
   - https://dainsaint.netlify.app/assets/uploads/image-2.png
 
 ---
-[read the full story](inquirer.com/blackandblue)
+[_read the full story_](//inquirer.com/blackandblue)
 
-i had one too many conversations with well-meaning white friends asking, "but why are they protesting in philly when this happened in minneapolis?"
+i had one too many conversations with well-meaning white friends asking, "but why are they protesting in _philly_ when this happened in _minneapolis_?"
 
 so many hadn't even heard of the [move bombing](https://en.wikipedia.org/wiki/1985_MOVE_bombing).
 
@@ -28,5 +28,5 @@ take some time. learn our history.
 
 ### team
 
-**research:** tommy rowan, craig mccoy, valerie russ  
-**editing:** megan griffith-greene
+**research:** [tommy rowan](//twitter.com/tommyrowan), [craig mccoy](//twitter.com/craigrmccoy), [valerie russ](//twitter.com/valerierussdn)  
+**editing:** [megan griffith-greene](//twitter.com/griffithgreene)
