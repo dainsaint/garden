@@ -28,4 +28,5 @@ take some time. learn our history.
 
 ### team
 
-research: tommy rowan, craig mccoy, valerie russediting: megan griffith-greene
+**research:** tommy rowan, craig mccoy, valerie russ  
+**editing:** megan griffith-greene
