@@ -6,6 +6,7 @@ tags: []
 eleventyExcludeFromCollections: false
 title: to the racists, sexists, homophobes et. al whom the old normal benefitted
 color: "#F5DEB3"
+permalink: "to-the-racists/index.html"
 featured: []
 
 ---
@@ -16,4 +17,4 @@ trying
 to  
 free  
 you  
-_too_
+_too_  
