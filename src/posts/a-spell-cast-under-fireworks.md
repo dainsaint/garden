@@ -1,6 +1,6 @@
 ---
 date: 2020-07-19T22:01:48Z
-project: src/projects/freedom-is-non-negotiable.md
+project: ''
 deco: gerbera
 tags:
 - poetry
