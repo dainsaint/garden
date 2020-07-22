@@ -16,7 +16,7 @@ status: ''
 there are things that need to be said.  
 i'm lucky to have a voice with which to say them.
 
----
+***
 
 ## the garden
 
@@ -30,8 +30,7 @@ so instead, this website is my garden. as i create new pieces, they'll be publis
 
 feel free to [join the newsletter](/follow).
 
-
----
+***
 
 ## about me
 
@@ -39,4 +38,4 @@ i live in philly. i've been a [musician](/collections/music) my whole life. i ra
 
 i thought i might be able to put my skills to more direct use helping my community. so in 2020 i joined the [philadelphia inquirer](//inquirer.com) as an interactive story developer.
 
-it's been a [trip](//article).
+it's been a [trip](//www.nytimes.com/2020/06/06/business/media/editor-philadephia-inquirer-resigns.html).
