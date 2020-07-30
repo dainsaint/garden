@@ -5,7 +5,7 @@ deco: elevation
 tags:
 - poetry
 eleventyExcludeFromCollections: false
-title: hardened steel cant bend
+title: hardened steel wont bend
 color: "#FAC9B8"
 featured: []
 
