@@ -1,7 +1,7 @@
 ---
-date: 2020-08-03T04:56:44Z
+date: 2020-08-03T04:56:44.000+00:00
 project: []
-deco: ''
+deco: lighthouse
 tags:
 - poetry
 - wealth inequality
