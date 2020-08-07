@@ -10,3 +10,12 @@ color: "#FEEAFA"
 featured: []
 
 ---
+one hundred fifty thousand dead  
+we lost an entire palmdale
+
+you crow for freedom
+
+if your mouth were a breast  
+you would be _so quick_ to cover it
+
+lest our children see your shame
