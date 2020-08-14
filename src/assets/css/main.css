@@ -230,13 +230,15 @@ img {
   max-height: 500px;
   height: 100%;
   background: url('../img/deco/elevation.png') top center no-repeat;
+  background-size: auto 500px;
 }
 
 
 .deco-flower
 {
   /* background-image: url('../img/deco/flower.png'); */
-  background-size: auto 500px;
+  /* background-size: auto 500px; */
+
 }
 
 .post-header
