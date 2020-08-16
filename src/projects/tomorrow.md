@@ -5,8 +5,9 @@ tags:
 eleventyExcludeFromCollections: false
 title: tomorrow
 description: ep concept
-status: seven songs written; waiting to record. [musician interested in recording?](mailto:thismotherfucker@dainsaint.com)
-color: "#D18B08"
+status: seven songs written; waiting to record. [Are you a musician interested in
+  recording?](mailto:thismotherfucker@dainsaint.com)
+color: "#F29550"
 featured:
 - template: gallery
   images:
