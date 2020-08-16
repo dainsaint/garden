@@ -6,7 +6,7 @@ tags:
 - poetry
 eleventyExcludeFromCollections: false
 title: work ethic
-color: ''
+color: "#EFD3D7"
 featured: []
 
 ---
