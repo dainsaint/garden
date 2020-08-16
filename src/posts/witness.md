@@ -1,7 +1,7 @@
 ---
 date: 2020-08-16T14:39:09Z
 project: src/projects/tomorrow.md
-deco: elevation
+deco: camellia
 tags:
 - lyrics
 eleventyExcludeFromCollections: false
