@@ -1,7 +1,7 @@
 ---
 date: 2020-08-16T14:42:07Z
 project: []
-deco: ''
+deco: prunus-sinensis
 tags:
 - poetry
 eleventyExcludeFromCollections: false
