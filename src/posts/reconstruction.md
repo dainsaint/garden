@@ -1,11 +1,11 @@
 ---
 date: 2020-08-31T06:33:45Z
 project: []
-deco: ''
+deco: lighthouse
 tags: []
 eleventyExcludeFromCollections: false
 title: reconstruction
-color: ''
+color: "#493756"
 featured: []
 
 ---
