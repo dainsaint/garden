@@ -16,6 +16,6 @@ manhattan to western shore
 the engine cries for more
 
 we never forget, yet scarce recall  
-what hist’ry’s thrown on the pyre  
-still bound to the engine, desp’rate for fuel  
+what history’s thrown on the pyre  
+still bound to the engine, desperate for fuel  
 —and everything’s cold to the fire
