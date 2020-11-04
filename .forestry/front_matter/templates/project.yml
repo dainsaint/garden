@@ -40,5 +40,6 @@ fields:
     max: 
 pages:
 - src/projects/knots.md
+- src/projects/lineweight.md
 - src/projects/tomorrow.md
 - src/projects/we-ve-traveled-so-far.md
