@@ -10,8 +10,8 @@ featured: []
 
 ---
 the first two sensations  
-were **pleasure** and _pain  
-_the first two emotions  
+were **pleasure** and _pain_  
+the first two emotions  
 were **love** and _fear_  
 the first two words  
 were **yes** and _no_
