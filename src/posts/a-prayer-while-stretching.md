@@ -1,7 +1,7 @@
 ---
 date: 2020-10-28T20:53:40Z
 project: []
-deco: ''
+deco: almond
 tags: []
 eleventyExcludeFromCollections: false
 title: a prayer while stretching
