@@ -5,7 +5,7 @@ deco: lighthouse
 tags: []
 eleventyExcludeFromCollections: false
 title: firelight
-color: ''
+color: "#F5AA75"
 featured: []
 
 ---
