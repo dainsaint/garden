@@ -1,6 +1,6 @@
 ---
 date: 2020-08-31T06:31:58Z
-project: []
+project: src/projects/freedom-is-non-negotiable.md
 deco: almond
 tags:
 - embodyliberation
