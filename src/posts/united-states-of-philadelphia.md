@@ -1,6 +1,6 @@
 ---
 date: 2020-11-11T14:12:20Z
-project: []
+project: src/projects/freedom-is-non-negotiable.md
 deco: thistle
 tags: []
 eleventyExcludeFromCollections: false
