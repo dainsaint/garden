@@ -1,6 +1,6 @@
 ---
-date: 2020-07-19T21:25:37Z
-project: []
+date: 2020-07-19T21:25:37.000+00:00
+project: src/projects/freedom-is-non-negotiable.md
 deco: almond
 tags:
 - portland
