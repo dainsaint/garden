@@ -1,6 +1,6 @@
 ---
 date: 2020-09-09T15:16:44Z
-project: []
+project: src/projects/freedom-is-non-negotiable.md
 deco: birds
 tags:
 - poetry
