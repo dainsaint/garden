@@ -1,6 +1,6 @@
 ---
 date: 2020-09-11T15:01:31Z
-project: []
+project: src/projects/freedom-is-non-negotiable.md
 deco: elevation
 tags:
 - poetry
