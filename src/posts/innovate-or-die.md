@@ -1,6 +1,6 @@
 ---
-date: 2020-07-27T01:32:52Z
-project: []
+date: 2020-07-27T01:32:52.000+00:00
+project: src/projects/freedom-is-non-negotiable.md
 deco: almond
 tags:
 - poetry
