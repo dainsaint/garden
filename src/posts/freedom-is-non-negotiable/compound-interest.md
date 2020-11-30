@@ -1,6 +1,6 @@
 ---
-date: 2020-07-15T18:17:05Z
-project: []
+date: 2020-07-15T18:17:05.000+00:00
+project: src/projects/freedom-is-non-negotiable.md
 deco: elevation
 tags: []
 eleventyExcludeFromCollections: false
