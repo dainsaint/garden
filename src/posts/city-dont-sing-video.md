@@ -5,7 +5,7 @@ deco: elevation
 tags: []
 eleventyExcludeFromCollections: false
 title: city don't sing (video)
-color: "#292929"
+color: "#191919"
 featured:
 - template: youtube
   video_id: GjZa6hSSotM
