@@ -1,6 +1,6 @@
 ---
 date: 2020-12-27T16:05:44Z
-project: []
+project: src/projects/the-book-of-words.md
 deco: thistle
 tags: []
 eleventyExcludeFromCollections: false
