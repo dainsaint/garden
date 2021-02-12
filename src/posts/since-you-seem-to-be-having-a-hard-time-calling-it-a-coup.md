@@ -1,6 +1,6 @@
 ---
-date: 2020-11-20T23:42:14Z
-project: src/projects/freedom-is-non-negotiable.md
+date: 2020-11-20T23:42:14.000+00:00
+project: ''
 deco: cotton
 tags:
 - poetry
