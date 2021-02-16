@@ -52,6 +52,7 @@ fields:
   - gallery
   - youtube
   - audio
+  - quote
   config:
     min: 
     max: 
