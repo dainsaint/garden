@@ -1,5 +1,5 @@
 ---
-date: 2020-12-27T16:05:44Z
+date: 2020-12-27T16:05:44.000+00:00
 project: src/projects/the-book-of-words.md
 deco: thistle
 tags: []
@@ -8,11 +8,9 @@ title: the princess and the pea
 color: "#FB9E61"
 featured:
 - template: quote
-  content: "**discomfort**\
-  is not\
-  **suffering**"
----
+  content: "**discomfort  \n**is not  \n**suffering**"
 
+---
 this country has convinced you  
 that **discomfort** is the same as **suffering**
 
