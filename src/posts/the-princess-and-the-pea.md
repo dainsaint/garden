@@ -8,7 +8,7 @@ title: the princess and the pea
 color: "#FB9E61"
 featured:
 - template: quote
-  content: "**discomfort  \n**is not  \n**suffering**"
+  content: "**discomfort**  \nis not  \n**suffering**"
 
 ---
 this country has convinced you  
