@@ -6,9 +6,13 @@ tags: []
 eleventyExcludeFromCollections: false
 title: the princess and the pea
 color: "#FB9E61"
-featured: []
-
+featured:
+- template: quote
+  content: "**discomfort**\
+  is not\
+  **suffering**"
 ---
+
 this country has convinced you  
 that **discomfort** is the same as **suffering**
 

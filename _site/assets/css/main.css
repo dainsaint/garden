@@ -523,6 +523,24 @@ button:hover, input[type=submit]:hover
 }
 
 
+.quote
+{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 48px;
+}
+
+.quote strong
+{
+  display: block;
+  text-transform: none;
+  font-family: "Elgraine Black Italic";
+  font-size: 48px;
+}
+
+
 .light
 {
   color: #f7ede2;

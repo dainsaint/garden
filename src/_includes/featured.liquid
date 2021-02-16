@@ -13,6 +13,10 @@
   {% assign audio = f.audio %}
   {% include audio %}
 
+  {% elsif f.template == "quote" %}
+  {% assign quote = f.content %}
+  {% include quote %}
+
   {% else %}
   {{ f.content }}
   {% endif %}
