@@ -2,7 +2,8 @@
 date: 2020-12-28T21:02:45.000+00:00
 project: []
 deco: elevation
-tags: []
+tags:
+- featured
 eleventyExcludeFromCollections: false
 title: city don't sing (video)
 color: "#191919"
