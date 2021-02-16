@@ -52,6 +52,7 @@ function lightOrDark(color) {
 
 module.exports = function (config) {
   config.addPassthroughCopy("src/assets");
+  config.addPassthroughCopy("src/admin");
   config.setDataDeepMerge(true);
 
   config.setTemplateFormats([
