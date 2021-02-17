@@ -539,6 +539,15 @@ button:hover, input[type=submit]:hover
   font-size: 48px;
 }
 
+.quote:nth-last-child(n+2)::after
+{
+  content: "";
+  border-bottom: 2px solid #062535;
+  display: block;
+  margin: 20px auto;
+  max-width: 100px;
+}
+
 
 .light
 {
