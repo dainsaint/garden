@@ -12,7 +12,7 @@ featured:
 - template: quote
   content: "**confidence**  \nis knowing you  \n**can win**"
 - template: quote
-  content: "**self-esteem**  \nis knowing your value even if you  \n**don‘t play**"
+  content: "**self-esteem**  \nis knowing your value even if you  \n**don’t play**"
 
 ---
 well of _course_  
