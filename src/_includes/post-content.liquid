@@ -5,6 +5,9 @@
     {% include featured %}
 
     <div class="post-body">
+
+
+
     <div class="post-meta">
       <div class="post-meta-deco" style="background-image: url('/assets/img/deco/{{ post.data.deco }}.png')">
       </div>
@@ -18,6 +21,8 @@
       {% if query %}
       <div class="post-project">part of <a href="{{ query.url | url}}">{{ query.data.title }}</a></div>
       {% endif %}
+      {% include social %}
+
 
       <div class="post-content-text">
       {{ post.templateContent | safe }}

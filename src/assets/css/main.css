@@ -523,6 +523,45 @@ button:hover, input[type=submit]:hover
 }
 
 
+.social
+{
+  display: flex;
+  align-items: center;
+}
+
+.social a
+{
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.social a *
+{
+  pointer-events: none;
+}
+
+.social .message
+{
+  display: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #062535;
+  padding: 5px;
+  line-height: 10px;
+}
+
+.light .social .message
+{
+  background: #f7ede2;
+}
+
+.social.message-visible .message
+{
+  display: block;
+}
+
 .quote
 {
   text-align: center;
