@@ -1,6 +1,6 @@
 ---
 date: 2021-01-26T03:19:19Z
-project: []
+project: src/projects/the-book-of-words.md
 deco: ''
 tags: []
 eleventyExcludeFromCollections: false
