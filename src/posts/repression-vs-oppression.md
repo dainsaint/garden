@@ -5,7 +5,7 @@ deco: ''
 tags: []
 eleventyExcludeFromCollections: false
 title: repression vs oppression
-color: ''
+color: "#ECC168"
 featured:
 - template: quote
   content: "**repression**  \nis the other half of  \n**oppression**"
