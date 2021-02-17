@@ -1,7 +1,7 @@
 ---
-date: 2021-01-26T03:19:19Z
+date: 2021-01-26T03:19:19.000+00:00
 project: src/projects/the-book-of-words.md
-deco: ''
+deco: prunus-sinensis
 tags: []
 eleventyExcludeFromCollections: false
 title: repression vs oppression
