@@ -1,7 +1,7 @@
 ---
 date: 2021-02-02T03:24:26.000+00:00
 project: src/projects/the-book-of-words.md
-deco: ''
+deco: elevation
 tags: []
 eleventyExcludeFromCollections: false
 title: temet nosce
