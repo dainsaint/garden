@@ -1,5 +1,5 @@
 ---
-date: 2021-02-02T03:24:26Z
+date: 2021-02-02T03:24:26.000+00:00
 project: src/projects/the-book-of-words.md
 deco: ''
 tags: []
@@ -8,7 +8,7 @@ title: temet nosce
 color: "#F26852"
 featured:
 - template: quote
-  content: "**arrogance**  \nis thinking you  \n**can‘t lose**"
+  content: "**arrogance**  \nis thinking you  \n**can’t lose**"
 - template: quote
   content: "**confidence**  \nis knowing you  \n**can win**"
 - template: quote
