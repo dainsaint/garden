@@ -1,7 +1,7 @@
 ---
-date: 2021-01-16T03:22:45Z
+date: 2021-01-16T03:22:45.000+00:00
 project: src/projects/the-book-of-words.md
-deco: ''
+deco: birds
 tags: []
 eleventyExcludeFromCollections: false
 title: permission v freedom
