@@ -1,5 +1,5 @@
 ---
-date: 2021-02-17T03:20:47Z
+date: 2021-01-14T03:20:47Z
 project: src/projects/the-book-of-words.md
 deco: ''
 tags: []
