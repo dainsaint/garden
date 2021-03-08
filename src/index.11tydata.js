@@ -1,5 +1,10 @@
 module.exports = {
   eleventyComputed: {
-    color: data => data.pagination?.items[0].data.color || "#FFFFFF"
+    color: data => {
+      if( data.pagination )
+        return data.pagination.items[0].data.color;
+      else
+        return "#FFFFFF";
+    }
   }
 }
