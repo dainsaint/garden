@@ -1,6 +1,7 @@
 ---
 layout: index
 title: home
+description: an artistic stream of consciousness disguised as a website
 promo: |
   ::: group
   ### featured release
