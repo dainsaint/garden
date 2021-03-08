@@ -42,6 +42,11 @@ fields:
       file: src/data/deco.json
       path: deco
   label: deco
+- name: social
+  type: file
+  config:
+    maxSize: 64
+  label: social
 - name: tags
   type: tag_list
   default: []

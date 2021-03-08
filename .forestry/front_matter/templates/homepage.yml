@@ -1,0 +1,18 @@
+---
+label: Homepage
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+- name: social
+  type: file
+  config:
+    maxSize: 64
+  label: social
+- type: textarea
+  name: promo
+  label: promo
+pages:
+- src/index.md
