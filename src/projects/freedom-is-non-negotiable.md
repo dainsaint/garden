@@ -13,7 +13,8 @@ featured:
 - template: gallery
   images:
   - "/assets/uploads/freedom-cover.png"
-arrange: grid
+arrange: grid,
+social: "/assets/uploads/freedom-cover.png"
 ---
 
 within the protests that erupted in the wake of the state-sanctioned murders of george floyd, breonna taylor, and tony mcdade, i felt the need to process my grief. these poems were written during the second half of 2020.
