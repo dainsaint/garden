@@ -12,7 +12,7 @@ promo: |
   :::
 
   ::: group
-  ### next appearance
+  ### next event
   [april/may 2021](/new-show-this-spring)
   :::
 
