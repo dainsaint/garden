@@ -1,5 +1,6 @@
 ---
 layout: index
+title: home
 promo: |
   ::: group
   ### featured release
