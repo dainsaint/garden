@@ -5,9 +5,8 @@ admin_path: "/src/admin"
 webhook_url: 
 sections:
 - type: document
-  path: index.md
+  path: src/index.md
   label: Promo
-  match: "**/*"
 - type: directory
   path: src/blog
   label: Blog
