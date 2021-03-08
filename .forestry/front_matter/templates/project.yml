@@ -38,6 +38,11 @@ fields:
   config:
     min: 
     max: 
+- name: social
+  type: file
+  config:
+    maxSize: 64
+  label: social
 pages:
 - src/projects/knots.md
 - src/projects/lineweight.md
