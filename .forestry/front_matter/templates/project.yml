@@ -19,6 +19,11 @@ fields:
   type: tag_list
   default: []
   label: tags
+- name: social
+  type: file
+  config:
+    maxSize: 64
+  label: social
 - type: textarea
   name: status
   label: status
@@ -38,11 +43,6 @@ fields:
   config:
     min: 
     max: 
-- name: social
-  type: file
-  config:
-    maxSize: 64
-  label: social
 pages:
 - src/projects/knots.md
 - src/projects/lineweight.md
