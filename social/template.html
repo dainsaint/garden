@@ -1,0 +1,111 @@
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&family=Raleway:ital,wght@0,300;0,800;1,300;1,800&family=Spectral:ital,wght@0,300;0,700;1,200;1,300;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./template.css" rel="stylesheet" />
+    <style>
+      {{ style }}
+    </style>
+  </head>
+
+  <body onload="setColor()">
+    <article>
+      <div class="container">
+        <aside>
+          <div class="post-meta-deco"></div>
+        </aside>
+
+        <section>
+          <h1>since you seem to be having a hard time calling it a coup</h1>
+
+          <div class="credit">
+            <div class="name"><strong>dain saint</strong></div>
+            <div class="tagline">art and activism for an abundant society</div>
+          </div>
+        </section>
+      </div>
+    </article>
+
+    <div class="images">
+      <img src="https://dainsaint.com/assets/img/deco/camellia.png"/>
+      <img src="https://dainsaint.com/assets/img/deco/almond.png"/>
+      <img src="https://dainsaint.com/assets/img/deco/birds.png"/>
+      <img src="https://dainsaint.com/assets/img/deco/cannabis.png"/>
+      <img src="https://dainsaint.com/assets/img/deco/cotton.png"/>
+      <img src="https://dainsaint.com/assets/img/deco/elevation.png"/>
+      <img src="https://dainsaint.com/assets/img/deco/gerbera.png"/>
+      <img src="https://dainsaint.com/assets/img/deco/lighthouse.png"/>
+      <img src="https://dainsaint.com/assets/img/deco/oleander.png"/>
+      <img src="https://dainsaint.com/assets/img/deco/prunus-sinensis.png"/>
+      <img src="https://dainsaint.com/assets/img/deco/thistle.png"/>
+      <img src="https://dainsaint.com/assets/img/deco/tree-of-life.png"/>
+    </div>
+  </body>
+
+  <script>
+    function getRandom(array) {
+      return array[parseInt(Math.random() * array.length)];
+    }
+
+    function getHashCode(string) {
+      var hash = 0;
+
+      if (string.length == 0) return hash;
+
+      for (i = 0; i < string.length; i++) {
+        char = string.charCodeAt(i);
+        hash = (hash << 5) - hash + char;
+        hash = hash & hash; // Convert to 32bit integer
+      }
+
+      return Math.abs( hash );
+    }
+
+    function getHashedRandom(array, string) {
+      return array[ getHashCode( string ) % array.length ]
+    }
+
+    function setColor() {
+      const string = document.querySelector('h1').innerText;
+
+      const decos = [
+        "camellia.png",
+        "almond.png",
+        "birds.png",
+        "cannabis.png",
+        "cotton.png",
+        "elevation.png",
+        "gerbera.png",
+        "lighthouse.png",
+        "oleander.png",
+        "prunus-sinensis.png",
+        "thistle.png",
+        "tree-of-life.png",
+      ];
+      const colors = ["#f6bd60", "#f7ede2", "#f5cac3", "#84a59d", "#f28482"];
+      const color = getHashedRandom(colors, string);
+      const deco = getHashedRandom(decos, string);
+
+
+
+      document.body.style.backgroundColor = color;
+      document.querySelector(
+        ".post-meta-deco"
+      ).style.backgroundImage = `url(https://dainsaint.com/assets/img/deco/${deco})`;
+    }
+
+    const mutationObserver = new MutationObserver((mutations) => {
+      setColor();
+    });
+
+    mutationObserver.observe(document.querySelector("h1"), {
+      characterData: true,
+      attributes: true,
+      childList: true,
+      subtree: true,
+    });
+  </script>
+</html>

@@ -1,0 +1,16 @@
+---
+permalink: "./social/social-images.json"
+permalinkBypassOutputDir: true
+eleventyExcludeFromCollections: true
+---
+[
+{% for page in collections.all %}
+  {% if page.data.title %}
+  {
+    "title" : "{{ page.data.title | safe }}",
+    "imgName" : "{{ page.data.title | slug }}",
+    "color" : "{% if page.data.color %}{{ page.data.color }}{% else %}#f6bd60{% endif %}"
+  }{% if forloop.last == false %}, {% endif %}
+  {% endif %}
+{% endfor %}
+]
