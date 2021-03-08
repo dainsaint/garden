@@ -620,7 +620,7 @@ button:hover, input[type=submit]:hover
 }
 
 
-.grid
+ul.grid
 {
   display: grid;
   grid-gap: 10px;
