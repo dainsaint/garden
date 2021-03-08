@@ -13,7 +13,7 @@ featured:
 - template: gallery
   images:
   - "/assets/uploads/freedom-cover.png"
-arrange: grid,
+arrange: grid
 social: https://dainsaint.netlify.app/assets/uploads/freedom-social.png
 
 ---
