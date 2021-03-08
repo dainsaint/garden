@@ -1,0 +1,10 @@
+---
+label: Homepage
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: textarea
+  name: promo
+  label: promo
