@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: src/index.md
-  label: Promo
+  label: Homepage
 - type: directory
   path: src/blog
   label: Blog
