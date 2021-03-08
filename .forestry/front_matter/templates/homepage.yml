@@ -6,6 +6,11 @@ fields:
   name: layout
   label: layout
   hidden: true
+- name: description
+  type: text
+  config:
+    required: false
+  label: description
 - name: social
   type: file
   config:
