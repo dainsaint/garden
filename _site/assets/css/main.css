@@ -234,7 +234,7 @@ img {
 {
   margin-top: 8px;
   width: 100%;
-  min-height: 120px;
+  min-height: 100px;
   max-height: 500px;
   height: 100%;
   background: url('../img/deco/elevation.png') top center no-repeat;
