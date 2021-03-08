@@ -5,17 +5,13 @@
   {% include gallery %}
 
   {% elsif f.template == "youtube" %}
-  {% assign video_id = f.video_id %}
-  {% include youtube %}
-
+  {% include youtube, video_id: f.video_id %}
 
   {% elsif f.template == "audio" %}
-  {% assign audio = f.audio %}
-  {% include audio %}
+  {% include audio, audio: f.audio %}
 
   {% elsif f.template == "quote" %}
-  {% assign quote = f.content %}
-  {% include quote %}
+  {% include quote, quote: f.content %}
 
   {% else %}
   {{ f.content }}

@@ -21,15 +21,25 @@
       {% if query %}
       <div class="post-project">part of <a href="{{ query.url | url}}">{{ query.data.title }}</a></div>
       {% endif %}
-      {% include social %}
+
 
 
       <div class="post-content-text">
       {{ post.templateContent | safe }}
     </div>
 
+
+
     </div>
+
+
   </div>
+
+  <div class="post-social-block">
+    <div class="post-social-spacer"></div>
+    {% include social %}
+  </div>
+
 
   </div>
 

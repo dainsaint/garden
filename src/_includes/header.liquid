@@ -1,4 +1,4 @@
-<header class="header-main {{ color | contrast }}">
+<header class="header-main {{ color | contrast }} {% if promo %}promo{% endif %}">
 
   <div class="header-content">
   {% assign home = '/' %}
@@ -11,5 +11,14 @@
     <a class="{% if item.url == page.url %}active{% endif %}" href="{{ item.url | url }}">{{ item.data.title }}</a>
     {% endfor %}
   </nav>
+
+  {% if promo %}
+  <hr/>
+
+  <div class="promo">
+    {{ promo | markdown }}
+  </div>
+
+  {% endif %}
 </div>
 </header>

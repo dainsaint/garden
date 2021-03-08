@@ -2,7 +2,6 @@
 date: 2020-11-04T21:58:37Z
 tags:
 - play
-- featured
 eleventyExcludeFromCollections: false
 title: lineweight
 description: beautiful motion graphic story

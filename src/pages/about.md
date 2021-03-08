@@ -11,7 +11,6 @@ date: ''
 description: ''
 tags: []
 status: ''
-
 ---
 there are things that need to be said.  
 i'm lucky to have a voice with which to say them.

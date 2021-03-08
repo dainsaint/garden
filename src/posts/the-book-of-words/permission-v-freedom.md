@@ -11,3 +11,6 @@ featured:
   content: "**permission**  \nis not  \n**freedom**"
 
 ---
+
+what are you still asking for?  
+whose approval are you still seeking?

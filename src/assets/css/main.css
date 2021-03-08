@@ -25,7 +25,7 @@ html
 
 body
 {
-  background: #333;
+  background: #121212;
   font-family: "Spectral", serif;
   padding: 0px;
   margin: 0px;
@@ -48,6 +48,8 @@ img {
   height: auto;
 }
 
+
+
 .hero-image
 {
   height: 40vh;
@@ -63,6 +65,11 @@ img {
   width: 100%;
   /* z-index: 1; */
   position: absolute;
+}
+
+.header-main.promo
+{
+  position: static;
 }
 
 .header-main a
@@ -116,7 +123,7 @@ img {
   white-space: nowrap;
 }
 
-.header-main a:hover
+.header-nav a:hover
 {
   border-bottom: 4px solid #062535;
 }
@@ -263,6 +270,11 @@ img {
   margin-bottom: 16px;
 }
 
+.post-content p:last-child
+{
+  margin-bottom: 0px;
+}
+
 .post-project
 {
   font-family: 'Raleway', sans-serif;
@@ -323,7 +335,7 @@ p img
 {
   max-width: 50%;
   display: grid;
-  grid-auto-rows: auto;
+  grid-auto-rows: min-content;
   grid-gap: 8px;
 }
 
@@ -347,7 +359,7 @@ p img
   width: 40%;
 }
 
-.project-status a
+.project-status p > a
 {
   display: block;
   font-style: italic;
@@ -512,16 +524,35 @@ button:hover, input[type=submit]:hover
 }
 
 
+.post-social-block
+{
+  display: flex;
+}
+
+.post-social-spacer
+{
+  width:135px;
+}
+
 .social
 {
   display: flex;
   align-items: center;
+  /* border-top: 1px solid #062535; */
+  padding-top: 5px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.light .social
+{
+  border-color: #f7ede2;
 }
 
 .social a
 {
-  font-size: 14px;
-  margin-right: 10px;
+  font-size: 16px;
+  margin-right: 20px;
 }
 
 .social a *
@@ -564,6 +595,7 @@ button:hover, input[type=submit]:hover
 {
   text-transform: none;
   font-family: "Elgraine Black Italic";
+  font-weight: normal;
   font-size: 48px;
 }
 
@@ -575,6 +607,77 @@ button:hover, input[type=submit]:hover
   margin: 20px auto;
   max-width: 100px;
 }
+
+.promo
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.youtube
+{
+  margin: 15px 0px;
+}
+
+
+.grid
+{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: minmax(50%,auto) minmax(50%,auto); */
+  grid-auto-flow: row dense;
+}
+
+ul.grid li.full
+{
+  grid-column: 1 / span 2;
+}
+
+ul.grid li img
+{
+  width: fit-content;
+}
+
+
+.buttons
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttons li
+{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.buttons li a
+{
+  text-decoration: none;
+  background: #062535;
+  color: white;
+
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  letter-spacing: 2px;
+  padding: 10px;
+  display: block;
+  white-space: nowrap;
+}
+
+.light .buttons li a
+{
+  background: #f7ede2;
+  color: #000;
+}
+
 
 .light .quote::after
 {
@@ -667,6 +770,11 @@ button:hover, input[type=submit]:hover
     font-size: 30px;
   }
 
+  .post-social-spacer
+  {
+    width: 70px;
+  }
+
 
 }
 
@@ -675,5 +783,10 @@ button:hover, input[type=submit]:hover
   .post-meta
   {
     display: none;
+  }
+
+  .post-social-spacer
+  {
+    width:0px;
   }
 }

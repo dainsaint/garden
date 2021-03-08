@@ -1,4 +1,6 @@
-const marked = require('marked');
+const markdownIt = require('markdown-it');
+const markdownItContainer = require('markdown-it-container');
+const markdownItAttrs = require('markdown-it-attrs');
 const embedEverything = require('eleventy-plugin-embed-everything');
 const lazyImages = require('eleventy-plugin-lazyimages');
 const rss = require("@11ty/eleventy-plugin-rss");
@@ -54,6 +56,15 @@ module.exports = function (config) {
   config.addPassthroughCopy("src/assets");
   config.addPassthroughCopy("src/admin");
   config.setDataDeepMerge(true);
+
+
+  let markdownLibrary = markdownIt({
+    html: true
+  })
+    .use( markdownItAttrs )
+    .use( markdownItContainer, "group" );
+
+  config.setLibrary("md", markdownLibrary);
 
   config.setTemplateFormats([
     "md",
@@ -137,8 +148,28 @@ module.exports = function (config) {
   });
 
   config.addFilter("markdown", function (string) {
-    return string ? marked(string) : string;
+    return string ? markdownLibrary.render(string) : string;
   });
+
+
+
+  config.addShortcode("youtube", function( video_id ) {
+    return `<section class="youtube">
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+
+<div class='embed-container'>
+<iframe src='https://www.youtube.com/embed/${video_id}?modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&color=white' frameborder='0' allowfullscreen></iframe>
+</div>
+
+  </section>
+  `
+  })
+
+  config.addShortcode("i", function(icon) {
+    return `<i class="fa fa-${icon}"></i>`;
+  })
+
+
 
   // config.addCollection("projects", (api) => {
   //   return api.getFilteredByTag("projects").map( project => {

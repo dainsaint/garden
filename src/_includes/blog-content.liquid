@@ -1,0 +1,35 @@
+<article id="{{ post.data.title | slug }}" class="post full {{ post.data.color | contrast }}" style="background-color: {{ post.data.color }}">
+
+  <div class="post-main">
+    {% assign featured = post.data.featured %}
+    {% include featured %}
+
+    <div class="post-body">
+
+
+    <div class="post-content">
+      <h2 class="post-header"><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
+
+      <div class="post-project">{{ post.data.date | date: "%B %e, %Y" }} </div>
+
+
+
+      <div class="post-content-text">
+      {{ post.templateContent | safe }}
+    </div>
+
+
+
+    </div>
+
+
+  </div>
+
+  <div class="post-social-block">
+    {% include social %}
+  </div>
+
+
+  </div>
+
+</article>
