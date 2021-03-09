@@ -5,10 +5,9 @@ tags:
 eleventyExcludeFromCollections: false
 title: lineweight
 description: beautiful motion graphic story
-status: |-
+status: |
   * [<i class="fa fa-apple"></i> app store](https://apps.apple.com/us/app/lineweight/id1415191501)
   * [<i class="fa fa-google-play"></i> google play](https://play.google.com/store/apps/details?id=com.thelabel.android.lineweight)
-
     {.buttons}
 color: "#222222"
 featured:
