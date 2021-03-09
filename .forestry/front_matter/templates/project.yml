@@ -27,6 +27,10 @@ fields:
 - type: textarea
   name: status
   label: status
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - name: color
   type: color
   label: color
