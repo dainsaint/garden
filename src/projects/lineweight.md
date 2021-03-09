@@ -19,4 +19,4 @@ social: ''
 ---
 lineweight is a brand new experience from cipher prime. each of its five chapters showcases a story with a specific emotional focus, illuminated with the studio's signature stylings of color, light, and music. every moment, word, and image is controlled by your swipe, marrying storytelling and graphic design in a unique union we can't wait to share with you.
 
-{% youtube L8D7e1ODWqI %}
+{% youtube "L8D7e1ODWqI" %}
