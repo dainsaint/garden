@@ -9,7 +9,7 @@ promo: |
   :::
 
   ::: group
-  ### preorders open soon
+  ### preorder soon
   [freedom is non-negotiable](/freedom-is-non-negotiable)
   :::
 

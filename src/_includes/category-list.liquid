@@ -6,7 +6,7 @@
 
   <div class="category-list-projects">
   {%- for p in collection -%}
-    <div>
+    <div class="category-list-project">
       {%- if use-featured -%}
       {%- assign featured = p.data.featured -%}
       {%- include featured -%}

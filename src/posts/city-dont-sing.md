@@ -40,5 +40,3 @@ special thanks for additional courtesy b-roll footage provided by:
 * james powers: [https://www.powersfilms.com](https://www.powersfilms.com "https://www.powersfilms.com")
 
 special thanks to [kelly lacy](https://makebeautiful.co) for providing the blm mural footage.
-
-originally appeared [here](/city-dont-sing-v1)
