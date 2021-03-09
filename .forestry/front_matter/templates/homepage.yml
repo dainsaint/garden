@@ -19,5 +19,9 @@ fields:
 - type: textarea
   name: promo
   label: promo
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
 pages:
 - src/index.md
