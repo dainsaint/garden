@@ -20,7 +20,7 @@ fields:
   name: promo
   label: promo
   config:
-    wysiwyg: true
+    wysiwyg: false
     schema:
       format: markdown
 pages:
