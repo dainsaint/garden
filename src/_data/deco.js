@@ -8,7 +8,7 @@ module.exports = async () => {
     deco: files.filter( x => x.indexOf(".png") >= 0 ).map( x => x.replace('.png', '') )
   };
 
-  console.log( result );
+  // console.log( result );
 
   return result
 }
