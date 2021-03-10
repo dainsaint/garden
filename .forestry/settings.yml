@@ -32,7 +32,7 @@ sections:
   create: all
   match: "**/*"
 - type: document
-  path: social/deco.json
+  path: src/data/deco.json
   label: Deco
 upload_dir: src/assets/uploads
 public_path: https://dainsaint.netlify.app/assets/uploads
