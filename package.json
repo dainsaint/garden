@@ -4,7 +4,7 @@
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
-    "build": "eleventy; npm run social-images",
+    "build": "eleventy; npm run images",
     "start": "eleventy --serve",
     "images": "eleventy-social-images --siteName 'Dain Saint' --dataFile social/social-images.json --templatePath social/template.html --stylesPath social/template.css"
   },
