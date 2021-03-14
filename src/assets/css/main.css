@@ -48,6 +48,12 @@ img {
   height: auto;
 }
 
+img.actual
+{
+  width: auto;
+  margin: 0px auto;
+}
+
 
 
 .hero-image

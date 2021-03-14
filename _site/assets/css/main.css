@@ -48,6 +48,12 @@ img {
   height: auto;
 }
 
+img.actual
+{
+  width: auto;
+  margin: 0px auto;
+}
+
 
 
 .hero-image
@@ -524,6 +530,7 @@ button, input[type=submit]
   box-sizing: border-box;
   cursor: pointer;
   letter-spacing: 2px;
+   -webkit-appearance: none;
 }
 
 button:hover, input[type=submit]:hover
