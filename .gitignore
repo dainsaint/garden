@@ -116,3 +116,6 @@ temp/
 
 # Local Netlify folder
 .netlify
+
+# ignore eleventy output
+_site/
