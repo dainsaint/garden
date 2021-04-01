@@ -2,9 +2,12 @@
 title: freedom is non-negotiable
 description: uplifting blackness under police jurisdiction.
 date: 2020-04-01
-status: 'preorders open soon. [subscribe to the newsletter](/follow)
+status: |-
+  print edition now available!
 
-'
+  * [preorder now](https://store.dainsaint.com/product/freedom-is-non-negotiable/1?cs=true&cst=custom)
+
+    {.buttons}
 color: "#F7EDE3"
 tags:
 - featured

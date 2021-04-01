@@ -9,13 +9,13 @@ promo: |
   :::
 
   ::: group
-  ### preorder soon
+  ### preorder now!
   [freedom is non-negotiable](/freedom-is-non-negotiable)
   :::
 
   ::: group
   ### next event
-  [april/may 2021](/new-show-this-spring)
+  [may 8th, 2021](/new-show-this-spring)
   :::
 social: https://dainsaint.netlify.app/assets/uploads/ds-social.png
 
