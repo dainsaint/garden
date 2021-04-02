@@ -14,7 +14,7 @@ promo: |
   :::
   ::: group
   ### next event
-  [may 8th, 2021](/new-show-this-spring)
+  [may 2021](/new-show-this-spring)
   :::
 social: https://dainsaint.netlify.app/assets/uploads/ds-social.png
 
