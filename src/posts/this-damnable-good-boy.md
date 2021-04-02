@@ -1,5 +1,5 @@
 ---
-date: 2021-03-25T15:20:58Z
+date: 2021-03-25T15:20:58.000+00:00
 project: []
 deco: lighthouse
 tags:
@@ -28,7 +28,7 @@ he's an anchor on a chain
 
 he barks at the most random hour  
 and wakes me from my sleep  
-he whines for food, but when i feed  
+he whines for food, but when he’s fed    
 he simply does not eat
 
 when i try to leave my house  
