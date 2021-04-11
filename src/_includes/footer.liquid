@@ -19,6 +19,14 @@
 </div>
 {%- endif -%}
 
+<div class="random-block">
+<h3 class="project-header">enjoy a random piece</h3>
+<nav>
+  {% assign random = collections.posts | getRandom: page %}
+<a href="{{ random.url }}">{{ random.data.title }}</a>
+</nav>
+</div>
+
 {% include subscribe %}
 </div>
 

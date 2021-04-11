@@ -427,6 +427,7 @@ h3
 {
   /* max-width: 609px; */
   /* width: 800px; */
+  margin-bottom: 60px;
 }
 
 .pagination-block nav
@@ -443,6 +444,12 @@ h3
   text-transform: uppercase;
 
 }
+
+.random-block
+{
+  /* text-align: center; */
+}
+
 
 .footer
 {
@@ -520,7 +527,7 @@ input
 button, input[type=submit]
 {
   background: #062535;
-  color: white;
+  color: var(--background);
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -700,7 +707,7 @@ ul.grid li img
 {
   text-decoration: none;
   background: #062535;
-  color: white;
+  color: var(--background);
 
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -720,7 +727,7 @@ ul.grid li img
 .light .buttons li a
 {
   background: #f7ede2;
-  color: #000;
+  color: var(--background);
 }
 
 
@@ -754,7 +761,7 @@ ul.grid li img
 .light button, .light input[type=submit]
 {
   background: #f7ede2;
-  color: #000;
+  color: var(--background);
 }
 
 .light ::placeholder

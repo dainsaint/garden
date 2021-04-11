@@ -1,6 +1,6 @@
 {% assign posts = collections.posts | inProject: page.inputPath | map: 'data' %}
 
-<article class="post full {{ color | contrast }}" style="background-color: {{ color }}">
+<article class="post full {{ color | contrast }}" style="background-color: {{ color }}; --background: {{ color }}">
 
   <div class="post-main">
 

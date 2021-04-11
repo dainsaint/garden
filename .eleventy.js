@@ -151,6 +151,14 @@ module.exports = function (config) {
     return string ? markdownLibrary.render(string) : string;
   });
 
+  config.addFilter("getRandom", function(items, avoid) {
+    let selected = items[ Math.floor( Math.random() * items.length) ];
+    while( selected.url === avoid.url )
+      selected = items[ Math.floor( Math.random() * items.length) ];
+
+    return selected
+  });
+
 
 
   config.addShortcode("youtube", function( video_id ) {
