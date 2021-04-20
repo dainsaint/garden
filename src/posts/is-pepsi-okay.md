@@ -19,7 +19,7 @@ _Or if you prefer, we have Diet Vengeance
 It's not as satisfying as Prison  
 But you won't mind while the taste is on your lips_
 
-but i only asked for justice  
+but i only asked for Justice  
 straight from the tap  
 a taste of remorse  
 an ounce of regret  
