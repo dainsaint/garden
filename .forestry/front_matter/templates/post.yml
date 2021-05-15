@@ -68,7 +68,6 @@ pages:
 - src/posts/and-they-knew-that-they-were-naked.md
 - src/posts/and-you-ll-share-this-one-too.md
 - src/posts/atmospheric-pressure.md
-- src/posts/black-and-blue.md
 - src/posts/dehydration.md
 - src/posts/firelight.md
 - src/posts/for-dawn.md
@@ -88,6 +87,7 @@ pages:
 - src/posts/haemophilia.md
 - src/posts/innovate-or-die.md
 - src/posts/internal-combustion.md
+- src/posts/is-pepsi-okay.md
 - src/posts/no-refunds.md
 - src/posts/off-menu.md
 - src/posts/plain-white-tee-lyrics.md
@@ -96,6 +96,7 @@ pages:
 - src/posts/since-you-seem-to-be-having-a-hard-time-calling-it-a-coup.md
 - src/posts/spin-two.md
 - src/posts/standardized-test.md
+- src/posts/summer-vacation.md
 - src/posts/swords-and-plowshares-hammers-and-nails.md
 - src/posts/the-beat-within.md
 - src/posts/the-internal-compass.md
