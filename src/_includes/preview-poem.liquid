@@ -1,0 +1,37 @@
+
+<article id="{{ post.data.title | slug }}" class="post full {{ post.data.color | contrast }}" style="background-color: {{ post.data.color }};  --background: {{ post.data.color }}">
+
+  <div class="post-main poem">
+
+    <div class="post-body">
+
+    <div class="post-meta">
+      <div class="post-meta-deco" style="background-image: url('/assets/img/deco/{{ post.data.deco }}.png')">
+      </div>
+    </div>
+
+
+    <div class="post-content">
+      <h2 class="post-header">{{ post.data.title }}</h2>
+
+      <div class="post-content-text">
+      {{ body }}
+      </div>
+
+      <div class="post-handle">@dainsaint</div>
+
+
+    </div>
+
+
+
+  </div>
+
+  {% if more %}
+    <div class="buttons post-more">
+      <li><a>MORE ></a></li>
+    </div>
+  {% endif %}
+  </div>
+
+</article>

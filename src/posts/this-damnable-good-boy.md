@@ -21,6 +21,8 @@ doesn't bring me any joy
 i must, i must take care of him  
 this damnable good boy
 
+>
+
 he dashes through my hallways  
 like a beast that's gone insane  
 but when i try to walk him  
@@ -30,6 +32,8 @@ he barks at the most random hour
 and wakes me from my sleep  
 he whines for food, but when he’s fed    
 he simply does not eat
+
+>
 
 when i try to leave my house  
 he lays and blocks the way  
@@ -41,6 +45,8 @@ his pattern's gotten clear
 and all his bad behaviour  
 has become, to me, more dear
 
+>
+
 he ran because in chasing him  
 i had to follow suit  
 he did not walk because the ground  
@@ -51,6 +57,8 @@ had rotted on the plate
 and when he barked it was because  
 i'd _never_ been awake
 
+>
+
 he blocks the door to keep me  
 when i haven't stopped to rest  
 he reminds that i've only ever  
@@ -60,6 +68,8 @@ so even though i sometimes wish
 he'd finally leave me be  
 i understand the value  
 of his brand of loyalty
+
+>
 
 i have an old bedraggled dog  
 i met when i was small  

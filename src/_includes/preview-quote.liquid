@@ -1,0 +1,21 @@
+
+<article id="{{ post.data.title | slug }}" class="post full {{ post.data.color | contrast }}" style="background-color: {{ post.data.color }};  --background: {{ post.data.color }}">
+
+  <div class="post-main post-quote">
+
+    {% include quote %}
+
+    <div class="buttons">
+      <li><a>{{ project }}</a></li>
+    </div>
+
+    <div class="post-handle">@dainsaint</div>
+  </div>
+
+{% if more %}
+  <div class="buttons post-more">
+    <li><a>MORE ></a></li>
+  </div>
+{% endif %}
+
+</article>

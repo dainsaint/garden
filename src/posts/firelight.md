@@ -19,6 +19,8 @@ still gnash their teeth with glee
 i’ve got my trusty firelight  
 and you to walk with me
 
+>
+
 the road is long and treacherous  
 and so far we have marched  
 past smoke and plague and turbulence  
@@ -28,6 +30,8 @@ and though the path ahead of us
 we scarcely can foresee  
 i’ve got my trusty firelight  
 and you to walk with me
+
+>
 
 so take we now, a moment  
 while uncertainty abounds  

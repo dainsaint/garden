@@ -1,0 +1,84 @@
+---
+title: Dain Saint
+eleventyExcludeFromCollections: true
+---
+
+{% assign posts = collections.posts | reverse%}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>{{ title }}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Raleway:ital,wght@0,300;0,800;1,300;1,800&family=Spectral:ital,wght@0,300;0,700;1,200;1,300;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/fonts/elgraine/elgraine.css" | url }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/foundation.css" | url }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/main.css" | url }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/previews.css" | url }}"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/4b1f0829c1.js" crossorigin="anonymous"></script>
+
+    <meta property="og:image" content="{{pageSocialImg}}" />
+    <meta property="og:title" content="dain saint - {{ title }}" />
+    <meta property="og:description" content="{{ description }}" />
+
+    <meta name="twitter:image" content="{{pageSocialImg}}" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@dainsaint">
+    <meta name="twitter:creator" content="@dainsaint">
+    <meta name="twitter:title" content="dain saint - {{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+  </head>
+
+  <body style="background-color: {{ color }};">
+
+
+    <main>
+
+      {% for post in posts %}
+        {% include preview-frame %}
+      {% endfor %}
+
+    </main>
+
+
+
+
+    <script src="{{ "/assets/js/main.js" | url }}"></script>
+    <script src="{{ "/assets/js/dom-to-image.min.js" | url }}"></script>
+    <script src="{{ "/assets/js/FileSaver.min.js" | url }}"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['Raleway', 'Spectrail']
+        }
+      });
+    </script>
+
+
+<script type="text/javascript">
+
+  function captureElement( id )
+  {
+    console.log( id );
+      let element = document.querySelector(`#${id}`);
+      console.log( element );
+       domtoimage.toBlob(element, {allowTaint: true})
+        .then(function(blob) {
+         window.saveAs(blob, `${id}.png`)
+       });
+  }
+
+</script>
+
+
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <!-- Fathom - beautiful, simple website analytics -->
+    <script src="https://cdn.usefathom.com/script.js" data-site="NDEWSDVW" defer></script>
+    <!-- / Fathom -->
+  </body>
+</html>

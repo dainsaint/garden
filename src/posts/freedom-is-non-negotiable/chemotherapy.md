@@ -13,6 +13,8 @@ at the beginning
 and for the longest time  
 we've been addicted to smoking
 
+>
+
 the chemotherapy **_burns_**
 
 sets fire to the arteries  
@@ -21,6 +23,8 @@ our hair falls out
 but we beat the cancer back
 
 at least for a while
+
+>
 
 the cancer remained  
 always waiting  
@@ -31,11 +35,15 @@ killing those parts of you
 you never deemed important enough  
 to see
 
+>
+
 we think ourselves cured
 
 we keep smoking
 
 _we can't breathe_
+
+>
 
 it solves **nothing**  
 _but we need to smoke_  
@@ -47,6 +55,8 @@ it solves **nothing**
 _expensive, nasty, brutish habit_  
 _and we spend more on it every year_
 
+>
+
 we catch a flu  
 and have to decide between fighting  
 the flu that may kill us soon  
@@ -56,6 +66,8 @@ the cancer that kills us every day
 the tumours return  
 spreading, malignant  
 _this far_, we say, _and no farther_
+
+>
 
 so now it falls to us  
 we administer the chemotherapy  
@@ -67,5 +79,7 @@ but if you're tired
 of having your life  
 interrupted
 by our aggressive course of treatment...
+
+>
 
 ...quit smoking.

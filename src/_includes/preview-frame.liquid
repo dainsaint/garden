@@ -1,0 +1,58 @@
+
+<div class="preview-frames">
+  {% assign splitContent = post.templateContent | split: "<blockquote>" %}
+  {{ post.data.title }} | <a onclick="captureElement('{{ post.data.title | slug }}-1')">download all <i class="fa fa-download"></i></a>
+
+  <div class="row">
+
+
+
+
+    {% assign query = collections.projects | fromFile: post.data.project %}
+
+    {% if query %}
+    {% assign project = query.data.title %}
+    {% endif %}
+
+
+  {% for body in splitContent %}
+
+  <div id="{{ post.data.title | slug }}-{{ forloop.index }}" class="frame">
+    {% if splitContent.size > 1 %}
+    {% assign more = true %}
+    {% endif %}
+
+    {% if forloop.last == true %}
+    {% assign more = false %}
+    {% endif %}
+
+    {% if post.data.layout == "blog" %}
+
+    {% include preview-blog %}
+
+    {% else %}
+
+    {% if forloop.first == true %}
+    {% include preview-poem %}
+    {% else %}
+    {% include preview-continued %}
+    {% endif %}
+
+    {% endif %}
+
+
+  </div>
+  {% endfor %}
+
+  {% for f in post.data.featured %}
+
+  <div id="{{ post.data.title | slug }}-f-{{ forloop.index }}" class="frame">
+    {% if f.template == "quote" %}
+      {% include preview-quote, quote: f.content %}
+    {% endif %}
+  </div>
+
+  {% endfor %}
+</div>
+
+</div>

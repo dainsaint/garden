@@ -19,6 +19,8 @@ your slot machine
 could not see us clearly with  
 bloodshot eyes
 
+>
+
 we spoke in clear tones  
 in hopes it would move you to act  
 to resist a little less  
@@ -29,6 +31,8 @@ your internal narrative
 could not feel us  
 gasping for air
 
+>
+
 we screamed at the top of our lungs  
 in hopes it would force you to act  
 to speak a little less  
@@ -38,6 +42,8 @@ in your panicked pleas
 for civility  
 could not see the depth  
 of our courtesy
+
+>
 
 our thunder roars angry in the distance  
 desperate rains flooding the streets  

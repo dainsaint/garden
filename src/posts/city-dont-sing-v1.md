@@ -22,6 +22,8 @@ can’t get through life alone
 and my heart breaks for the people  
 when the city don’t sing no more
 
+>
+
 see them struggle, yeah  
 can’t seem to pay the bills  
 see them hustle, yeah  
@@ -35,6 +37,8 @@ get through this life alone
 and my heart waits  
 but the city don’t sing no more
 
+>
+
 _laad di trouble jussa pile up pon wi_  
 _laad di struggle jussa style up pon wi_  
 _laad di trouble jussa pile up pon wi_  
@@ -43,6 +47,8 @@ _laad di struggle jussa style up pon wi_
 _but still wi a wait_  
 _still wi a wait_  
 _still wi a wait for salvation_  
+
+>
 
 and my heart waits for the people  
 that help other people  

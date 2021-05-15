@@ -1,0 +1,37 @@
+
+<article id="{{ post.data.title | slug }}" class="post full {{ post.data.color | contrast }}" style="background-color: {{ post.data.color }};  --background: {{ post.data.color }}">
+
+  <div class="post-main blog poem">
+
+    <div class="post-body">
+
+
+
+
+    <div class="post-content">
+
+      <h2 class="post-header">{{ post.data.title }}</h2>
+
+      <div class="post-content-text">
+      {{ body }}
+      </div>
+
+      <div class="post-handle">@dainsaint</div>
+
+
+    </div>
+
+
+
+  </div>
+
+
+  </div>
+
+  {% if more %}
+    <button class="post-more">
+      MORE >
+    </button>
+  {% endif %}
+
+</article>
