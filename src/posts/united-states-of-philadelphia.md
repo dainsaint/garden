@@ -54,9 +54,10 @@ our main exports are “wish a nigga would”
 our national flower is a  
 little black girl in beads  
 who saw the police think  
-they were above these hands
+they were above these hands  
 and raised her voice  
 to sing our national anthem:
+
 
 _“aight, bet”_
 

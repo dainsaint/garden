@@ -1,7 +1,7 @@
 
 <div class="preview-frames">
   {% assign splitContent = post.templateContent | split: "<blockquote>" %}
-  {{ post.data.title }} | <a onclick="captureElement('{{ post.data.title | slug }}-1')">download all <i class="fa fa-download"></i></a>
+  {{ post.data.title }}
 
   <div class="row">
 
@@ -17,6 +17,7 @@
 
   {% for body in splitContent %}
 
+<div class="scale">
   <div id="{{ post.data.title | slug }}-{{ forloop.index }}" class="frame">
     {% if splitContent.size > 1 %}
     {% assign more = true %}
@@ -42,16 +43,22 @@
 
 
   </div>
+
+  <a class="download" onclick="captureElement('{{ post.data.title | slug }}-{{ forloop.index }}')"><i class="fa fa-download"></i></a>
+  <span class="loadingIndicator"><i class="fa fa-cog fa-spin"></i></span>
+</div>
   {% endfor %}
 
   {% for f in post.data.featured %}
-
+<div class="scale">
   <div id="{{ post.data.title | slug }}-f-{{ forloop.index }}" class="frame">
     {% if f.template == "quote" %}
       {% include preview-quote, quote: f.content %}
     {% endif %}
   </div>
-
+  <a class="download" onclick="captureElement('{{ post.data.title | slug }}-f-{{ forloop.index }}')"><i class="fa fa-download"></i></a>
+  <span class="loadingIndicator"><i class="fa fa-cog fa-spin"></i></span>
+</div>
   {% endfor %}
 </div>
 
