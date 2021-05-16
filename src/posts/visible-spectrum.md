@@ -23,7 +23,7 @@ my reds pulse deep bloody heat
 the anger of injustice and  
 the passion of existing regardless and  
 you will never see my infrared  
-but you will feel it
+but you will feel it all the same
 
 > 
 
@@ -31,7 +31,7 @@ my violets radiate high spirit light
 the knowledge of my history and  
 the compassion of my future and  
 you will never see my ultraviolet  
-but it will burn you still
+but it will burn you all the same
 
 > 
 
