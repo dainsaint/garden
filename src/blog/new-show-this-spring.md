@@ -10,7 +10,9 @@ paywall: false
 social: ''
 
 ---
-thrilled to announce i'll be performing this spring!
+thrilled to announce i'll be performing this ~~spring!~~
+
+_update: this event has been moved to the fall_
 
 the event will be live, outdoor, socially-distanced, and fun. more details as we get ready to announce.
 
