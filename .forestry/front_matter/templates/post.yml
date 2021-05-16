@@ -58,6 +58,7 @@ fields:
   - youtube
   - audio
   - quote
+  - ig-comments
   config:
     min: 
     max: 
