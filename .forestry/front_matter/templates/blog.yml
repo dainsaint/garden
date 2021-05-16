@@ -39,4 +39,5 @@ fields:
     min: 
     max: 
 pages:
+- src/blog/black-and-blue.md
 - src/blog/the-tree-of-time.md

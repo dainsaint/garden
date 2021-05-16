@@ -12,6 +12,9 @@ featured:
 - template: gallery
   images:
   - https://dainsaint.netlify.app/assets/uploads/image-2.png
+hidden: false
+paywall: false
+social: ''
 
 ---
 * [_read the full story_](//inquirer.com/blackandblue)
