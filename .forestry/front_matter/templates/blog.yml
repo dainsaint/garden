@@ -1,0 +1,22 @@
+---
+label: Blog
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: tags
+  label: tags
+- type: boolean
+  name: eleventyExcludeFromCollections
+  label: eleventyExcludeFromCollections
+- type: text
+  name: title
+  label: title
+- type: text
+  name: color
+  label: color
+- type: list
+  name: featured
+  label: featured
