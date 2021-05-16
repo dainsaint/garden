@@ -44,7 +44,7 @@ she gave me gemini
 the night sky that pulses with  
 x-ray and gamma and  
 microwave and potential energy  
-and said _this can all be yours  
+and said _all this can be yours  
 i gave you eyes to see  
 but they are not your vision_
 
