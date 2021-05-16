@@ -1,6 +1,7 @@
 ---
 label: Youtube
 hide_body: true
+display_field: video_id
 fields:
 - name: video_id
   type: text

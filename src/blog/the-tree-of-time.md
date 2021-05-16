@@ -1,12 +1,15 @@
 ---
-date: 2021-03-14T20:53:40Z
+date: 2021-03-14T20:53:40.000+00:00
 tags: []
 eleventyExcludeFromCollections: false
 title: the tree of time
 color: "#D1EAAE"
 featured: []
----
+hidden: false
+paywall: false
+social: ''
 
+---
 consider a tree. it begins as a sapling, young and green. pliable, but unsupported; delicate and unprotected. over time, it brings together sunlight, air, and water to form wood; to grow. the green sapling expands from within, leaving behind layers of wood. the elements put stress on the green flesh of the tree, prompting it to grow a thick bark, to protect itself. as the tree grows, the wood in the core grows thicker, and the bark becomes more durable — and the green remains sandwiched between the two.
 
 ![tree diagram](/assets/uploads/tree-core-2.png){.actual}

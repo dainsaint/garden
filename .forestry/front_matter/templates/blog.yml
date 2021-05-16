@@ -1,8 +1,9 @@
 ---
-label: Page
+label: Blog
 hide_body: false
+display_field: title
 fields:
-- name: eleventyExcludeFromCollections
+- name: hidden
   type: boolean
   label: hidden
 - name: paywall
@@ -11,12 +12,19 @@ fields:
 - type: text
   name: title
   label: title
+- type: datetime
+  name: date
+  label: date
 - name: color
   type: color
   label: color
   config:
     required: false
     color_format: Hex
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
 - name: social
   type: file
   config:
@@ -27,14 +35,13 @@ fields:
   label: featured
   template_types:
   - gallery
-  - audio
   - youtube
+  - audio
+  - quote
+  - prompt
   config:
     min: 
     max: 
 pages:
-- src/pages/about.md
-- src/pages/events.md
-- src/pages/follow.md
-- src/pages/projects.md
-- src/pages/support.md
+- src/blog/black-and-blue.md
+- src/blog/the-tree-of-time.md
