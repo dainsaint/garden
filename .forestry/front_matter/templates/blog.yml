@@ -1,6 +1,7 @@
 ---
 label: Blog
 hide_body: false
+display_field: title
 fields:
 - name: hidden
   type: boolean
@@ -25,8 +26,17 @@ fields:
   config:
     maxSize: 64
   label: social
-- type: list
-  name: featured
+- name: featured
+  type: blocks
   label: featured
+  template_types:
+  - gallery
+  - youtube
+  - audio
+  - quote
+  - prompt
+  config:
+    min: 
+    max: 
 pages:
 - src/blog/the-tree-of-time.md
