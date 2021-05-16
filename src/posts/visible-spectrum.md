@@ -23,17 +23,17 @@ but it is still only a sliver
 > 
 
 my reds pulse deep bloody heat  
-the anger of injustice and  
-the passion of existing regardless and  
-you will never see my infrared  
+the anger of injustice  
+the passion of existing regardless  
+and you will never see my infrared  
 but you will feel it all the same
 
 > 
 
 my violets radiate high spirit light  
-the knowledge of my history and  
-the compassion of my future and  
-you will never see my ultraviolet  
+the knowledge of my history  
+the compassion of my future  
+and you will never see my ultraviolet  
 but it will burn you all the same
 
 > 
@@ -61,7 +61,7 @@ i closed my eyes
 > 
 
 my greens spread, earth-driven vines  
-the love of being alive and  
-the yearning to hold you all and  
-you will never taste my chlorophyll  
+the love of being alive  
+the yearning to hold you all  
+and you will never taste my chlorophyll  
 but it will feed you all the same
