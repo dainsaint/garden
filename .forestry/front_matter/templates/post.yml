@@ -58,7 +58,7 @@ fields:
   - youtube
   - audio
   - quote
-  - ig-comments
+  - prompt
   config:
     min: 
     max: 
