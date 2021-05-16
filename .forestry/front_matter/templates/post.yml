@@ -5,6 +5,9 @@ fields:
 - name: eleventyExcludeFromCollections
   type: boolean
   label: hidden
+- name: paywall
+  type: boolean
+  label: paywall
 - type: text
   name: title
   label: title
