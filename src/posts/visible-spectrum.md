@@ -57,7 +57,7 @@ i close my eyes
 
 > 
 
-my greens spread like vines  
+my greens spread, earth-driven vines  
 the love of being alive and  
 the yearning to hold you all and  
 you will never taste my chlorophyll  
