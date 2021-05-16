@@ -644,7 +644,7 @@ button:hover, input[type=submit]:hover
 .quote strong
 {
   text-transform: none;
-  font-family: "Elgraine Black Italic", "Elgraine ExtraLight";
+  font-family: "Elgraine Black Italic";
   font-weight: normal;
   font-size: 48px;
 }
