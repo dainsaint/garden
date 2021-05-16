@@ -1,5 +1,5 @@
 ---
-date: 2021-05-14T15:47:03Z
+date: 2021-05-14T15:47:03.000+00:00
 project: []
 deco: almond
 tags:
@@ -9,7 +9,9 @@ eleventyExcludeFromCollections: false
 title: summer vacation
 color: "#F4674D"
 social: ''
-featured: []
+featured:
+- template: ig-comments
+  content: what activities make you feel like the present moment can last **forever?**
 
 ---
 we lived in a moment  
