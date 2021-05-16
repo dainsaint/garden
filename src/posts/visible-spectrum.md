@@ -3,7 +3,7 @@ date: 2021-05-16T15:43:41Z
 project: []
 deco: birds
 tags: []
-eleventyExcludeFromCollections: false
+eleventyExcludeFromCollections: true
 paywall: false
 title: visible spectrum
 color: "#E8D3FF"
