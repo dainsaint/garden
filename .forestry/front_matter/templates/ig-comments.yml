@@ -1,6 +1,7 @@
 ---
-label: ig-comments
+label: Prompt
 hide_body: true
+display_field: content
 fields:
 - name: content
   type: textarea
