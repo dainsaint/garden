@@ -6,9 +6,12 @@ tags: []
 eleventyExcludeFromCollections: false
 paywall: false
 title: visible spectrum
-color: "#E8D3FF"
+color: "#221834"
 social: ''
-featured: []
+featured:
+- template: gallery
+  images:
+  - https://dainsaint.netlify.app/assets/uploads/adam-kring-awqlmzv9yxk-unsplash.jpg
 
 ---
 the visible spectrum is a mere sliver  
