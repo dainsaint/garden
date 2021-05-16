@@ -2,21 +2,29 @@
 label: Blog
 hide_body: false
 fields:
-- type: datetime
-  name: date
-  label: date
-- type: list
-  name: tags
-  label: tags
-- type: boolean
-  name: eleventyExcludeFromCollections
-  label: eleventyExcludeFromCollections
+- name: hidden
+  type: boolean
+  label: hidden
+- name: paywall
+  type: boolean
+  label: paywall
 - type: text
   name: title
   label: title
+- type: datetime
+  name: date
+  label: date
 - type: text
   name: color
   label: color
+- type: list
+  name: tags
+  label: tags
+- name: social
+  type: file
+  config:
+    maxSize: 64
+  label: social
 - type: list
   name: featured
   label: featured
