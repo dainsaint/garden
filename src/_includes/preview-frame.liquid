@@ -1,6 +1,6 @@
 
 <div class="preview-frames">
-  {% assign splitContent = post.templateContent | split: "<blockquote>" %}
+  {% assign splitContent = post.templateContent | split: "<blockquote></blockquote>" %}
   {{ post.data.title }}
 
   <div class="row">
@@ -50,7 +50,7 @@
   {% endfor %}
 
   {% for f in post.data.featured %}
-  
+
   {% if f.template == "quote" %}
 
 <div class="scale">

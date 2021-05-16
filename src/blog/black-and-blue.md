@@ -1,7 +1,6 @@
 ---
 date: 2020-07-10T11:27:47.000+00:00
 project: []
-deco: elevation
 tags:
 - inquirer
 - journalism
@@ -14,7 +13,7 @@ featured:
   - https://dainsaint.netlify.app/assets/uploads/image-2.png
 
 ---
-* [_read the full story_](//inquirer.com/blackandblue)
+* [<i class="far fa-newspaper"></i> read the full story](//inquirer.com/blackandblue)
 {.buttons}
 
 i had one too many conversations with well-meaning white friends asking, "but why are they protesting in _philly_ when this happened in _minneapolis_?"
