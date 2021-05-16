@@ -53,7 +53,7 @@ but they are not your vision_
 to think i spent years wearing only black  
 because they made no dye for   
 the colours i saw every time  
-i close my eyes
+i closed my eyes
 
 > 
 
