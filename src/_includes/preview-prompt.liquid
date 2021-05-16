@@ -1,0 +1,14 @@
+
+<article id="{{ post.data.title | slug }}" class="post full {{ post.data.color | contrast }}" style="background-color: {{ post.data.color }};  --background: {{ post.data.color }}">
+
+  <div class="post-main post-prompt">
+
+    <div class="prompt-header">today in the comments</div>
+
+    <div class="prompt">{{ prompt | markdown}}</div>
+
+    <div class="post-handle">@dainsaint</div>
+  </div>
+
+
+</article>

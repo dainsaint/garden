@@ -10,7 +10,7 @@ title: summer vacation
 color: "#F4674D"
 social: ''
 featured:
-- template: ig-comments
+- template: prompt
   content: what activities make you feel like the present moment can last **forever?**
 
 ---

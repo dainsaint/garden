@@ -1,4 +1,10 @@
-
+:root
+{
+  --dark: #062535;
+  --dark-alpha: #06253520;
+  --light: #f7ede2;
+  --light-alpha: #f7ede220;
+}
 
 h1, h2, h3, h4
 {
@@ -15,7 +21,7 @@ h2
 hr
 {
   border: none;
-  border-bottom: 1px solid #062535;
+  border-bottom: 1px solid var(--dark);
 }
 
 html
@@ -31,13 +37,13 @@ body
   margin: 0px;
   font-size: 21px;
   line-height: 28px;
-  color: #062535;
+  color: var(--dark);
 }
 
 
 a
 {
-  color: #062535;
+  color: var(--dark);
   text-decoration: underline;
 }
 
@@ -76,7 +82,7 @@ img.actual
 .header-main.promo
 {
   position: static;
-  border-bottom: 1px solid #06253520;
+  border-bottom: 1px solid var(--dark-alpha);
 }
 
 .header-main a
@@ -117,7 +123,7 @@ img.actual
 
 .header-nav a.active
 {
-  border-bottom: 2px solid #062535;
+  border-bottom: 2px solid var(--dark);
 }
 
 
@@ -137,7 +143,7 @@ img.actual
 
 .header-nav a:hover
 {
-  border-bottom: 4px solid #062535;
+  border-bottom: 4px solid var(--dark);
 }
 
 .post
@@ -161,7 +167,7 @@ img.actual
 
 .post:nth-of-type(5n+2)
 {
-  background: #f7ede2;
+  background: var(--light);
 }
 
 .post:nth-of-type(5n+3)
@@ -177,7 +183,7 @@ img.actual
 .post:nth-of-type(5n+1)
 {
   background: #f28482;
-  /* background: #f7ede2; */
+  /* background: var(--light); */
 }
 
 .post-main
@@ -242,7 +248,7 @@ img.actual
   line-height: 16px;
   text-transform: uppercase;
   text-align: right;
-  border-top: 6px solid #062535;
+  border-top: 6px solid var(--dark);
   padding-top: 8px;
   margin-right: 16px;
 }
@@ -504,7 +510,7 @@ h3
 input
 {
   background: none;
-  border: 1px solid #062535;
+  border: 1px solid var(--dark);
   font-size: 14px;
   height: 42px;
 
@@ -520,13 +526,13 @@ input
 ::placeholder
 {
   font-weight: 300;
-  color: #062535;
+  color: var(--dark);
   opacity: 1;
 }
 
 button, input[type=submit]
 {
-  background: #062535;
+  background: var(--dark);
   color: var(--background);
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -582,7 +588,7 @@ button:hover, input[type=submit]:hover
 {
   display: flex;
   align-items: center;
-  /* border-top: 1px solid #062535; */
+  /* border-top: 1px solid var(--dark); */
   padding-top: 5px;
   margin-top: 30px;
   width: 100%;
@@ -590,7 +596,7 @@ button:hover, input[type=submit]:hover
 
 .light .social
 {
-  border-color: #f7ede2;
+  border-color: var(--light);
 }
 
 .social a
@@ -611,14 +617,14 @@ button:hover, input[type=submit]:hover
   font-size: 10px;
   text-transform: uppercase;
   font-weight: bold;
-  background: #062535;
+  background: var(--dark);
   padding: 5px;
   line-height: 10px;
 }
 
 .light .social .message
 {
-  background: #f7ede2;
+  background: var(--light);
 }
 
 .social.message-visible .message
@@ -646,7 +652,7 @@ button:hover, input[type=submit]:hover
 .quote::after
 {
   content: "";
-  border-bottom: 2px solid #062535;
+  border-bottom: 2px solid var(--dark);
   display: block;
   margin: 20px auto;
   max-width: 100px;
@@ -706,7 +712,7 @@ ul.grid li img
 .buttons li a
 {
   text-decoration: none;
-  background: #062535;
+  background: var(--dark);
   color: var(--background);
 
   font-family: 'Raleway', sans-serif;
@@ -726,64 +732,64 @@ ul.grid li img
 
 .light .buttons li a
 {
-  background: #f7ede2;
+  background: var(--light);
   color: var(--background);
 }
 
 
 .light .quote::after
 {
-  border-color: #f7ede2;
+  border-color: var(--light);
 }
 
 
 .light
 {
-  color: #f7ede2;
+  color: var(--light);
 }
 
 .light a
 {
-  color: #f7ede2;
-  border-color: #f7ede2;
+  color: var(--light);
+  border-color: var(--light);
 }
 
 .light a.active
 {
-  border-color: #f7ede2;
+  border-color: var(--light);
 }
 
 .light a:hover
 {
-  border-color: #f7ede2;
+  border-color: var(--light);
 }
 
 .light button, .light input[type=submit]
 {
-  background: #f7ede2;
+  background: var(--light);
   color: var(--background);
 }
 
 .light ::placeholder
 {
-  color: #f7ede2;
+  color: var(--light);
 }
 
 .light input
 {
-  border-color: #f7ede2;
-  color: #f7ede2;
+  border-color: var(--light);
+  color: var(--light);
 }
 
 
 .light hr
 {
-  border-color: #f7ede2;
+  border-color: var(--light);
 }
 
 .light .post-meta
 {
-  border-color: #f7ede2;
+  border-color: var(--light);
 }
 
 .light .post-meta-deco
@@ -793,7 +799,7 @@ ul.grid li img
 
 .light.header-main.promo
 {
-  border-color: #f7ede220;
+  border-color: var(--light-alpha);
 }
 
 
@@ -854,11 +860,11 @@ ul.grid li img
   .header-main
   {
     position: static;
-    border-bottom: 1px solid #06253520;
+    border-bottom: 1px solid var(--dark-alpha);
   }
 
   .light.header-main
   {
-    border-color: #f7ede220;
+    border-color: var(--light-alpha);
   }
 }

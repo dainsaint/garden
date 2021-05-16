@@ -227,3 +227,36 @@
 {
   display: none;
 }
+
+
+.prompt-header
+{
+  font-family: "Raleway";
+  font-weight: 900;
+  letter-spacing: 8px;
+  font-size: 30px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--dark);
+  margin-bottom: 20px;
+}
+
+.post-prompt
+{
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.post-prompt strong
+{
+  font-family: "Elgraine Black Italic";
+  font-size: 100px;
+  line-height: 120px;
+}
+
+.post-prompt .post-handle
+{
+  position: absolute;
+  bottom: 112px;
+  left: 112px;
+}
