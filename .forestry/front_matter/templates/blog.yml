@@ -28,3 +28,5 @@ fields:
 - type: list
   name: featured
   label: featured
+pages:
+- src/blog/the-tree-of-time.md
