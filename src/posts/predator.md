@@ -14,8 +14,8 @@ featured:
   content: "what’s the last thing someone did that made you feel  \n**desired?**"
 
 ---
-when she said  
+when i said  
 _i want you_  
-she didn’t smile  
+i didn’t smile  
 so much as  
-bare her teeth
+bare my teeth
