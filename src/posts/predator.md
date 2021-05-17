@@ -1,5 +1,5 @@
 ---
-date: 2021-05-17T12:52:05Z
+date: 2021-05-17T12:52:05.000+00:00
 project: []
 deco: cannabis
 tags:
@@ -11,7 +11,7 @@ color: "#0C1B33"
 social: ''
 featured:
 - template: prompt
-  content: "what’s the last thing someone did that made you feel  \n**desired?**"
+  content: "what’s the last thing you did that expressed your  \n**desire?**"
 
 ---
 when i said  
