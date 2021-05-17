@@ -11,7 +11,7 @@ color: "#0C1B33"
 social: ''
 featured:
 - template: prompt
-  content: what’s the last thing someone did that made you feel **desired?**
+  content: "what’s the last thing someone did that made you feel  \n**desired?**"
 
 ---
 when she said  
