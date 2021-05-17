@@ -769,6 +769,30 @@
     "title" : "summer vacation",
     "imgName" : "summer-vacation",
     "color" : "#F4674D"
+  }, 
+  
+
+  
+  {
+    "title" : "visible spectrum",
+    "imgName" : "visible-spectrum",
+    "color" : "#221834"
+  }, 
+  
+
+  
+  {
+    "title" : "ethnic",
+    "imgName" : "ethnic",
+    "color" : "#7A3063"
+  }, 
+  
+
+  
+  {
+    "title" : "predator",
+    "imgName" : "predator",
+    "color" : "#0C1B33"
   }
   
 

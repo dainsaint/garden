@@ -60,6 +60,14 @@ eleventyExcludeFromCollections: true
       let capture = document.querySelector(`#capture`);
 
       let parent = document.querySelector(`#${id}`).parentNode;
+      let lastChild = parent.lastElementChild;
+
+      console.log( parent.parentNode.lastElementChild, parent );
+      if( parent.parentNode.lastElementChild == parent )
+      {
+        console.log( "last child!")
+        element.classList.add("last-child");
+      }
 
       parent.classList.add("loading");
       capture.appendChild( element );

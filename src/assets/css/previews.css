@@ -223,7 +223,7 @@
   right: 80px;
 }
 
-.scale:last-child .post-more
+.scale:last-child .post-more, .last-child .post-more
 {
   display: none;
 }
