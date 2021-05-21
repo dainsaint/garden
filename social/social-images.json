@@ -784,7 +784,7 @@
   {
     "title" : "ethnic",
     "imgName" : "ethnic",
-    "color" : "#7A3063"
+    "color" : "#DBFE87"
   }, 
   
 
@@ -793,6 +793,14 @@
     "title" : "predator",
     "imgName" : "predator",
     "color" : "#0C1B33"
+  }, 
+  
+
+  
+  {
+    "title" : "rations",
+    "imgName" : "rations",
+    "color" : "#7A306C"
   }
   
 
