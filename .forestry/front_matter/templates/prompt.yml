@@ -3,6 +3,12 @@ label: Prompt
 hide_body: true
 display_field: content
 fields:
+- name: header
+  type: text
+  config:
+    required: false
+  label: header
+  default: today in the comments
 - name: content
   type: textarea
   default: ''
