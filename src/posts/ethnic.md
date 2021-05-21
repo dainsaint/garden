@@ -1,5 +1,5 @@
 ---
-date: 2021-05-17T12:43:22Z
+date: 2021-05-17T12:43:22.000+00:00
 project: []
 deco: elevation
 tags:
@@ -7,7 +7,7 @@ tags:
 eleventyExcludeFromCollections: false
 paywall: false
 title: ethnic
-color: "#7A3063"
+color: "#DBFE87"
 social: ''
 featured: []
 
