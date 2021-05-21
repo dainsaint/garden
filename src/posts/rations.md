@@ -13,8 +13,8 @@ featured:
 - template: quote
   content: "**appreciation**  \nis not  \n**satisfaction**"
 - template: prompt
-  content: "do not let this world weaponize your  \n**gratitude**  \ninto making you
-    accept less than your  \n**worth**"
+  content: "do not let this world weaponize your  \n**gratitude**  \nto make you accept
+    less than your  \n**worth**"
 
 ---
 starving, i was given  
