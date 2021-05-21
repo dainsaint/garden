@@ -15,6 +15,7 @@ featured:
 - template: prompt
   content: "do not let this world weaponize your  \n**gratitude**  \nto make you accept
     less than your  \n**worth**"
+  header: today's message
 
 ---
 starving, i was given  
