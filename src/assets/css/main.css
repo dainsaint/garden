@@ -530,7 +530,7 @@ input
   opacity: 1;
 }
 
-button, input[type=submit]
+button, input[type=submit], .shopify-buy__btn
 {
   background: var(--dark);
   color: var(--background);
@@ -709,7 +709,7 @@ ul.grid li img
   margin-bottom: 10px;
 }
 
-.buttons li a
+.buttons li a, .shopify-buy__btn 
 {
   text-decoration: none;
   background: var(--dark);

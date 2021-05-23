@@ -5,7 +5,7 @@ date: 2020-04-01
 status: |-
   print edition now available!
 
-  * [preorder now](https://store.dainsaint.com/product/freedom-is-non-negotiable/1?cs=true&cst=custom)
+  * [<i class="fa fa-shopping-cart"></i> buy now](https://store.dainsaint.com/product/freedom-is-non-negotiable)
 
     {.buttons}
 color: "#F7EDE3"
