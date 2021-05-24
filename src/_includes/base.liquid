@@ -12,10 +12,12 @@ title: Dain Saint
     <link rel="stylesheet" type="text/css" href="{{ "/assets/css/fonts/elgraine/elgraine.css" | url }}"/>
     <link rel="stylesheet" type="text/css" href="{{ "/assets/css/foundation.css" | url }}"/>
     <link rel="stylesheet" type="text/css" href="{{ "/assets/css/main.css" | url }}"/>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"/>
-    <script src="https://kit.fontawesome.com/4b1f0829c1.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"/> -->
+    <script src="https://kit.fontawesome.com/4b1f0829c1.js" crossorigin="anonymous" async></script>
 
     {% capture pageSocialImg %}{% if social and social != '' %}{{ social }}{% else %}https://dainsaint.com/previews/{{ title | slug }}.png{% endif %}{% endcapture %}
+
+    <meta name="description" content="{{ description }}" />
 
     <meta property="og:image" content="{{pageSocialImg}}" />
     <meta property="og:title" content="dain saint - {{ title }}" />

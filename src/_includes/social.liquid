@@ -1,9 +1,8 @@
 <section class="social">
 
-  <a class="copy-link" href="https://dainsaint.com{{ post.url | url }}"><i class="fa fa-send"></i></a>
-  <a href="mailto:thismotherfucker@dainsaint.com?subject=Comment%20on%20%22{{ post.data.title }}%22"><i class="fa fa-comment"></i></a>
-  <a href="https://paypal.me/dainsaint" target="_blank" alt="leave a tip"><i class="fa fa-donate"></i></a>
-  <!-- <a href="https://paypal.me/dainsaint" target="_blank" alt="leave a tip"><i class="fa fa-bookmark-o"></i></a> -->
+  <a href="https://dainsaint.com{{ post.url | url }}" class="copy-link"><i class="fa fa-send"></i><span class="tooltip">copy link to clipboard</span></a>
+  <a href="mailto:thismotherfucker@dainsaint.com?subject=Comment%20on%20%22{{ post.data.title }}%22"><i class="fa fa-comment"></i><span class="tooltip">comment on this piece</span></a>
+  <a href="https://paypal.me/dainsaint" target="_blank" rel="noopener"><i class="fa fa-donate"></i><span class="tooltip">leave a tip</span></a>
 
   <span class="message" style="color: {{ post.data.color }}">Link copied to clipboard!</span>
 </section>

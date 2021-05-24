@@ -594,6 +594,11 @@ button:hover, input[type=submit]:hover
   width: 100%;
 }
 
+.social .tooltip
+{
+  display: none;
+}
+
 .light .social
 {
   border-color: var(--light);
@@ -709,7 +714,7 @@ ul.grid li img
   margin-bottom: 10px;
 }
 
-.buttons li a, .shopify-buy__btn 
+.buttons li a, .shopify-buy__btn
 {
   text-decoration: none;
   background: var(--dark);
