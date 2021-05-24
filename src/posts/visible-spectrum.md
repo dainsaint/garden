@@ -11,7 +11,7 @@ social: ''
 featured:
 - template: gallery
   images:
-  - https://dainsaint.netlify.app/assets/uploads/adam-kring-awqlmzv9yxk-unsplash.jpg
+  - /assets/uploads/adam-kring-awqlmzv9yxk-unsplash.jpg
 
 ---
 the visible spectrum is a mere sliver  
@@ -20,7 +20,7 @@ that reflects our entire existence
 
 but it is still only a sliver
 
-> 
+>
 
 my reds pulse deep bloody heat  
 the anger of injustice  
@@ -28,7 +28,7 @@ the passion of existing regardless
 and you will never see my infrared  
 but you will feel it all the same
 
-> 
+>
 
 my violets radiate high spirit light  
 the knowledge of my history  
@@ -36,7 +36,7 @@ the compassion of my future
 and you will never see my ultraviolet  
 but it will burn you all the same
 
-> 
+>
 
 my mother knit my black skin from starstuff  
 in a basement apartment  
@@ -51,14 +51,14 @@ and said _all this can be yours
 i gave you eyes to see  
 but they are not your vision_
 
-> 
+>
 
 to think i spent years wearing only black  
 because they made no dye for   
 the colours i saw every time  
 i closed my eyes
 
-> 
+>
 
 my greens spread, earth-driven vines  
 the love of being alive  

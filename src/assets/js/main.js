@@ -22,3 +22,12 @@ links.forEach( link => {
   })
 
 })
+
+const imgs = document.querySelectorAll("img.blur")
+
+imgs.forEach( img => {
+  img.addEventListener("load", event => {
+    img.classList.remove("blur");
+    img.removeAttribute("style");
+  })
+})

@@ -1,7 +1,8 @@
 <section class="gallery">
 
-  {% for image in images %}
-  <div class="gallery-image" style="background-image: url({{ image | url }})">
+  {% for img in images %}
+  <div class="gallery-image">
+    {% image img %}
   </div>
   {% endfor %}
 

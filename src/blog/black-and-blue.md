@@ -10,7 +10,7 @@ color: "#020D2D"
 featured:
 - template: gallery
   images:
-  - https://dainsaint.netlify.app/assets/uploads/image-2.png
+  - /assets/uploads/image-2.png
 hidden: false
 paywall: false
 social: ''

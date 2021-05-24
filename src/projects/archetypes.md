@@ -20,14 +20,14 @@ featured:
 
 ---
 
-* ![the lover](/assets/uploads/Dain%20Saint%201.jpg)
-* ![the architect](/assets/uploads/Dain%20Saint%202.jpg)
-* ![the artist](/assets/uploads/Dain%20Saint%203.jpg) {.full}
-* ![the prophet](/assets/uploads/Dain%20Saint%209.jpg)
-* ![the teacher](/assets/uploads/Dain%20Saint%205.jpg)
-* ![the warrior](/assets/uploads/Dain%20Saint%206.jpg)
-* ![the child](/assets/uploads/Dain%20Saint%207.jpg)
-* ![candid 1](/assets/uploads/Dain%20Saint%204.jpg)  {.full}
-* ![candid 2](/assets/uploads/Dain%20Saint%208.jpg)
-* ![candid 3](/assets/uploads/Dain%20Saint%2010.jpg)
+
+* {% image "/assets/uploads/Dain Saint 1.jpg" "the lover" %}
+* {% image "/assets/uploads/Dain Saint 2.jpg" "the architect" %}
+* {% image "/assets/uploads/Dain Saint 3.jpg" "the artist" %} {.full}
+* {% image "/assets/uploads/Dain Saint 9.jpg" "the teacher" %}
+* {% image "/assets/uploads/Dain Saint 6.jpg" "the warrior" %}
+* {% image "/assets/uploads/Dain Saint 7.jpg" "the child" %}
+* {% image "/assets/uploads/Dain Saint 4.jpg" "candid 1" %} {.full}
+* {% image "/assets/uploads/Dain Saint 8.jpg" "candid 2" %}
+* {% image "/assets/uploads/Dain Saint 10.jpg" "candid 3" %} 
 {.grid}
