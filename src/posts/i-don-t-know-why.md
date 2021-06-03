@@ -1,6 +1,6 @@
 ---
 date: 2021-06-03T19:57:18Z
-project: []
+project: src/projects/the-book-of-words.md
 deco: camellia
 tags:
 - poetry
