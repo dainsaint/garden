@@ -13,7 +13,7 @@ color: "#222222"
 featured:
 - template: gallery
   images:
-  - https://dainsaint.netlify.app/assets/uploads/lineweight-splash.jpg
+  - /assets/uploads/lineweight-splash.jpg
 social: ''
 
 ---

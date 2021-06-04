@@ -11,6 +11,6 @@ color: "#F29550"
 featured:
 - template: gallery
   images:
-  - https://dainsaint.netlify.app/assets/uploads/will-van-wingerden-czvthlrnlnq-unsplash.jpg
+  - /assets/uploads/will-van-wingerden-czvthlrnlnq-unsplash.jpg
 
 ---

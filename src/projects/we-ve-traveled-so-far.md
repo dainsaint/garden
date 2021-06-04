@@ -11,7 +11,7 @@ color: "#333333"
 featured:
 - template: gallery
   images:
-  - https://dainsaint.netlify.app/.netlify/large-media/assets/uploads/synaesthetic_symphony.jpg
+  - /assets/uploads/synaesthetic_symphony.jpg
 eleventyExcludeFromCollections: true
 
 ---

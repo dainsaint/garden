@@ -2,7 +2,6 @@
 <div class="preview-frames">
   {% assign splitContent = post.templateContent | split: "<blockquote></blockquote>" %}
   {{ post.data.title }}
-
   <div class="row">
 
 
@@ -18,6 +17,7 @@
   {% for body in splitContent %}
 
 <div class="scale">
+
   <div id="{{ post.data.title | slug }}-{{ forloop.index }}" class="frame">
     {% if splitContent.size > 1 %}
     {% assign more = true %}
