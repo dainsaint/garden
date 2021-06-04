@@ -5,7 +5,7 @@ const embedEverything = require("eleventy-plugin-embed-everything");
 // const lazyImages = require("eleventy-plugin-lazyimages");
 // const rss = require("@11ty/eleventy-plugin-rss");
 const path = require("path");
-const Image = require("@11ty/eleventy-img");
+// const Image = require("@11ty/eleventy-img");
 
 function lightOrDark(color) {
   // Variables for red, green, blue values
@@ -72,32 +72,32 @@ function lightOrDark(color) {
 //   // console.log(srcset);
 //   return srcset;
 // }
-
-async function imageShortcode(src, alt) {
-  let metadata = await Image("./src"+src, {
-    widths: [20, 400, 600, 800],
-    formats: [null],
-    urlPath: "/assets/img/",
-    outputDir: "./_site/assets/img/",
-    filenameFormat: (id, src, width, format, options) => {
-      const extension = path.extname(src);
-      const name = path.basename(src, extension);
-      return `${name}-${width}.${format}`;
-    },
-  });
-
-  let sources = metadata[Object.keys(metadata)[0]];
-  let preview = sources[0];
-  let data = sources[sources.length - 1];
-  let srcset = sources
-    .slice(1)
-    .map((x) => x.srcset)
-    .join(", ");
-  // console.log(data);
-  console.log(srcset);
-  // let data = metadata.jpeg[metadata.jpeg.length - 1];
-  return `<img class="blur" srcsct="${srcset}" src="${data.url}" style="background: url('${preview.url}') top left no-repeat; background-size: cover;" width="${data.width}" height="${data.height}" alt="${alt}" loading="lazy" decoding="async">`;
-}
+//
+// async function imageShortcode(src, alt) {
+//   let metadata = await Image("./src"+src, {
+//     widths: [20, 400, 600, 800],
+//     formats: [null],
+//     urlPath: "/assets/img/",
+//     outputDir: "./_site/assets/img/",
+//     filenameFormat: (id, src, width, format, options) => {
+//       const extension = path.extname(src);
+//       const name = path.basename(src, extension);
+//       return `${name}-${width}.${format}`;
+//     },
+//   });
+//
+//   let sources = metadata[Object.keys(metadata)[0]];
+//   let preview = sources[0];
+//   let data = sources[sources.length - 1];
+//   let srcset = sources
+//     .slice(1)
+//     .map((x) => x.srcset)
+//     .join(", ");
+//   // console.log(data);
+//   console.log(srcset);
+//   // let data = metadata.jpeg[metadata.jpeg.length - 1];
+//   return `<img class="blur" srcsct="${srcset}" src="${data.url}" style="background: url('${preview.url}') top left no-repeat; background-size: cover;" width="${data.width}" height="${data.height}" alt="${alt}" loading="lazy" decoding="async">`;
+// }
 
 //
 // async function imageShortcode(src, alt) {
@@ -268,7 +268,7 @@ module.exports = function (config) {
     return `<i class="fa fa-${icon}"></i>`;
   });
 
-  config.addLiquidShortcode("image", imageShortcode);
+  // config.addLiquidShortcode("image", imageShortcode);
 
   // config.addCollection("projects", (api) => {
   //   return api.getFilteredByTag("projects").map( project => {

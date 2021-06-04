@@ -22,4 +22,4 @@ social: https://dainsaint.netlify.app/assets/uploads/freedom-social.png
 ---
 within the protests that erupted in the wake of the state-sanctioned murders of george floyd, breonna taylor, and tony mcdade, i felt the need to process my grief. these poems were written during the second half of 2020.
 
-{% image "/assets/uploads/freedom-cover.jpg" "cover" %}
+![cover](/assets/uploads/freedom-cover.jpg)

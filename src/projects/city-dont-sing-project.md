@@ -20,4 +20,4 @@ featured:
 ---
 
 
-{% image "/assets/uploads/city-dont-sing-album-cover.jpg" "cover" %}
+![cover](/assets/uploads/city-dont-sing-album-cover.jpg)
