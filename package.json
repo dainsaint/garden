@@ -29,7 +29,8 @@
     "markdown-it": "^10.0.0",
     "markdown-it-attrs": "^4.0.0",
     "markdown-it-container": "^3.0.0",
-    "marked": "^1.1.0"
+    "marked": "^1.1.0",
+    "sharp": "^0.28.3"
   },
   "devDependencies": {
     "@11ty/eleventy-plugin-rss": "^1.0.7",

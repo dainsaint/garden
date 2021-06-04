@@ -2,8 +2,8 @@ const markdownIt = require("markdown-it");
 const markdownItContainer = require("markdown-it-container");
 const markdownItAttrs = require("markdown-it-attrs");
 const embedEverything = require("eleventy-plugin-embed-everything");
-const lazyImages = require("eleventy-plugin-lazyimages");
-const rss = require("@11ty/eleventy-plugin-rss");
+// const lazyImages = require("eleventy-plugin-lazyimages");
+// const rss = require("@11ty/eleventy-plugin-rss");
 const path = require("path");
 const Image = require("@11ty/eleventy-img");
 
