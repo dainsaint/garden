@@ -6,7 +6,7 @@ tags: []
 eleventyExcludeFromCollections: false
 paywall: false
 title: rhythm
-color: ''
+color: "#EF2D56"
 social: ''
 featured: []
 
