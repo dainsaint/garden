@@ -5,7 +5,7 @@ deco: birds
 tags: []
 eleventyExcludeFromCollections: false
 paywall: false
-title: hertz
+title: rhythm
 color: ''
 social: ''
 featured: []
