@@ -8,7 +8,10 @@ paywall: false
 title: rhythm
 color: "#EF2D56"
 social: ''
-featured: []
+featured:
+- template: prompt
+  header: today in the comments
+  content: "what's the best thing that happened to you this  \n**summer?**"
 
 ---
 and in the silence  
