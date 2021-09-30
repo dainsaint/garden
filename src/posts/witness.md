@@ -1,13 +1,15 @@
 ---
-date: 2020-08-16T14:39:09Z
+date: 2020-08-16T14:39:09.000+00:00
 project: src/projects/tomorrow.md
 deco: camellia
 tags:
 - lyrics
 eleventyExcludeFromCollections: false
-title: witness
+title: wide awake
 color: "#DEE2FF"
 featured: []
+paywall: false
+social: ''
 
 ---
 so many times  
