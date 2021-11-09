@@ -18,6 +18,11 @@ featured:
     everything you
 
     **feel**
+- template: quote
+  content: |-
+    you just have to
+
+    **feel it**
 
 ---
 my joy ripped the air from my lungs  
