@@ -9,7 +9,9 @@ paywall: false
 title: outsourcing
 color: "#7FB069"
 social: ''
-featured: []
+featured:
+- template: quote
+  content: "we aren't  \n**meant**  \nto heal  \n**alone**"
 
 ---
 sometimes i think  
