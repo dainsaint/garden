@@ -67,6 +67,7 @@ fields:
     max: 
   label: featured
 pages:
+- src/blog/made-it.md
 - src/posts/a-prayer-while-stretching.md
 - src/posts/a-spell-cast-under-fireworks.md
 - src/posts/and-they-knew-that-they-were-naked.md
