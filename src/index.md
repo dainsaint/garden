@@ -4,6 +4,11 @@ title: home
 description: an artistic stream of consciousness disguised as a website
 promo: |
   ::: group
+  ### all may profits benefit
+  [abortion fund pa](/https://abortionfundpa.org)
+  :::
+
+  ::: group
   ### buy the book!
   [freedom is non-negotiable](/freedom-is-non-negotiable)
   :::
