@@ -5,8 +5,8 @@ date: 2020-04-01
 status: |-
   **NEW** poster now available!
 
-  * [<i class="fa fa-shopping-cart"></i> buy the book](https://store.dainsaint.com/products/freedom-is-non-negotiable)
-  * [<i class="fa fa-scroll"></i> buy the poster](https://store.dainsaint.com/products/freedom-is-non-negotiable)
+  * [<i class="fa fa-book"></i> buy the book](https://store.dainsaint.com/products/freedom-is-non-negotiable)
+  * [<i class="fa fa-scroll"></i> buy the poster](https://store.dainsaint.com/products/freedom-is-non-negotiable-poster)
 
     {.buttons}
 color: "#F7EDE3"

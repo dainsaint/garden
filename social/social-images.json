@@ -442,8 +442,8 @@
 
   
   {
-    "title" : "witness",
-    "imgName" : "witness",
+    "title" : "wide awake",
+    "imgName" : "wide-awake",
     "color" : "#DEE2FF"
   }, 
   
@@ -809,6 +809,70 @@
     "title" : "i dont know why",
     "imgName" : "i-dont-know-why",
     "color" : "#03B5AA"
+  }, 
+  
+
+  
+  {
+    "title" : "karesansui",
+    "imgName" : "karesansui",
+    "color" : "#B2AA8E"
+  }, 
+  
+
+  
+  {
+    "title" : "these droplets are not mine",
+    "imgName" : "these-droplets-are-not-mine",
+    "color" : "#243A5A"
+  }, 
+  
+
+  
+  {
+    "title" : "rhythm",
+    "imgName" : "rhythm",
+    "color" : "#EF2D56"
+  }, 
+  
+
+  
+  {
+    "title" : "the coming storm",
+    "imgName" : "the-coming-storm",
+    "color" : "#247BA0"
+  }, 
+  
+
+  
+  {
+    "title" : "white flag",
+    "imgName" : "white-flag",
+    "color" : "#EE964B"
+  }, 
+  
+
+  
+  {
+    "title" : "platonic",
+    "imgName" : "platonic",
+    "color" : "#922D50"
+  }, 
+  
+
+  
+  {
+    "title" : "outsourcing",
+    "imgName" : "outsourcing",
+    "color" : "#7FB069"
+  }, 
+  
+
+  
+  {
+    "title" : "made it",
+    "imgName" : "made-it",
+    "color" : "#1B4965"
   }
   
 
