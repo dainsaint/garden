@@ -9,12 +9,12 @@ promo: |
   :::
 
   ::: group
-  ### buy the book!
+  ### read my book
   [freedom is non-negotiable](/freedom-is-non-negotiable)
   :::
 
   ::: group
-  ### hear the single
+  ### hear my single
   [city don’t sing](/city-dont-sing)
   :::
 social: https://dainsaint.netlify.app/assets/uploads/ds-social.png
