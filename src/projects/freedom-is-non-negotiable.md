@@ -3,15 +3,10 @@ title: freedom is non-negotiable
 description: uplifting blackness under police jurisdiction.
 date: 2020-04-01
 status: |-
-  print edition now available!
+  **NEW** poster now available!
 
-  * [<i class="fa fa-shopping-cart"></i> buy now](https://store.dainsaint.com/products/freedom-is-non-negotiable)
-
-    {.buttons}
-
-  live show oct. 1!
-
-  * [<i class="fa fa-ticket"></i> more info](https://www.beardedladiescabaret.com/event/beardmobile-love-tour-presents-freedom-is-non-negotiable/)
+  * [<i class="fa fa-shopping-cart"></i> buy the book](https://store.dainsaint.com/products/freedom-is-non-negotiable)
+  * [<i class="fa fa-scroll"></i> buy the poster](https://store.dainsaint.com/products/freedom-is-non-negotiable)
 
     {.buttons}
 color: "#F7EDE3"
