@@ -15,7 +15,7 @@ the creeping dread that this is all there is — that we reached a peak and are 
   
 that bad is exponential and good is linear.  
   
-it feels like: i recycling 6 cans while exxon dumps a thousand tons of CO2 into the atmosphere.  
+it feels like: i recycle 6 cans while exxon dumps a thousand tons of CO2 into the atmosphere.  
   
 it feels like: i cant save for a house while a trust fund buys up the block.  
   
