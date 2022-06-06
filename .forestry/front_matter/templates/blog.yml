@@ -44,5 +44,6 @@ fields:
     max: 
 pages:
 - src/blog/black-and-blue.md
+- src/blog/i-m-tired-of-futurelessness.md
 - src/blog/new-show-this-spring.md
 - src/blog/the-tree-of-time.md
