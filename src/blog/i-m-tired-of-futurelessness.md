@@ -17,7 +17,7 @@ that bad is exponential and good is linear.
 
 it feels like: i recycle 6 cans while exxon dumps a thousand tons of CO2 into the atmosphere.
 
-it feels like: i cant save for a house while a trust fund buys up the block.
+it feels like: i cant save for a house while a hedge fund buys up the block.
 
 it feels like: i vote and vote and vote while politicians do what they damn well please.
 
