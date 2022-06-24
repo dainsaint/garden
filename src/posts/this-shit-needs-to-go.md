@@ -30,8 +30,8 @@ this shit needs to go
 done stuffed the whole 'conomy  
 into yo bag  
 this shit needs to go  
-force women to bear they fruit with no choice  
-survivings a crime now they locked in the joint  
+force women to bear they fruit no choice  
+survivings a crime they locked in the joint  
 unlimited labor for you to exploit  
 this shit needs to go  
 
@@ -43,7 +43,7 @@ this shit needs to go
 fundraise for decades  
 and do nothing new  
 this shit needs to go  
-pander to all who aint white straight and male  
+pander to who aint white straight and male  
 begging for votes like we paying your bail  
 if you aint gon do nothin stay out my mail  
 this shit needs to go  
