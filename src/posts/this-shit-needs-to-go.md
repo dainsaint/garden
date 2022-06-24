@@ -6,7 +6,7 @@ tags: []
 eleventyExcludeFromCollections: false
 paywall: false
 title: this shit needs to go
-color: "#D62828"
+color: "#9D0208"
 social: ''
 featured: []
 
