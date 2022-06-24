@@ -57,6 +57,6 @@ stop acting so pussy
 and do something now  
 this shit needs to go  
 get up kill the filly and take to the streets
-ban guns pack the courts and arrest djt
-dont tell me to vote nigga you in the seat
+ban guns pack the courts and arrest djt  
+dont tell me to vote nigga you in the seat  
 and this shit needs to go
