@@ -22,6 +22,8 @@ wipe up the cum with the constitution
 fascist imperial institution  
 this shit needs to go  
 
+>
+
 cant get this labor   
 for free, and you mad  
 this shit needs to go  
@@ -32,6 +34,8 @@ force women to bear you they fruit with no choice
 make living a crime now they locked in the joint  
 unlimited labor for you to exploit  
 this shit needs to go  
+
+>
 
 still begging for power  
 that youll never use  
@@ -44,6 +48,7 @@ begging for votes like we paying your bail
 if you aint gon do nothin stay out my mail  
 this shit needs to go  
 
+>
 
 do something do something  
 do something now  
