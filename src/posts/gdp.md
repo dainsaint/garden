@@ -1,6 +1,6 @@
 ---
 date: 2022-09-07T17:16:33Z
-project: []
+project: src/projects/people-of-sol.md
 deco: elevation
 tags: []
 eleventyExcludeFromCollections: false
