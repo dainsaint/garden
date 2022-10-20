@@ -18,7 +18,7 @@
 
 <div class="scale">
 
-  <div id="{{ page.fileSlug }}-{{ forloop.index }}" class="frame">
+  <div id="{{ post.data.title | slug }}-{{ forloop.index }}" class="frame">
     {% if splitContent.size > 1 %}
     {% assign more = true %}
     {% endif %}
@@ -44,7 +44,7 @@
 
   </div>
 
-  <a class="download" onclick="captureElement('{{ page.fileSlug }}-{{ forloop.index }}')"><i class="fa fa-download"></i></a>
+  <a class="download" onclick="captureElement('{{ post.data.title | slug }}-{{ forloop.index }}')"><i class="fa fa-download"></i></a>
   <span class="loadingIndicator"><i class="fa fa-cog fa-spin"></i></span>
 </div>
   {% endfor %}
@@ -54,20 +54,20 @@
   {% if f.template == "quote" %}
 
 <div class="scale">
-  <div id="{{ page.fileSlug }}-f-{{ forloop.index }}" class="frame">
+  <div id="{{ post.data.title | slug }}-f-{{ forloop.index }}" class="frame">
       {% include preview-quote, quote: f.content %}
   </div>
-  <a class="download" onclick="captureElement('{{ page.fileSlug }}-f-{{ forloop.index }}')"><i class="fa fa-download"></i></a>
+  <a class="download" onclick="captureElement('{{ post.data.title | slug }}-f-{{ forloop.index }}')"><i class="fa fa-download"></i></a>
   <span class="loadingIndicator"><i class="fa fa-cog fa-spin"></i></span>
 </div>
 
 {% elsif f.template == "prompt" %}
 
 <div class="scale">
-<div id="{{ page.fileSlug }}-f-{{ forloop.index }}" class="frame">
+<div id="{{ post.data.title | slug }}-f-{{ forloop.index }}" class="frame">
     {% include preview-prompt, header: f.header, prompt: f.content %}
 </div>
-<a class="download" onclick="captureElement('{{ page.fileSlug }}-f-{{ forloop.index }}')"><i class="fa fa-download"></i></a>
+<a class="download" onclick="captureElement('{{ post.data.title | slug }}-f-{{ forloop.index }}')"><i class="fa fa-download"></i></a>
 <span class="loadingIndicator"><i class="fa fa-cog fa-spin"></i></span>
 </div>
 
