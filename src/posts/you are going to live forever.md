@@ -5,7 +5,7 @@ deco: tree-of-life
 tags: []
 eleventyExcludeFromCollections: false
 paywall: false
-title: ''
+title: you are going to live forever
 color: "#6A4C93"
 social: ''
 featured: []
