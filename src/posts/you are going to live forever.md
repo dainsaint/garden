@@ -1,12 +1,12 @@
 ---
 date: 2023-02-21T16:48:17Z
 project: []
-deco: ''
+deco: tree-of-life
 tags: []
 eleventyExcludeFromCollections: false
 paywall: false
 title: ''
-color: ''
+color: "#6A4C93"
 social: ''
 featured: []
 
